@@ -1,4 +1,4 @@
-# 🇦🇷 Argentina Adventure — December 2026 / January 2027
+﻿# 🇦🇷 Argentina Adventure — December 2026 / January 2027
 
 **4 friends · 26 nights · Dec 9, 2026 → Jan 4, 2027**
 
@@ -41,7 +41,7 @@
 | 10 | Mendoza | Jan 1–2 | 2 |
 | 11 | Buenos Aires (departure) | Jan 3 | 1 |
 
-![Argentina trip overview — all 8 destinations](https://staticmap.openstreetmap.de/staticmap.php?center=-38,-65&zoom=4&size=800x500&markers=-34.6037,-58.3816,red-pushpin|-25.5996,-54.5795,red-pushpin|-42.7714,-65.0264,red-pushpin|-54.8019,-68.3030,red-pushpin|-50.3388,-72.2688,red-pushpin|-49.3310,-72.8855,red-pushpin|-41.1335,-71.3103,red-pushpin|-32.8908,-68.8272,red-pushpin)
+![Argentina trip overview — all 8 destinations](./assets/images/maps/map_overview.png)
 [View Full Route on Google Maps ↗](https://www.google.com/maps/dir/Buenos+Aires,+Argentina/Puerto+Iguaz%C3%BA,+Misiones,+Argentina/Buenos+Aires,+Argentina/Puerto+Madryn,+Chubut,+Argentina/Ushuaia,+Tierra+del+Fuego,+Argentina/El+Calafate,+Santa+Cruz,+Argentina/El+Chalt%C3%A9n,+Santa+Cruz,+Argentina/San+Carlos+de+Bariloche,+R%C3%ADo+Negro,+Argentina/Mendoza,+Argentina/Buenos+Aires,+Argentina)
 
 ---
@@ -98,13 +98,13 @@ Book these **before anything else**:
 
 *"The Paris of South America" — tango, steak, grand boulevards, and European-style architecture*
 
-![Buenos Aires — Puerto Madero waterfront skyline](https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_Puerto_Madero.jpg)
-![Casa Rosada — the iconic Pink House at Plaza de Mayo](https://commons.wikimedia.org/wiki/Special:FilePath/Casa_Rosada,_Buenos_Aires,_Argentina.jpg)
-![La Boca / Caminito — vibrant Genoese neighbourhood with street art](https://images.unsplash.com/photo-1679417302656-9b5170584526?w=800&auto=format&fit=crop)
-![Tango dancers in San Telmo — passion in every step](https://commons.wikimedia.org/wiki/Special:FilePath/Tango_in_Buenos_Aires.jpg)
-![Recoleta Cemetery — ornate mausoleums, final home of Eva Perón](https://commons.wikimedia.org/wiki/Special:FilePath/Recoleta_Cemetery,_Buenos_Aires.jpg)
+![Buenos Aires — Puerto Madero waterfront skyline](./assets/images/buenos-aires/skyline_puerto_madero.jpg)
+![Casa Rosada — the iconic Pink House at Plaza de Mayo](./assets/images/buenos-aires/casa_rosada_buenos_aires_argentina.jpg)
+![La Boca / Caminito — vibrant Genoese neighbourhood with street art](./assets/images/buenos-aires/la_boca_caminito.jpg)
+![Tango dancers in San Telmo — passion in every step](./assets/images/buenos-aires/tango_in_buenos_aires.jpg)
+![Recoleta Cemetery — ornate mausoleums, final home of Eva Perón](./assets/images/buenos-aires/recoleta_cemetery_buenos_aires.jpg)
 
-![Buenos Aires city map](https://staticmap.openstreetmap.de/staticmap.php?center=-34.6037,-58.3816&zoom=12&size=800x400&markers=-34.6037,-58.3816,red-pushpin)
+![Buenos Aires city map](./assets/images/maps/map_buenos_aires.png)
 [View on Google Maps ↗](https://www.google.com/maps/place/Buenos+Aires,+Argentina/@-34.6037,-58.3816,13z)
 
 ---
@@ -147,13 +147,13 @@ Book these **before anything else**:
 
 *Wider than Niagara, taller than Victoria Falls — one of the world's great natural wonders*
 
-![Iguazú Falls — Argentine side panorama](https://commons.wikimedia.org/wiki/Special:FilePath/Iguazu_National_Park_Falls.jpg)
-![Garganta del Diablo — 150 m wide, roaring and soaking](https://commons.wikimedia.org/wiki/Special:FilePath/CATARATAS_DEL_IGUAZU._GARGANTA_DEL_DIABLO.jpg)
-![Brazilian side — the postcard panoramic view](https://commons.wikimedia.org/wiki/Special:FilePath/00_1838_Iguazu_Falls_from_the_Brazilian_side.jpg)
-![Aerial view — 275 waterfalls spanning 2.7 km](https://commons.wikimedia.org/wiki/Special:FilePath/Cataratas_del_Iguazu_Vista_General.JPG)
-![Toucan in the Iguazú jungle — exotic wildlife at every turn](https://commons.wikimedia.org/wiki/Special:FilePath/Ramphastos_toco_Iguazu.JPG)
+![Iguazú Falls — Argentine side panorama](./assets/images/iguazu/iguazu_national_park_falls.jpg)
+![Garganta del Diablo — 150 m wide, roaring and soaking](./assets/images/iguazu/cataratas_del_iguazu_garganta_del_diablo.jpg)
+![Brazilian side — the postcard panoramic view](./assets/images/iguazu/00_1838_iguazu_falls_from_the_brazilian_side.jpg)
+![Aerial view — 275 waterfalls spanning 2.7 km](./assets/images/iguazu/cataratas_del_iguazu_vista_general.jpg)
+![Toucan in the Iguazú jungle — exotic wildlife at every turn](./assets/images/iguazu/ramphastos_toco_iguazu.jpg)
 
-![Puerto Iguazú and Iguazú Falls region map](https://staticmap.openstreetmap.de/staticmap.php?center=-25.69,-54.44&zoom=11&size=800x400&markers=-25.5996,-54.5795,red-pushpin|-25.6953,-54.4367,red-pushpin)
+![Puerto Iguazú and Iguazú Falls region map](./assets/images/maps/map_iguazu.png)
 [View on Google Maps ↗](https://www.google.com/maps/place/Iguaz%C3%BA+National+Park/@-25.69,-54.44,11z)
 
 ---
@@ -194,7 +194,7 @@ Book these **before anything else**:
 
 **Dec 13 · 1 night**
 
-![Buenos Aires city map](https://staticmap.openstreetmap.de/staticmap.php?center=-34.6037,-58.3816&zoom=12&size=800x400&markers=-34.6037,-58.3816,red-pushpin)
+![Buenos Aires city map](./assets/images/maps/map_buenos_aires.png)
 [View on Google Maps ↗](https://www.google.com/maps/place/Buenos+Aires,+Argentina/@-34.6037,-58.3816,13z)
 
 ---
@@ -218,13 +218,13 @@ Book these **before anything else**:
 
 *UNESCO World Heritage Site — the world's finest wildlife sanctuary for right whales, elephant seals, sea lions and penguins*
 
-![Magellanic penguins at Península Valdés](https://commons.wikimedia.org/wiki/Special:FilePath/Halbinsel_Valdes_Pinguine.jpg)
-![Southern right whale mother and calf — peak season December](https://commons.wikimedia.org/wiki/Special:FilePath/Mother_and_calf_-_Right_whale.jpg)
-![Elephant seals — massive bulls at Punta Norte](https://commons.wikimedia.org/wiki/Special:FilePath/Elefantes_Marinos_en_Peninsula_Valdes_-_panoramio.jpg)
-![Orca beaching to hunt sea lion — found nowhere else on Earth](https://commons.wikimedia.org/wiki/Special:FilePath/Orcas_in_Punta_Norte_Valdes_Peninsula_-_panoramio.jpg)
-![Punta Tombo — one million Magellanic penguins in December](https://commons.wikimedia.org/wiki/Special:FilePath/Chubut-PuntaTombo-P2220157b-small.jpg)
+![Magellanic penguins at Península Valdés](./assets/images/peninsula-valdes/halbinsel_valdes_pinguine.jpg)
+![Southern right whale mother and calf — peak season December](./assets/images/peninsula-valdes/mother_and_calf_right_whale.jpg)
+![Elephant seals — massive bulls at Punta Norte](./assets/images/peninsula-valdes/elefantes_marinos_en_peninsula_valdes_panoramio.jpg)
+![Orca beaching to hunt sea lion — found nowhere else on Earth](./assets/images/peninsula-valdes/orcas_in_punta_norte_valdes_peninsula_panoramio.jpg)
+![Punta Tombo — one million Magellanic penguins in December](./assets/images/peninsula-valdes/chubut-puntatomo-p2220157b-small.jpg)
 
-![Puerto Madryn and Península Valdés map](https://staticmap.openstreetmap.de/staticmap.php?center=-42.4,-64.0&zoom=8&size=800x400&markers=-42.7714,-65.0264,red-pushpin|-42.5196,-64.2328,red-pushpin|-44.0219,-65.4347,red-pushpin)
+![Puerto Madryn and Península Valdés map](./assets/images/maps/map_peninsula_valdes.png)
 [View on Google Maps ↗](https://www.google.com/maps/place/Pen%C3%ADnsula+Vald%C3%A9s/@-42.4,-64.0,9z)
 
 ---
@@ -277,13 +277,13 @@ Book these **before anything else**:
 
 *The southernmost city in the world — "Fin del Mundo" (End of the World). Gateway to Antarctica.*
 
-![Ushuaia panorama — city at the end of the world](https://commons.wikimedia.org/wiki/Special:FilePath/2019-11-18_Ushuaia_Panorama.jpg)
-![King penguins at Martillo Island — walk among them](https://images.unsplash.com/photo-1712921674663-0bf5370a2ce7?w=800&auto=format&fit=crop)
-![Lapataia Bay — end of the Pan-American Highway](https://images.unsplash.com/photo-1652743920679-e48cddffadff?w=800&auto=format&fit=crop)
-![Beagle Channel at sunset from Ushuaia](https://commons.wikimedia.org/wiki/Special:FilePath/Ushuaia_and_the_Beagle_Channel_(5525434752).jpg)
-![End of the World Train — steam through Tierra del Fuego jungle](https://commons.wikimedia.org/wiki/Special:FilePath/Tren_del_Fin_del_Mundo.jpg)
+![Ushuaia panorama — city at the end of the world](./assets/images/ushuaia/2019-11-18_ushuaia_panorama.jpg)
+![King penguins at Martillo Island — walk among them](./assets/images/ushuaia/king_penguins_martillo_island.jpg)
+![Lapataia Bay — end of the Pan-American Highway](./assets/images/ushuaia/lapataia_bay.jpg)
+![Beagle Channel at sunset from Ushuaia](./assets/images/ushuaia/ushuaia_and_the_beagle_channel_5525434752.jpg)
+![End of the World Train — steam through Tierra del Fuego jungle](./assets/images/ushuaia/tren_del_fin_del_mundo.jpg)
 
-![Ushuaia and Tierra del Fuego map](https://staticmap.openstreetmap.de/staticmap.php?center=-54.75,-68.35&zoom=10&size=800x400&markers=-54.8019,-68.3030,red-pushpin)
+![Ushuaia and Tierra del Fuego map](./assets/images/maps/map_ushuaia.png)
 [View on Google Maps ↗](https://www.google.com/maps/place/Ushuaia,+Tierra+del+Fuego,+Argentina/@-54.8019,-68.3030,12z)
 
 ---
@@ -339,13 +339,13 @@ Book these **before anything else**:
 
 *Gateway to Los Glaciares National Park — home of the world's most accessible and spectacular glacier*
 
-![Perito Moreno Glacier — 5 km wide, 74 m tall ice wall](https://images.unsplash.com/photo-1552751753-0fc84ae5b6c8?w=800&auto=format&fit=crop)
-![Ice trekking on the glacier with crampons](https://images.unsplash.com/photo-1529414988992-52e2db9372b2?w=800&auto=format&fit=crop)
-![Glacier calving — cathedral-sized ice crashing into the lake](https://commons.wikimedia.org/wiki/Special:FilePath/Perito_Moreno_Glacier_Calving_Event.jpg)
-![Lago Argentino — impossible turquoise glacial waters](https://commons.wikimedia.org/wiki/Special:FilePath/Patagonia_Lago_Argentino_Rainbow_Iceberg_30Jan2025.jpg)
-![Spegazzini Glacier — 135 m ice walls towering above the boat](https://commons.wikimedia.org/wiki/Special:FilePath/Spegazzini_Glacier.jpg)
+![Perito Moreno Glacier — 5 km wide, 74 m tall ice wall](./assets/images/el-calafate/perito_moreno_glacier.jpg)
+![Ice trekking on the glacier with crampons](./assets/images/el-calafate/ice_trekking_glacier.jpg)
+![Glacier calving — cathedral-sized ice crashing into the lake](./assets/images/el-calafate/perito_moreno_glacier_calving_event.jpg)
+![Lago Argentino — impossible turquoise glacial waters](./assets/images/el-calafate/patagonia_lago_argentino_rainbow_iceberg_30jan2025.jpg)
+![Spegazzini Glacier — 135 m ice walls towering above the boat](./assets/images/el-calafate/spegazzini_glacier.jpg)
 
-![El Calafate and Perito Moreno Glacier map](https://staticmap.openstreetmap.de/staticmap.php?center=-50.34,-72.6&zoom=10&size=800x400&markers=-50.3388,-72.2688,red-pushpin|-50.4934,-73.0479,red-pushpin)
+![El Calafate and Perito Moreno Glacier map](./assets/images/maps/map_el_calafate.png)
 [View on Google Maps ↗](https://www.google.com/maps/place/Perito+Moreno+Glacier/@-50.4934,-73.0479,11z)
 
 ---
@@ -400,13 +400,13 @@ Book these **before anything else**:
 
 *Argentina's trekking capital, population ~1,500 — home to Fitz Roy and Cerro Torre*
 
-![Mount Fitz Roy — the classic view from Laguna de los Tres](https://commons.wikimedia.org/wiki/Special:FilePath/Los_Glaciares_-_Fitz_Roy_006.jpg)
-![Fitz Roy at golden hour — granite summit glowing orange](https://images.unsplash.com/photo-1610680224983-f9759ce81c7a?w=800&auto=format&fit=crop)
-![Cerro Torre — a needle of granite that defeats the world's best climbers](https://commons.wikimedia.org/wiki/Special:FilePath/Cerro_Torre.jpg)
-![Laguna de los Tres — turquoise glacial lake at 1,200 m](https://commons.wikimedia.org/wiki/Special:FilePath/Laguna_de_los_Tres_color.jpg)
-![Chorrillo del Salto waterfall — a short walk from El Chaltén village](https://commons.wikimedia.org/wiki/Special:FilePath/El_Chalten-Sendero_Salto_del_Chorrillo_(39264011012).jpg)
+![Mount Fitz Roy — the classic view from Laguna de los Tres](./assets/images/el-chalten/los_glaciares_fitz_roy_006.jpg)
+![Fitz Roy at golden hour — granite summit glowing orange](./assets/images/el-chalten/fitz_roy_golden_hour.jpg)
+![Cerro Torre — a needle of granite that defeats the world's best climbers](./assets/images/el-chalten/cerro_torre.jpg)
+![Laguna de los Tres — turquoise glacial lake at 1,200 m](./assets/images/el-chalten/laguna_de_los_tres_color.jpg)
+![Chorrillo del Salto waterfall — a short walk from El Chaltén village](./assets/images/el-chalten/el_chalten_sendero_salto_del_chorrillo_39264011012.jpg)
 
-![El Chaltén and Fitz Roy trekking area map](https://staticmap.openstreetmap.de/staticmap.php?center=-49.33,-72.89&zoom=11&size=800x400&markers=-49.3310,-72.8855,red-pushpin|-49.2761,-72.9625,red-pushpin)
+![El Chaltén and Fitz Roy trekking area map](./assets/images/maps/map_el_chalten.png)
 [View on Google Maps ↗](https://www.google.com/maps/place/El+Chalt%C3%A9n,+Santa+Cruz,+Argentina/@-49.3310,-72.8855,11z)
 
 ---
@@ -447,7 +447,7 @@ Book these **before anything else**:
 
 **Dec 25 · 1 night**
 
-![El Calafate and Perito Moreno Glacier map](https://staticmap.openstreetmap.de/staticmap.php?center=-50.34,-72.6&zoom=10&size=800x400&markers=-50.3388,-72.2688,red-pushpin|-50.4934,-73.0479,red-pushpin)
+![El Calafate and Perito Moreno Glacier map](./assets/images/maps/map_el_calafate.png)
 [View on Google Maps ↗](https://www.google.com/maps/place/Perito+Moreno+Glacier/@-50.4934,-73.0479,11z)
 
 ---
@@ -471,13 +471,13 @@ Book these **before anything else**:
 
 *"The Queen of Patagonia" — alpine lakes, Andean scenery, Swiss-style architecture, world-class chocolate, and one of Argentina's biggest NYE celebrations*
 
-![Nahuel Huapi Lake from Cerro Otto — Patagonia's crown jewel](https://commons.wikimedia.org/wiki/Special:FilePath/Nahuel_Huapi_Lake_captured_from_Cerro_Otto%27s_top_in_summer.jpg)
-![Cerro Campanario — Argentina's most-photographed panorama](https://commons.wikimedia.org/wiki/Special:FilePath/Cerro_Campanario_Bariloche_Argentina_-_panoramio_(12).jpg)
-![Llao Llao Hotel — legendary 1938 alpine resort](https://commons.wikimedia.org/wiki/Special:FilePath/Hotel_Llao_Llao,_Bariloche,_Argentina.jpg)
-![NYE fireworks over Nahuel Huapi Lake and the Andes](https://images.unsplash.com/photo-1598162480222-b2c3d92548d5?w=800&auto=format&fit=crop)
-![Ventisquero Negro — the dramatic black glacier at Cerro Tronador](https://commons.wikimedia.org/wiki/Special:FilePath/Argentina_-_Bariloche_trekking_002_-_Ventisquero_negro_(Black_Glacier)_on_spills_and_breaks_down_Cerro_Tronador._(6797401723).jpg)
+![Nahuel Huapi Lake from Cerro Otto — Patagonia's crown jewel](./assets/images/bariloche/nahuel_huapi_lake_cerro_otto.jpg)
+![Cerro Campanario — Argentina's most-photographed panorama](./assets/images/bariloche/cerro_campanario_bariloche_argentina_panoramio_12.jpg)
+![Llao Llao Hotel — legendary 1938 alpine resort](./assets/images/bariloche/hotel_llao_llao_bariloche_argentina.jpg)
+![NYE fireworks over Nahuel Huapi Lake and the Andes](./assets/images/bariloche/nye_fireworks_bariloche.jpg)
+![Ventisquero Negro — the dramatic black glacier at Cerro Tronador](./assets/images/bariloche/ventisquero_negro_cerro_tronador.jpg)
 
-![Bariloche and Nahuel Huapi Lake map](https://staticmap.openstreetmap.de/staticmap.php?center=-41.13,-71.31&zoom=10&size=800x400&markers=-41.1335,-71.3103,red-pushpin)
+![Bariloche and Nahuel Huapi Lake map](./assets/images/maps/map_bariloche.png)
 [View on Google Maps ↗](https://www.google.com/maps/place/San+Carlos+de+Bariloche,+R%C3%ADo+Negro,+Argentina/@-41.1335,-71.3103,11z)
 
 ---
@@ -583,13 +583,13 @@ Book these **before anything else**:
 
 *Argentina's wine heartland — high-altitude Malbec, bodegas and the snow-capped Andes as backdrop*
 
-![Mendoza vineyards with the snow-capped Andes behind](https://commons.wikimedia.org/wiki/Special:FilePath/Vignoble_Mendoza_Argentine.jpg)
-![Bodega Catena Zapata — iconic Mayan pyramid winery](https://commons.wikimedia.org/wiki/Special:FilePath/ALTURA_Argentina_Wine_Tourism_-_Bodega_Catena_Zapata_-_panoramio.jpg)
-![Maipú bicycle wine tour — the most fun way to taste Malbec](https://commons.wikimedia.org/wiki/Special:FilePath/Wine-touring_on_bikes.jpg)
-![Malbec wine tasting in a Mendoza bodega](https://commons.wikimedia.org/wiki/Special:FilePath/La_Boca_Malbec.jpg)
-![Aconcagua — the highest peak in the Americas seen from Mendoza](https://commons.wikimedia.org/wiki/Special:FilePath/Aconcagua_13.JPG)
+![Mendoza vineyards with the snow-capped Andes behind](./assets/images/mendoza/vignoble_mendoza_argentine.jpg)
+![Bodega Catena Zapata — iconic Mayan pyramid winery](./assets/images/mendoza/altura_argentina_wine_tourism_bodega_catena_zapata_panoramio.jpg)
+![Maipú bicycle wine tour — the most fun way to taste Malbec](./assets/images/mendoza/wine-touring_on_bikes.jpg)
+![Malbec wine tasting in a Mendoza bodega](./assets/images/mendoza/la_boca_malbec.jpg)
+![Aconcagua — the highest peak in the Americas seen from Mendoza](./assets/images/mendoza/aconcagua_13.jpg)
 
-![Mendoza wine region map](https://staticmap.openstreetmap.de/staticmap.php?center=-33.0,-68.85&zoom=9&size=800x400&markers=-32.8908,-68.8272,red-pushpin|-33.0478,-68.8917,red-pushpin|-33.5292,-69.0614,red-pushpin)
+![Mendoza wine region map](./assets/images/maps/map_mendoza.png)
 [View on Google Maps ↗](https://www.google.com/maps/place/Mendoza,+Argentina/@-32.8908,-68.8272,11z)
 
 ---
@@ -630,7 +630,7 @@ Book these **before anything else**:
 
 **Jan 3 · 1 night**
 
-![Buenos Aires city map](https://staticmap.openstreetmap.de/staticmap.php?center=-34.6037,-58.3816&zoom=12&size=800x400&markers=-34.6037,-58.3816,red-pushpin)
+![Buenos Aires city map](./assets/images/maps/map_buenos_aires.png)
 [View on Google Maps ↗](https://www.google.com/maps/place/Buenos+Aires,+Argentina/@-34.6037,-58.3816,13z)
 
 ---
