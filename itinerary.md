@@ -4,6 +4,27 @@
 
 ---
 
+## 📋 Contents
+
+- [Route Overview](#route-overview)
+- [Domestic Flights](#️-domestic-flights)
+- [Car Rentals](#-car-rental-summary)
+- [Advance Booking Priorities](#️-advance-booking-priorities)
+- [Day-by-Day Itinerary](#day-by-day-itinerary)
+  - [Buenos Aires — Days 1–2](#️-buenos-aires)
+  - [Puerto Iguazú — Days 3–4](#-puerto-iguazú)
+  - [Buenos Aires Transit — Day 5](#️-buenos-aires-transit)
+  - [Puerto Madryn / Península Valdés — Days 6–8](#-puerto-madryn--península-valdés)
+  - [Ushuaia — Days 9–11](#-ushuaia)
+  - [El Calafate — Days 12–14, 17](#-el-calafate)
+  - [El Chaltén — Days 15–16](#️-el-chaltén)
+  - [Bariloche — Days 18–23](#-bariloche)
+  - [Mendoza — Days 24–25](#️-mendoza)
+  - [Buenos Aires Departure — Days 26–27](#️-buenos-aires-departure)
+- [Practical Tips](#️-practical-tips)
+
+---
+
 ## Route Overview
 
 | # | Destination | Dates | Nights |
@@ -598,6 +619,64 @@ Book these **before anything else**:
 - Book domestic flights on **Aerolíneas Argentinas** (most reliable, best network), or **JetSMART / Flybondi** (cheaper but less reliable).
 - December–January is Argentina's peak domestic travel season. Book all flights **at least 3–4 months ahead**.
 - Internal flights: luggage limits are typically 23 kg hold + 8 kg hand luggage on Aerolíneas.
+
+### Visa & Entry
+
+- **Argentina**: Citizens of Israel, the EU, UK, US, Australia, and most Western countries enter **visa-free** for up to 90 days. No advance registration required.
+- **Brazil (Day 4)**: As of 2025, Israeli passport holders do not require a visa for Brazil short tourist visits. **Verify this is still in effect** before travel at the Israeli Ministry of Foreign Affairs site or the Brazilian consulate.
+- **Passport validity**: Ensure all passports are valid for at least 6 months beyond the Jan 4 departure date — i.e., valid through at least **July 2027**.
+- **Proof of onward travel**: Argentine immigration may ask to see evidence of a return or onward flight. Have the Jan 4 departure confirmation on your phone.
+- Always verify current requirements at [migraciones.gov.ar](https://www.migraciones.gov.ar) and your own government's travel advisory before departure.
+
+---
+
+### Budget Snapshot (Per Person)
+
+Estimated mid-range costs in USD. Based on splitting car rentals and accommodation 4 ways.
+
+| Category | Est. Cost (USD) |
+|----------|----------------|
+| International flights (return) | $1,000 – 1,800 |
+| 8 domestic flights | $600 – 1,000 |
+| Accommodation (26 nights, shared) | $800 – 1,400 |
+| Car rentals × 3 segments (÷4) | $150 – 250 |
+| Perito Moreno ice trek | $80 – 150 |
+| Martillo Island penguin tour | $60 – 100 |
+| Whale watching (Península Valdés) | $60 – 80 |
+| Iguazú boat safari | $40 – 60 |
+| Meals & drinks (~$35–50/day × 26) | $910 – 1,300 |
+| National park entry fees | $60 – 100 |
+| Activities, tours & incidentals | $200 – 400 |
+| **Total estimate** | **$4,000 – 6,640** |
+
+> Figures are rough guides. Exchange rate swings, flight timing, and how much Malbec you consume will all move the needle. El Chaltén is cash-only — build in a cash buffer before the bus from El Calafate.
+
+---
+
+### Useful Apps
+
+| App | Purpose |
+|-----|--------|
+| **Uber / Cabify** | Safe rides in Buenos Aires and other cities |
+| **Despegar** | Argentine flight and hotel aggregator |
+| **Google Maps** | Download offline maps for each region before arriving — mobile data can be patchy in Patagonia |
+| **WhatsApp** | Universal communication method across Argentina |
+| **Airalo / Holafly** | eSIM data plans — strongly recommended over expensive international roaming |
+| **XE Currency** | Exchange rate reference |
+| **AllTrails / Wikiloc** | Trail maps and GPS tracks for El Chaltén and Bariloche hikes |
+| **Infobae / Windy** | Patagonian wind and weather forecasting |
+
+---
+
+### Emergency & Useful Numbers
+
+| | |
+|---|---|
+| **Argentine emergency** | 911 |
+| **Tourist police (Buenos Aires)** | +54 11 4346-5748 |
+| **EZE Airport information** | +54 11 5480-6111 |
+| **Aerolíneas Argentinas** | 0810-222-86527 |
+| **Argentine Red Cross** | 107 |
 
 ---
 
