@@ -127,7 +127,7 @@
 
     /* ── Maps ── */
     .map-wrap { border-radius: 8px; overflow: hidden; margin: 0.75rem 0 0.4rem; box-shadow: 0 2px 10px rgba(0,0,0,.14); }
-    .map-overview { height: 500px; }
+    .map-overview { height: 560px; }
     .map-dest { height: 270px; }
     .map-note { font-size: 0.78rem; color: #888; margin-bottom: 1rem; }
     .gmaps-link { font-size: 0.85rem; margin: 0 0 1.25rem; display: inline-block; }
@@ -212,7 +212,7 @@
 
   <!-- OVERVIEW MAP -->
   <div class="map-wrap map-overview" id="map-overview"></div>
-  <p class="map-note">Click the map to enable scroll-zoom. Click any marker for details.</p>
+  <p class="map-note">Click the map to enable scroll-zoom. Hover or click any marker for details. Regional lines show the main local day trips.</p>
   <a class="gmaps-link" target="_blank" rel="noopener"
      href="https://www.google.com/maps/dir/Buenos+Aires,+Argentina/Puerto+Iguaz%C3%BA,+Misiones,+Argentina/Buenos+Aires,+Argentina/Puerto+Madryn,+Chubut,+Argentina/Ushuaia,+Tierra+del+Fuego,+Argentina/El+Calafate,+Santa+Cruz,+Argentina/El+Chalt%C3%A9n,+Santa+Cruz,+Argentina/San+Carlos+de+Bariloche,+R%C3%ADo+Negro,+Argentina/Mendoza,+Argentina/Buenos+Aires,+Argentina">
     ↗ View Full Route on Google Maps
@@ -975,6 +975,145 @@
   L.polyline(stops.map(s => [s.lat, s.lng]), {
     color: '#00205b', weight: 2, dashArray: '7 6', opacity: 0.65
   }).addTo(overview);
+
+  const overviewLayers = {
+    'Buenos Aires': {
+      color: '#1d6fa4',
+      markers: [
+        { lat: -34.6037, lng: -58.3816, title: 'Buenos Aires', text: 'Arrival city with Plaza de Mayo, San Telmo, Recoleta Cemetery, Teatro Colón, and tango.' },
+        { lat: -34.6083, lng: -58.3709, title: 'Plaza de Mayo', text: 'Political heart of Argentina and the start of the city walk.' },
+        { lat: -34.6081, lng: -58.3703, title: 'Casa Rosada', text: 'The Pink House on Plaza de Mayo.' },
+        { lat: -34.6075, lng: -58.3731, title: 'Buenos Aires Metropolitan Cathedral', text: 'Historic cathedral beside Plaza de Mayo.' },
+        { lat: -34.6214, lng: -58.3731, title: 'San Telmo', text: 'Historic quarter south of Plaza de Mayo.' },
+        { lat: -34.6345, lng: -58.3631, title: 'La Boca / Caminito', text: 'Colourful neighborhood stop with street art and tango.' },
+        { lat: -34.5875, lng: -58.3934, title: 'Recoleta Cemetery', text: 'Monumental cemetery and resting place of Eva Perón.' },
+        { lat: -34.6010, lng: -58.3832, title: 'Teatro Colón', text: 'Compact culture add-on before dinner if timing works.' }
+      ],
+      lines: [
+        [[-34.6083, -58.3709], [-34.6075, -58.3731], [-34.6214, -58.3731], [-34.6345, -58.3631], [-34.5875, -58.3934], [-34.6010, -58.3832]]
+      ]
+    },
+    'Iguazú': {
+      color: '#16a34a',
+      markers: [
+        { lat: -25.5996, lng: -54.5795, title: 'Puerto Iguazú', text: 'Base town for the falls.' },
+        { lat: -25.6869, lng: -54.4453, title: 'Parque Nacional Iguazú', text: 'Argentine-side park with the upper and lower circuits.' },
+        { lat: -25.6953, lng: -54.4367, title: 'Garganta del Diablo', text: 'The dramatic Devil’s Throat viewpoint.' },
+        { lat: -25.5469, lng: -54.5882, title: 'Foz do Iguaçu', text: 'Brazilian-side panorama day trip.' },
+        { lat: -25.6919, lng: -54.4415, title: 'Macuco Boat Safari', text: 'Optional drenching boat ride near the falls.' }
+      ],
+      lines: [
+        [[-25.5996, -54.5795], [-25.6869, -54.4453], [-25.6953, -54.4367]],
+        [[-25.5996, -54.5795], [-25.5469, -54.5882]]
+      ]
+    },
+    'Puerto Madryn / Valdés': {
+      color: '#ea580c',
+      markers: [
+        { lat: -42.7714, lng: -65.0264, title: 'Puerto Madryn', text: 'Wildlife base on the Atlantic coast.' },
+        { lat: -44.0219, lng: -65.4347, title: 'Punta Tombo', text: 'Major Magellanic penguin colony.' },
+        { lat: -42.5772, lng: -64.2895, title: 'Puerto Pirámides', text: 'Whale-watching departure point.' },
+        { lat: -42.0694, lng: -63.7778, title: 'Punta Norte', text: 'Elephant seals and sea lions on Península Valdés.' },
+        { lat: -42.3026, lng: -63.6444, title: 'Caleta Valdés', text: 'Clifftop wildlife stop with elephant seals.' },
+        { lat: -42.7906, lng: -65.0056, title: 'EcoCentro', text: 'Marine biology museum if open.' }
+      ],
+      lines: [
+        [[-42.7714, -65.0264], [-44.0219, -65.4347]],
+        [[-42.7714, -65.0264], [-42.5772, -64.2895], [-42.0694, -63.7778], [-42.3026, -63.6444]]
+      ]
+    },
+    'Ushuaia': {
+      color: '#f97316',
+      markers: [
+        { lat: -54.8019, lng: -68.3030, title: 'Ushuaia', text: 'Southernmost city and Beagle Channel base.' },
+        { lat: -54.8475, lng: -68.5514, title: 'Tierra del Fuego National Park', text: 'Coastal hiking and forest scenery.' },
+        { lat: -54.8612, lng: -68.5978, title: 'Lapataia Bay', text: 'End of Ruta Nacional 3.' },
+        { lat: -54.8309, lng: -68.3974, title: 'End of the World Train', text: 'Historic train stop near the park.' },
+        { lat: -54.9330, lng: -67.6068, title: 'Martillo Island', text: 'Penguin excursion with guided landings.' },
+        { lat: -54.8248, lng: -68.3260, title: 'Presidio Museum', text: 'Old prison museum option in town.' },
+        { lat: -54.8052, lng: -68.3003, title: 'Museo del Fin del Mundo', text: 'Local history museum option.' },
+        { lat: -54.7805, lng: -68.4088, title: 'Cerro Martial', text: 'Moderate hike with views over Ushuaia.' },
+        { lat: -54.6438, lng: -67.7690, title: 'Lago Escondido', text: 'Scenic eastbound drive option.' },
+        { lat: -54.5535, lng: -67.2818, title: 'Lago Fagnano', text: 'Large lake on the scenic drive east.' }
+      ],
+      lines: [
+        [[-54.8019, -68.3030], [-54.8475, -68.5514], [-54.8612, -68.5978]],
+        [[-54.8019, -68.3030], [-54.9330, -67.6068]],
+        [[-54.8019, -68.3030], [-54.6438, -67.7690], [-54.5535, -67.2818]]
+      ]
+    },
+    'El Calafate / Chaltén': {
+      color: '#0f766e',
+      markers: [
+        { lat: -50.3388, lng: -72.2688, title: 'El Calafate', text: 'Base for glaciers and Lago Argentino.' },
+        { lat: -50.3378, lng: -72.2630, title: 'Lago Argentino', text: 'Huge turquoise lake beside town.' },
+        { lat: -50.4934, lng: -73.0479, title: 'Perito Moreno Glacier', text: 'Headline glacier day with walkways and ice trekking.' },
+        { lat: -50.3380, lng: -72.3000, title: 'Glaciarium', text: 'Glacier museum option in El Calafate.' },
+        { lat: -50.6700, lng: -73.2500, title: 'Upsala Glacier', text: 'Major glacier seen on the boat excursion.' },
+        { lat: -50.9590, lng: -73.2450, title: 'Spegazzini Glacier', text: 'Tall glacier face on Lago Argentino tours.' },
+        { lat: -49.3310, lng: -72.8855, title: 'El Chaltén', text: 'Trekking capital and base for Fitz Roy hikes.' },
+        { lat: -49.2734, lng: -72.9581, title: 'Laguna de los Tres', text: 'Iconic Fitz Roy viewpoint hike.' },
+        { lat: -49.3098, lng: -72.9875, title: 'Laguna Torre', text: 'Cerro Torre viewpoint hike.' },
+        { lat: -49.3297, lng: -72.8542, title: 'Chorrillo del Salto', text: 'Short fallback waterfall walk.' }
+      ],
+      lines: [
+        [[-50.3388, -72.2688], [-50.4934, -73.0479]],
+        [[-50.3388, -72.2688], [-50.6700, -73.2500], [-50.9590, -73.2450]],
+        [[-50.3388, -72.2688], [-49.3310, -72.8855], [-49.2734, -72.9581], [-49.3098, -72.9875]]
+      ]
+    },
+    'Bariloche': {
+      color: '#db2777',
+      markers: [
+        { lat: -41.1335, lng: -71.3103, title: 'Bariloche', text: 'Lakes District base and NYE stop.' },
+        { lat: -41.1385, lng: -71.3092, title: 'Civic Centre', text: 'Historic town centre by Nahuel Huapi Lake.' },
+        { lat: -41.0887, lng: -71.5068, title: 'Cerro Campanario', text: 'Signature Circuito Chico viewpoint.' },
+        { lat: -41.0622, lng: -71.5336, title: 'Llao Llao Hotel', text: 'Classic alpine landmark on Circuito Chico.' },
+        { lat: -41.0691, lng: -71.5595, title: 'Puerto Pañuelo', text: 'Scenic dock stop on Circuito Chico.' },
+        { lat: -41.1238, lng: -71.5182, title: 'Lago Moreno', text: 'Lake viewpoints on Circuito Chico.' },
+        { lat: -41.3447, lng: -71.8867, title: 'Cerro Tronador', text: 'Full-day mountain road trip.' },
+        { lat: -41.3215, lng: -71.8873, title: 'Ventisquero Negro', text: 'Black glacier viewpoint below Tronador.' },
+        { lat: -40.7627, lng: -71.6464, title: 'Villa La Angostura', text: 'Lakeside lunch stop and gateway to Seven Lakes.' },
+        { lat: -40.7171, lng: -71.6556, title: 'Bosque de Arrayanes', text: 'Cinnamon-barked arrayán forest.' },
+        { lat: -40.1569, lng: -71.3525, title: 'San Martín de los Andes', text: 'Classic Seven Lakes destination.' },
+        { lat: -41.1667, lng: -71.4377, title: 'Cerro Catedral', text: 'Summer lifts and ridgeline hiking.' },
+        { lat: -41.1438, lng: -71.3756, title: 'Cerro Otto', text: 'Optional panoramic hike.' },
+        { lat: -41.1600, lng: -71.7000, title: 'Río Manso', text: 'White-water rafting option.' }
+      ],
+      lines: [
+        [[-41.1335, -71.3103], [-41.0887, -71.5068], [-41.0622, -71.5336], [-41.0691, -71.5595], [-41.1238, -71.5182]],
+        [[-41.1335, -71.3103], [-41.3447, -71.8867], [-41.3215, -71.8873]],
+        [[-41.1335, -71.3103], [-40.7627, -71.6464], [-40.1569, -71.3525]]
+      ]
+    },
+    'Mendoza': {
+      color: '#7c3aed',
+      markers: [
+        { lat: -32.8908, lng: -68.8272, title: 'Mendoza', text: 'Wine-country base city.' },
+        { lat: -32.8895, lng: -68.8443, title: 'Plaza Independencia', text: 'Easy city-centre stroll on arrival day.' },
+        { lat: -33.0478, lng: -68.8917, title: 'Luján de Cuyo', text: 'Prestige winery area.' },
+        { lat: -32.9816, lng: -68.7876, title: 'Maipú', text: 'Bike-friendly winery area.' },
+        { lat: -33.2691, lng: -68.8875, title: 'Bodega Catena Zapata', text: 'Iconic Mendoza winery option.' },
+        { lat: -33.5292, lng: -69.0614, title: 'Valle de Uco', text: 'High-altitude wine region with Andes backdrop.' },
+        { lat: -33.6128, lng: -69.0901, title: 'Zuccardi Valle de Uco', text: 'Flagship Valle de Uco winery option.' }
+      ],
+      lines: [
+        [[-32.8908, -68.8272], [-32.9816, -68.7876], [-33.0478, -68.8917], [-33.2691, -68.8875], [-33.5292, -69.0614], [-33.6128, -69.0901]]
+      ]
+    }
+  };
+
+  Object.entries(overviewLayers).forEach(([name, layer]) => {
+    layer.markers.forEach(marker => {
+      L.marker([marker.lat, marker.lng], { icon: dotIcon(layer.color), title: marker.title })
+        .bindTooltip(`<strong>${marker.title}</strong><br>${marker.text}`)
+        .bindPopup(`<strong>${marker.title}</strong><br>${marker.text}`)
+        .addTo(overview);
+    });
+    layer.lines.forEach(points => {
+      L.polyline(points, { color: layer.color, weight: 2.5, opacity: 0.8 }).addTo(overview);
+    });
+  });
 
   // ════════════════════════════════════════════
   //  DESTINATION MAPS
