@@ -99,7 +99,7 @@ Book these **before anything else**:
 *"The Paris of South America" — tango, steak, grand boulevards, and European-style architecture*
 
 ![Buenos Aires — Puerto Madero waterfront skyline](https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_Puerto_Madero.jpg)
-![Casa Rosada — the iconic Pink House at Plaza de Mayo](https://commons.wikimedia.org/wiki/Special:FilePath/Casa_rosada_2.jpg)
+![Casa Rosada — the iconic Pink House at Plaza de Mayo](https://commons.wikimedia.org/wiki/Special:FilePath/Casa_Rosada,_Buenos_Aires,_Argentina.jpg)
 ![La Boca / Caminito — vibrant Genoese neighbourhood with street art](https://images.unsplash.com/photo-1679417302656-9b5170584526?w=800&auto=format&fit=crop)
 ![Tango dancers in San Telmo — passion in every step](https://commons.wikimedia.org/wiki/Special:FilePath/Tango_in_Buenos_Aires.jpg)
 ![Recoleta Cemetery — ornate mausoleums, final home of Eva Perón](https://commons.wikimedia.org/wiki/Special:FilePath/Recoleta_Cemetery,_Buenos_Aires.jpg)
@@ -219,7 +219,7 @@ Book these **before anything else**:
 *UNESCO World Heritage Site — the world's finest wildlife sanctuary for right whales, elephant seals, sea lions and penguins*
 
 ![Magellanic penguins at Península Valdés](https://commons.wikimedia.org/wiki/Special:FilePath/Halbinsel_Valdes_Pinguine.jpg)
-![Southern right whale mother and calf — peak season December](https://commons.wikimedia.org/wiki/Special:FilePath/Eubalaena_australis_with_calf.jpg)
+![Southern right whale mother and calf — peak season December](https://commons.wikimedia.org/wiki/Special:FilePath/Mother_and_calf_-_Right_whale.jpg)
 ![Elephant seals — massive bulls at Punta Norte](https://commons.wikimedia.org/wiki/Special:FilePath/Elefantes_Marinos_en_Peninsula_Valdes_-_panoramio.jpg)
 ![Orca beaching to hunt sea lion — found nowhere else on Earth](https://commons.wikimedia.org/wiki/Special:FilePath/Orcas_in_Punta_Norte_Valdes_Peninsula_-_panoramio.jpg)
 ![Punta Tombo — one million Magellanic penguins in December](https://commons.wikimedia.org/wiki/Special:FilePath/Chubut-PuntaTombo-P2220157b-small.jpg)
