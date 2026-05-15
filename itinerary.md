@@ -69,7 +69,7 @@
 |-------------|-------|------|---------------|
 | Puerto Madryn | Dec 14–16 | 3 | Península Valdés & Punta Tombo have NO public transport |
 | Ushuaia | Dec 17–19 | 3 | Tierra del Fuego NP, Beagle Channel scenic drives |
-| Bariloche | Dec 26–31 | 6 | Circuito Chico, Circuito Grande, Cerro Tronador |
+| Bariloche | Dec 26–31 | 6 | Circuito Chico, Seven Lakes / Circuito Grande, Cerro Tronador |
 
 > **Tip**: At Bariloche, book an AWD/SUV if possible — the Tronador road is unpaved gravel.
 
@@ -130,6 +130,7 @@ Book these **before anything else**:
 - **Morning**: Walk from **Plaza de Mayo** (the political heart of Argentina) → **Casa Rosada** (the Pink House) → **Buenos Aires Metropolitan Cathedral** → stroll south through the historic **Montserrat** quarter to **San Telmo**.
 - **Afternoon**: Take a taxi to **La Boca / Caminito** — the colourful, Genoese-influenced neighbourhood with street art and tango dancers. *(Do not walk there from San Telmo — take a cab and stay within the main tourist area.)*
 - **Late afternoon**: **Recoleta Cemetery** — monumental mausoleums, final resting place of Eva Perón (Evita). Walk through the elegant Recoleta neighbourhood.
+- **Optional culture add-on**: If timing works, add a guided visit to **Teatro Colón** before dinner rather than trying to squeeze in another neighbourhood.
 - **Evening**: Optional **tango dinner show** (highly recommended — try Café de los Angelitos or El Viejo Almacén), or dinner in Palermo Hollywood.
 - **Early night**: You have an early flight tomorrow.
 
@@ -433,7 +434,7 @@ Book these **before anything else**:
   - 18 km round-trip, moderate difficulty
   - 5–6 hours total
   - On clear days, views of the floating hanging glaciers on Cerro Torre's peak are extraordinary.
-  - *Alternative*: Shorter hike to **Chorrillo del Salto** waterfall (~4 km round-trip) if legs are tired.
+  - *First cut if needed*: If Day 15 ran long, legs are cooked, or the weather turns ugly, drop this full hike before forcing it and switch to **Chorrillo del Salto** waterfall (~4 km round-trip).
 - **Evening**: **Christmas Eve (Nochebuena)** dinner — many El Chaltén restaurants serve special menus. Toast with local craft beer (El Chaltén has a microbrewery). Celebrate one of the most spectacular 48 hours of the trip.
 
 | | |
@@ -495,11 +496,12 @@ Book these **before anything else**:
 
 #### Day 19 · Sunday, Dec 27 — Circuito Chico
 
-- **Full Day**: Drive the **Circuito Chico** (~60 km loop west of Bariloche):
-  - **Cerro Campanario** — 35-min hike (or chairlift) to Argentina's most-photographed panoramic viewpoint: Nahuel Huapi Lake, islands and Andes in all directions.
+- **Must-do**: Drive the **Circuito Chico** (~60 km loop west of Bariloche) and go up **Cerro Campanario** — 35-min hike (or chairlift) to Argentina's most-photographed panoramic viewpoint: Nahuel Huapi Lake, islands and Andes in all directions.
+- **Strong additions**:
   - **Llao Llao Hotel** — the legendary 1938 alpine hotel. Walk the beautiful grounds; have a coffee if budget allows.
   - **Puerto Pañuelo** — beautiful dock with views back to the hotel and across the lake.
   - **Lago Moreno** viewpoints.
+- **Nice if energy allows**: Leave extra time for a lakeside stop or short walk rather than rushing the loop.
 - **Evening**: Return to Bariloche. Dinner.
 
 | | |
@@ -508,11 +510,11 @@ Book these **before anything else**:
 
 ---
 
-#### Day 20 · Monday, Dec 28 — Cerro Catedral + Tronador
+#### Day 20 · Monday, Dec 28 — Cerro Tronador
 
-- **Morning**: Drive to **Cerro Catedral** (~20 km south) — South America's largest ski resort transforms in summer. Take the cable car up for 360° Andean views; hike one of the ridgeline trails.
-- **Afternoon**: Continue south to **Cerro Tronador** (~100 km from Bariloche, ~1.5 hrs drive through native Valdivian forest). Hike to the **Ventisquero Negro** (the "black glacier" — a dramatic dark-streaked hanging glacier). Drive through the gorge of the Manso River.
-- **Evening**: Return to Bariloche. It's a long day — well worth it.
+- **Must-do**: Give **Cerro Tronador** the day it deserves. Drive south through native Valdivian forest, visit the **Ventisquero Negro** (the "black glacier" — a dramatic dark-streaked hanging glacier), and take in the gorge of the Manso River.
+- **Nice if energy allows**: Add only a short extra stop on the return. Do **not** count on fitting **Cerro Catedral** into the same day unless you start very early and are happy with an unusually long outing.
+- **Evening**: Return to Bariloche. This is one of the biggest road days of the trip.
 
 | | |
 |---|---|
@@ -521,14 +523,16 @@ Book these **before anything else**:
 
 ---
 
-#### Day 21 · Tuesday, Dec 29 — Circuito Grande
+#### Day 21 · Tuesday, Dec 29 — Lakes District Road Trip
 
-- **Full Day**: Drive the **Circuito Grande** (~250 km loop north of Bariloche):
+- **Strongest recommendation**: Drive the **Route of the Seven Lakes** toward **San Martín de los Andes**, a classic Lakes District outing linking standout lakes such as **Correntoso**, **Escondido**, and **Lácar** with mountain scenery all day.
+- **Strong alternative**: Keep the current **Circuito Grande** (~250 km loop north of Bariloche) if you prefer a somewhat shorter Bariloche-based loop:
   - **Lago Nahuel Huapi** northern shore panoramas
   - **Confluencia** — viewpoint where the Limay River begins its journey east
   - **Villa La Angostura** (~80 km from Bariloche) — charming lakeside village on a peninsula in the lake. Excellent lunch stop.
   - **Bosque de Arrayanes** — unique forest of cinnamon-barked arrayán trees; optional short boat tour from Villa La Angostura.
   - Return via **Paso Córdoba** with Patagonian steppe views.
+- **First cut if needed**: If you choose Seven Lakes, keep the day about the road trip itself and skip extra detours once timing starts to slip.
 - **Evening**: Return to Bariloche.
 
 | | |
@@ -539,9 +543,12 @@ Book these **before anything else**:
 
 #### Day 22 · Wednesday, Dec 30 — Free Day / Adventure Activities
 
-- **Morning/Afternoon**: Choose your adventure:
+- **Must-do**: Keep this as your flexible Bariloche pick-your-own day after the heavier road trips.
+- **Strong options**:
+  - **Cerro Catedral** (~20 km south) — summer lifts, 360° Andean views, and ridgeline hiking.
   - **White-water rafting on the Río Manso** (class III–IV; half-day trips available — operators in town)
   - **Kayaking on Nahuel Huapi** (guided or rental)
+- **Nice if energy allows**:
   - **Hike Cerro Otto** (~1 hr drive + 4 hr hike to panoramic summit)
   - **Fly-fishing** on one of the region's famous rivers
 - **Afternoon**: **Buy chocolates** for gifts at home (Abuela Goye, Mamuschka, and Del Turista are the most famous brands). This is your last chance.
