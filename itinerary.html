@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🇦🇷 Argentina Adventure — December 2026 / January 2027</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: #f7f4ef;
+      color: #1a1a1a;
+      line-height: 1.75;
+    }
+
+    a { color: #1a5fa8; }
+    a:hover { text-decoration: underline; }
+
+    /* ── Layout ── */
+    .container { max-width: 960px; margin: 0 auto; padding: 0 1.5rem; }
+
+    /* ── Hero ── */
+    .hero {
+      background: linear-gradient(135deg, #00205b 0%, #0055a4 60%, #74aadd 100%);
+      color: #fff;
+      padding: 3.5rem 1.5rem 2.5rem;
+      text-align: center;
+    }
+    .hero h1 { font-size: 2.5rem; font-weight: 800; letter-spacing: -0.5px; margin-bottom: 0.5rem; }
+    .hero .subtitle { font-size: 1.15rem; opacity: 0.88; }
+
+    /* ── Sticky nav ── */
+    nav {
+      background: #fff;
+      border-bottom: 2px solid #e4ddd4;
+      padding: 0.75rem 1.5rem;
+      position: sticky; top: 0; z-index: 200;
+    }
+    nav ul { list-style: none; display: flex; flex-wrap: wrap; gap: 0.4rem 0.8rem; max-width: 960px; margin: 0 auto; }
+    nav a { text-decoration: none; color: #444; font-size: 0.85rem; padding: 0.2rem 0.4rem; border-radius: 4px; white-space: nowrap; }
+    nav a:hover { background: #f0ece6; color: #111; }
+
+    /* ── Main sections ── */
+    .section { padding: 2.5rem 0; border-bottom: 1px solid #e4ddd4; }
+    .section:last-child { border-bottom: none; }
+
+    h2 { font-size: 1.85rem; color: #00205b; margin-bottom: 1.25rem; }
+    h3 {
+      font-size: 1.4rem; color: #111;
+      margin: 2.25rem 0 0.6rem;
+      padding-bottom: 0.35rem;
+      border-bottom: 2px solid #e4ddd4;
+    }
+    h4 { font-size: 1.05rem; color: #1a1a1a; margin: 1.75rem 0 0.5rem; }
+    p { margin: 0.7rem 0; }
+    em { color: #555; }
+
+    /* ── Tables ── */
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0 1.5rem; font-size: 0.92rem; }
+    th { background: #00205b; color: #fff; padding: 0.55rem 0.8rem; text-align: left; font-weight: 600; }
+    td { padding: 0.5rem 0.8rem; border-bottom: 1px solid #e4ddd4; vertical-align: top; }
+    tr:nth-child(even) td { background: #faf7f3; }
+
+    /* ── Lists ── */
+    ul, ol { margin: 0.5rem 0 0.75rem 1.4rem; }
+    li { margin: 0.3rem 0; }
+
+    /* ── Callout boxes ── */
+    .tip {
+      background: #fffbeb; border-left: 4px solid #f59e0b;
+      padding: 0.75rem 1rem; margin: 1rem 0; border-radius: 0 6px 6px 0;
+      font-size: 0.93rem;
+    }
+    .warning {
+      background: #fff1f2; border-left: 4px solid #ef4444;
+      padding: 0.75rem 1rem; margin: 1rem 0; border-radius: 0 6px 6px 0;
+      font-size: 0.93rem;
+    }
+    .info {
+      background: #eff6ff; border-left: 4px solid #3b82f6;
+      padding: 0.75rem 1rem; margin: 1rem 0; border-radius: 0 6px 6px 0;
+      font-size: 0.93rem;
+    }
+
+    /* ── Day detail 2-col rows ── */
+    .day-meta { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.75rem 0 1rem; }
+    .day-meta-item {
+      background: #f0ece6; padding: 0.35rem 0.7rem;
+      border-radius: 5px; font-size: 0.88rem;
+    }
+    .day-meta-item strong { color: #666; margin-right: 0.3rem; }
+
+    /* ── Destination hero images ── */
+    .hero-img {
+      width: 100%; max-height: 360px;
+      object-fit: cover; border-radius: 8px;
+      margin: 1rem 0 0.25rem; display: block;
+    }
+
+    /* ── Maps ── */
+    .map-wrap { border-radius: 8px; overflow: hidden; margin: 0.75rem 0 0.4rem; box-shadow: 0 2px 10px rgba(0,0,0,.14); }
+    .map-overview { height: 500px; }
+    .map-dest { height: 270px; }
+    .map-note { font-size: 0.78rem; color: #888; margin-bottom: 1rem; }
+    .gmaps-link { font-size: 0.85rem; margin: 0 0 1.25rem; display: inline-block; }
+
+    /* ── Priority list ── */
+    .priority { list-style: none; margin-left: 0; }
+    .priority li {
+      display: flex; gap: 0.8rem;
+      padding: 0.65rem 0; border-bottom: 1px solid #ece8e1;
+      align-items: flex-start;
+    }
+    .priority li .num {
+      background: #00205b; color: #fff; border-radius: 50%;
+      min-width: 1.6rem; height: 1.6rem;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.8rem; font-weight: 700; margin-top: 0.15rem;
+    }
+
+    /* ── Destination section styling ── */
+    .dest-dates { font-size: 1.05rem; font-weight: 700; color: #00205b; margin-bottom: 0.2rem; }
+    .dest-tagline { font-style: italic; color: #666; font-size: 0.95rem; margin-bottom: 0.5rem; }
+
+    /* ── Footer ── */
+    .footer { text-align: center; padding: 2.5rem 1rem; color: #888; font-style: italic; font-size: 0.95rem; }
+
+    /* ── Responsive ── */
+    @media (max-width: 640px) {
+      .hero h1 { font-size: 1.7rem; }
+      h2 { font-size: 1.4rem; }
+      .map-overview { height: 340px; }
+      .map-dest { height: 220px; }
+    }
+
+    @media print {
+      nav { display: none; }
+      .hero { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════ HERO ═══════════ -->
+<div class="hero">
+  <h1>🇦🇷 Argentina Adventure</h1>
+  <p class="subtitle">4 friends &nbsp;·&nbsp; 26 nights &nbsp;·&nbsp; Dec 9, 2026 → Jan 4, 2027</p>
+</div>
+
+<!-- ═══════════ NAV ═══════════ -->
+<nav>
+  <ul>
+    <li><a href="#route">Route Overview</a></li>
+    <li><a href="#flights">Domestic Flights</a></li>
+    <li><a href="#cars">Car Rentals</a></li>
+    <li><a href="#booking">Book Ahead</a></li>
+    <li><a href="#itinerary">Day-by-Day</a></li>
+    <li><a href="#tips">Practical Tips</a></li>
+    <li><a href="#budget">Budget</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+
+<!-- ═══════════ ROUTE OVERVIEW ═══════════ -->
+<div class="section" id="route">
+  <h2>Route Overview</h2>
+  <table>
+    <thead><tr><th>#</th><th>Destination</th><th>Dates</th><th>Nights</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>Buenos Aires</td><td>Dec 9–10</td><td>2</td></tr>
+      <tr><td>2</td><td>Puerto Iguazú</td><td>Dec 11–12</td><td>2</td></tr>
+      <tr><td>3</td><td>Buenos Aires (transit)</td><td>Dec 13</td><td>1</td></tr>
+      <tr><td>4</td><td>Puerto Madryn / Península Valdés</td><td>Dec 14–16</td><td>3</td></tr>
+      <tr><td>5</td><td>Ushuaia</td><td>Dec 17–19</td><td>3</td></tr>
+      <tr><td>6</td><td>El Calafate</td><td>Dec 20–22</td><td>3</td></tr>
+      <tr><td>7</td><td>El Chaltén</td><td>Dec 23–24</td><td>2</td></tr>
+      <tr><td>8</td><td>El Calafate (return)</td><td>Dec 25</td><td>1</td></tr>
+      <tr><td>9</td><td><strong>Bariloche (NYE! 🎉)</strong></td><td>Dec 26–31</td><td>6</td></tr>
+      <tr><td>10</td><td>Mendoza</td><td>Jan 1–2</td><td>2</td></tr>
+      <tr><td>11</td><td>Buenos Aires (departure)</td><td>Jan 3</td><td>1</td></tr>
+    </tbody>
+  </table>
+
+  <!-- OVERVIEW MAP -->
+  <div class="map-wrap map-overview" id="map-overview"></div>
+  <p class="map-note">Click the map to enable scroll-zoom. Click any marker for details.</p>
+  <a class="gmaps-link" target="_blank" rel="noopener"
+     href="https://www.google.com/maps/dir/Buenos+Aires,+Argentina/Puerto+Iguaz%C3%BA,+Misiones,+Argentina/Buenos+Aires,+Argentina/Puerto+Madryn,+Chubut,+Argentina/Ushuaia,+Tierra+del+Fuego,+Argentina/El+Calafate,+Santa+Cruz,+Argentina/El+Chalt%C3%A9n,+Santa+Cruz,+Argentina/San+Carlos+de+Bariloche,+R%C3%ADo+Negro,+Argentina/Mendoza,+Argentina/Buenos+Aires,+Argentina">
+    ↗ View Full Route on Google Maps
+  </a>
+</div>
+
+<!-- ═══════════ DOMESTIC FLIGHTS ═══════════ -->
+<div class="section" id="flights">
+  <h2>✈️ Domestic Flights</h2>
+  <table>
+    <thead><tr><th>#</th><th>Date</th><th>Route</th><th>Airports</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>Dec 11</td><td>Buenos Aires → Puerto Iguazú</td><td>EZE → IGR</td></tr>
+      <tr><td>2</td><td>Dec 13</td><td>Puerto Iguazú → Buenos Aires</td><td>IGR → AEP</td></tr>
+      <tr><td>3</td><td>Dec 14</td><td>Buenos Aires → Puerto Madryn</td><td>AEP → PMY</td></tr>
+      <tr><td>4</td><td>Dec 17</td><td>Puerto Madryn → Ushuaia</td><td>PMY → USH</td></tr>
+      <tr><td>5</td><td>Dec 20</td><td>Ushuaia → El Calafate</td><td>USH → FTE</td></tr>
+      <tr><td>6</td><td>Dec 26</td><td>El Calafate → Bariloche</td><td>FTE → BRC</td></tr>
+      <tr><td>7</td><td>Jan 1</td><td>Bariloche → Mendoza</td><td>BRC → MDZ</td></tr>
+      <tr><td>8</td><td>Jan 3</td><td>Mendoza → Buenos Aires</td><td>MDZ → EZE</td></tr>
+    </tbody>
+  </table>
+  <div class="tip"><strong>Airlines:</strong> Aerolíneas Argentinas (most reliable), JetSMART, Flybondi (cheaper). Book all flights early — December/January is peak season.</div>
+</div>
+
+<!-- ═══════════ CAR RENTALS ═══════════ -->
+<div class="section" id="cars">
+  <h2>🚗 Car Rental Summary</h2>
+  <table>
+    <thead><tr><th>Destination</th><th>Dates</th><th>Days</th><th>Why Essential</th></tr></thead>
+    <tbody>
+      <tr><td>Puerto Madryn</td><td>Dec 14–16</td><td>3</td><td>Península Valdés &amp; Punta Tombo have NO public transport</td></tr>
+      <tr><td>Ushuaia</td><td>Dec 17–19</td><td>3</td><td>Tierra del Fuego NP, Beagle Channel scenic drives</td></tr>
+      <tr><td>Bariloche</td><td>Dec 26–31</td><td>6</td><td>Circuito Chico, Circuito Grande, Cerro Tronador</td></tr>
+    </tbody>
+  </table>
+  <div class="tip"><strong>Tip:</strong> At Bariloche, book an AWD/SUV if possible — the Tronador road is unpaved gravel.</div>
+</div>
+
+<!-- ═══════════ ADVANCE BOOKING ═══════════ -->
+<div class="section" id="booking">
+  <h2>⚠️ Advance Booking Priorities</h2>
+  <p>Book these <strong>before anything else</strong>:</p>
+  <ol class="priority">
+    <li><span class="num">1</span><span>🏨 <strong>Bariloche NYE hotel</strong> — Book 6–12 months in advance. Dec 31 sells out a full year ahead.</span></li>
+    <li><span class="num">2</span><span>🧊 <strong>Perito Moreno Ice Trek</strong> (Mini-trekking or Big Ice) — Book 2–3 months ahead.</span></li>
+    <li><span class="num">3</span><span>🐧 <strong>Martillo Island penguin boat tour</strong> (Ushuaia) — Very limited capacity. Book 1–2 months ahead.</span></li>
+    <li><span class="num">4</span><span>✈️ <strong>All 8 domestic flights</strong> — Book ASAP. Prices rise sharply near travel dates.</span></li>
+    <li><span class="num">5</span><span>🍷 <strong>Mendoza winery tours</strong> — January is high season; reserve tables well in advance.</span></li>
+    <li><span class="num">6</span><span>🐋 <strong>Península Valdés whale-watching</strong> — Book 2–4 weeks ahead.</span></li>
+  </ol>
+</div>
+
+<!-- ═══════════ DAY-BY-DAY ═══════════ -->
+<div class="section" id="itinerary">
+  <h2>Day-by-Day Itinerary</h2>
+
+  <!-- ── BUENOS AIRES ── -->
+  <div id="buenos-aires">
+    <h3>🏙️ Buenos Aires</h3>
+    <p class="dest-dates">Dec 9–10 · 2 nights</p>
+    <p class="dest-tagline">"The Paris of South America" — tango, steak, grand boulevards, and European-style architecture</p>
+    <img class="hero-img" src="https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_Puerto_Madero.jpg" alt="Buenos Aires — Puerto Madero waterfront skyline" />
+    <div class="map-wrap map-dest" id="map-ba"></div>
+    <a class="gmaps-link" target="_blank" rel="noopener"
+       href="https://www.google.com/maps/place/Buenos+Aires,+Argentina/@-34.6037,-58.3816,13z">↗ View on Google Maps</a>
+
+    <h4>Day 1 · Wednesday, Dec 9 — Arrival</h4>
+    <ul>
+      <li><strong>05:40</strong> — Land at <strong>Ministro Pistarini International Airport (EZE)</strong></li>
+      <li><strong>Immigration &amp; customs</strong>: Allow 1–2 hours. Have accommodation address ready.</li>
+      <li><strong>Transfer</strong>: Pre-book a remise (private car) or use the official taxi stand — <strong>~45 min, ~$25–35 USD</strong> to Palermo/Recoleta. Avoid unofficial taxis.</li>
+      <li><strong>Morning</strong>: Check in early if possible; otherwise store bags and get breakfast at a café.</li>
+      <li><strong>Afternoon</strong>: Rest and recover. Stroll around your neighbourhood (Palermo or Recoleta).</li>
+      <li><strong>Evening</strong>: First dinner at a <strong>parrilla</strong> (Argentine steakhouse). Order a <em>bife de chorizo</em> or <em>ojo de bife</em> and a bottle of Malbec. You have arrived.</li>
+    </ul>
+    <div class="day-meta">
+      <div class="day-meta-item"><strong>Stay</strong> Hotel in Palermo or Recoleta</div>
+      <div class="day-meta-item"><strong>Tip</strong> Palermo = trendy bars/restaurants; Recoleta = elegant, central</div>
+    </div>
+
+    <h4>Day 2 · Thursday, Dec 10 — Sightseeing</h4>
+    <ul>
+      <li><strong>Morning</strong>: Walk from <strong>Plaza de Mayo</strong> → <strong>Casa Rosada</strong> → <strong>Buenos Aires Metropolitan Cathedral</strong> → stroll south through <strong>Montserrat</strong> to <strong>San Telmo</strong>.</li>
+      <li><strong>Afternoon</strong>: Take a taxi to <strong>La Boca / Caminito</strong> — the colourful, Genoese-influenced neighbourhood with street art and tango dancers. <em>(Do not walk there from San Telmo — take a cab and stay within the main tourist area.)</em></li>
+      <li><strong>Late afternoon</strong>: <strong>Recoleta Cemetery</strong> — monumental mausoleums, final resting place of Eva Perón (Evita). Walk through the elegant Recoleta neighbourhood.</li>
+      <li><strong>Evening</strong>: Optional <strong>tango dinner show</strong> (highly recommended — try Café de los Angelitos or El Viejo Almacén), or dinner in Palermo Hollywood.</li>
+      <li><strong>Early night</strong>: You have an early flight tomorrow.</li>
+    </ul>
+    <div class="day-meta">
+      <div class="day-meta-item"><strong>Stay</strong> Hotel in Palermo or Recoleta</div>
+      <div class="day-meta-item"><strong>Note</strong> Tomorrow's flight departs from <strong>EZE</strong> — budget ~1h 30min transfer to airport</div>
+    </div>
+  </div>
+
+  <!-- ── PUERTO IGUAZÚ ── -->
+  <div id="iguazu">
+    <h3>🌊 Puerto Iguazú</h3>
+    <p class="dest-dates">Dec 11–12 · 2 nights</p>
+    <p class="dest-tagline">Wider than Niagara, taller than Victoria Falls — one of the world's great natural wonders</p>
+    <img class="hero-img" src="https://commons.wikimedia.org/wiki/Special:FilePath/Iguazu_National_Park_Falls.jpg" alt="Iguazú Falls — Argentine side panorama" />
+    <div class="map-wrap map-dest" id="map-iguazu"></div>
+    <a class="gmaps-link" target="_blank" rel="noopener"
+       href="https://www.google.com/maps/place/Iguaz%C3%BA+National+Park/@-25.69,-54.44,11z">↗ View on Google Maps</a>
+
+    <h4>Day 3 · Friday, Dec 11 — Travel + Argentine Side of the Falls</h4>
+    <ul>
+      <li><strong>Morning</strong>: Flight <strong>EZE → IGR</strong> (~2 hrs). Hotel check-in in Puerto Iguazú town (~8 km from the park).</li>
+      <li><strong>Afternoon</strong>: Visit <strong>Parque Nacional Iguazú (Argentine side)</strong>:
+        <ul>
+          <li><strong>Upper Circuit</strong> (Circuito Superior) — walkway above the falls</li>
+          <li><strong>Lower Circuit</strong> (Circuito Inferior) — get close to the base</li>
+          <li><strong>Garganta del Diablo (Devil's Throat)</strong> — the centrepiece: a 150m-wide horseshoe cataract. Stand at the railing as millions of litres pour past you. Unforgettable.</li>
+          <li>Optional: ecological train through the jungle between circuits</li>
+        </ul>
+      </li>
+      <li><strong>Evening</strong>: Return to Puerto Iguazú. Dinner — try <em>surubí</em> (river fish).</li>
+    </ul>
+    <div class="day-meta">
+      <div class="day-meta-item"><strong>Stay</strong> Hotel in Puerto Iguazú town</div>
+      <div class="day-meta-item"><strong>Note</strong> Bring a change of clothes or rain poncho — the Devil's Throat will soak you</div>
+    </div>
+
+    <h4>Day 4 · Saturday, Dec 12 — Brazilian Side</h4>
+    <div class="warning"><strong>⚠️ Visa Check:</strong> As of 2025, Israeli passport holders <strong>do not need a Brazilian visa</strong> for short tourist visits. Verify this before travel. If anything changes, use this day for a second full day on the Argentine side.</div>
+    <ul>
+      <li><strong>Morning</strong>: Day trip to <strong>Foz do Iguaçu, Brazil</strong> (30-min drive; border crossing). The <strong>Brazilian side</strong> offers the legendary panoramic view of the entire horseshoe — the photo that's on every postcard.</li>
+      <li><strong>Afternoon</strong>: Optional <strong>Macuco Boat Safari</strong> — a speedboat ride to the base of the falls. You WILL be completely drenched. Absolutely worth it.</li>
+      <li><strong>Evening</strong>: Return to Puerto Iguazú. Dinner and relax.</li>
+    </ul>
+    <div class="day-meta">
+      <div class="day-meta-item"><strong>Stay</strong> Hotel in Puerto Iguazú</div>
+      <div class="day-meta-item"><strong>Note</strong> Bring your passport for the Brazil border crossing</div>
+    </div>
+  </div>
+
+  <!-- ── BUENOS AIRES TRANSIT ── -->
+  <div id="ba-transit">
+    <h3>✈️ Buenos Aires (Transit)</h3>
+    <p class="dest-dates">Dec 13 · 1 night</p>
+    <div class="map-wrap map-dest" id="map-ba-transit"></div>
+    <a class="gmaps-link" target="_blank" rel="noopener"
+       href="https://www.google.com/maps/place/Buenos+Aires,+Argentina/@-34.6037,-58.3816,13z">↗ View on Google Maps</a>
+
+    <h4>Day 5 · Sunday, Dec 13 — Transit Day</h4>
+    <ul>
+      <li><strong>Morning</strong>: Flight <strong>IGR → AEP</strong> (Aeroparque Jorge Newbery, the domestic airport — central Buenos Aires, ~2 hrs).</li>
+      <li><strong>Afternoon</strong>: Check in to hotel near Aeroparque or Palermo. Leave bags. Easy afternoon in <strong>Palermo</strong> — the parks, Palermo Soho boutiques, bookstores.</li>
+      <li><strong>Evening</strong>: Dinner in Palermo or the Recoleta neighbourhood. Early night — you have an early flight tomorrow.</li>
+    </ul>
+    <div class="day-meta">
+      <div class="day-meta-item"><strong>Stay</strong> Hotel near Aeroparque (AEP) — Palermo or Las Cañitas</div>
+      <div class="day-meta-item"><strong>Note</strong> Tomorrow's flight departs from <strong>AEP</strong> — a 15-min taxi ride</div>
+    </div>
+  </div>
+
+  <!-- ── PUERTO MADRYN / VALDÉS ── -->
+  <div id="madryn">
+    <h3>🐋 Puerto Madryn / Península Valdés</h3>
+    <p class="dest-dates">Dec 14–16 · 3 nights</p>
+    <p class="dest-tagline">UNESCO World Heritage Site — the world's finest wildlife sanctuary for right whales, elephant seals, sea lions and penguins</p>
+    <img class="hero-img" src="https://commons.wikimedia.org/wiki/Special:FilePath/Halbinsel_Valdes_Pinguine.jpg" alt="Magellanic penguins at Península Valdés" />
+    <div class="map-wrap map-dest" id="map-madryn"></div>
+    <a class="gmaps-link" target="_blank" rel="noopener"
+       href="https://www.google.com/maps/place/Pen%C3%ADnsula+Vald%C3%A9s/@-42.4,-64.0,9z">↗ View on Google Maps</a>
+
+    <h4>Day 6 · Monday, Dec 14 — Travel + Punta Tombo</h4>
+    <ul>
+      <li><strong>Morning</strong>: Flight <strong>AEP → PMY</strong> (~2 hrs). Pick up <strong>rental car</strong> at Puerto Madryn airport.</li>
+      <li><strong>Afternoon</strong>: Drive south to <strong>Punta Tombo</strong> (~180 km, ~2 hrs). This is the <strong>largest Magellanic penguin colony in the world</strong> — approximately 1 million penguins in December! A boardwalk trail lets you walk right among them as they ignore you completely.</li>
+      <li><strong>Evening</strong>: Drive back to Puerto Madryn (~2 hrs). Dinner by the waterfront.</li>
+    </ul>
+    <div class="day-meta">
+      <div class="day-meta-item"><strong>Stay</strong> Hotel in Puerto Madryn</div>
+      <div class="day-meta-item"><strong>Distance</strong> Punta Tombo is 180 km south; allow a full 4–5 hrs for the visit + driving</div>
+    </div>
+    <img class="hero-img" src="https://commons.wikimedia.org/wiki/Special:FilePath/Chubut-PuntaTombo-P2220157b-small.jpg" alt="Magellanic penguins at Punta Tombo" />
+
+    <h4>Day 7 · Tuesday, Dec 15 — Península Valdés Full Day</h4>
+    <ul>
+      <li><strong>Morning</strong>: Drive to <strong>Península Valdés</strong> (80 km, ~1 hr). Pay park entry fee at the gate. Head to <strong>Puerto Pirámides</strong> for a <strong>whale-watching boat tour</strong> — December is peak season for <strong>southern right whale</strong> mothers and calves.</li>
+      <li><strong>Afternoon</strong>: Drive around the peninsula:
+        <ul>
+          <li><strong>Punta Norte</strong> — colony of <strong>elephant seals</strong> and <strong>South American sea lions</strong>. December has massive animals and pups.</li>
+          <li><strong>Caleta Valdés</strong> — more elephant seals along stunning cliffs. Watch for orcas offshore.</li>
+          <li>Keep eyes open for <strong>guanacos, rheas (ñandú), and Patagonian maras</strong> en route.</li>
+        </ul>
+      </li>
+      <li><strong>Evening</strong>: Return to Puerto Madryn. Dinner with fresh Patagonian seafood — try <em>merluza</em> (hake) or <em>camarones</em> (prawns).</li>
+    </ul>
+    <div class="day-meta">
+      <div class="day-meta-item"><strong>Stay</strong> Hotel in Puerto Madryn</div>
+      <div class="day-meta-item"><strong>Tip</strong> Binoculars essential. Bring snacks — restaurants on the peninsula are limited</div>
+    </div>
+
+    <h4>Day 8 · Wednesday, Dec 16 — Free Morning + Prep</h4>
+    <ul>
+      <li><strong>Morning</strong>: Optional return to the peninsula, or explore Puerto Madryn seafront. The <strong>EcoCentro</strong> (marine biology museum on a cliff) is excellent if open.</li>
+      <li><strong>Afternoon</strong>: Return rental car to airport. Rest. Pack for Ushuaia — you'll need warm layers even in December.</li>
+      <li><strong>Evening</strong>: Last dinner in Puerto Madryn. Early night.</li>
+    </ul>
+    <div class="day-meta">
+      <div class="day-meta-item"><strong>Stay</strong> Hotel in Puerto Madryn</div>
+      <div class="day-meta-item"><strong>Pack</strong> Wind/waterproof jacket, layers — Ushuaia is cold and unpredictable even in summer</div>
+    </div>
+  </div>
+
+  <!-- ── USHUAIA ── -->
+  <div id="ushuaia">
+    <h3>🐧 Ushuaia</h3>
+    <p class="dest-dates">Dec 17–19 · 3 nights</p>
+    <p class="dest-tagline">The southernmost city in the world — "Fin del Mundo" (End of the World). Gateway to Antarctica.</p>
+    <img class="hero-img" src="https://commons.wikimedia.org/wiki/Special:FilePath/2019-11-18_Ushuaia_Panorama.jpg" alt="Ushuaia panorama — city and Beagle Channel" />
+    <div class="map-wrap map-dest" id="map-ushuaia"></div>
+    <a class="gmaps-link" target="_blank" rel="noopener"
+       href="https://www.google.com/maps/place/Ushuaia,+Tierra+del+Fuego,+Argentina/@-54.8019,-68.3030,12z">↗ View on Google Maps</a>
+
+    <h4>Day 9 · Thursday, Dec 17 — Travel + Tierra del Fuego National Park</h4>
+    <ul>
+      <li><strong>Morning</strong>: Flight <strong>PMY → USH</strong> (~2.5 hrs). Pick up <strong>rental car</strong> at Ushuaia airport.</li>
+      <li><strong>Afternoon</strong>: Drive west to <strong>Parque Nacional Tierra del Fuego</strong> (~12 km):
+        <ul>
+          <li>Hike the <strong>Senda Costera</strong> (coastal trail along the Beagle Channel) — easy to moderate, stunning views.</li>
+          <li>Walk to <strong>Lapataia Bay</strong> — the literal end of <strong>Ruta Nacional 3</strong>, the Pan-American Highway (Buenos Aires: 3,079 km). Photo stop essential.</li>
+          <li>Visit the <strong>End of the World Train</strong> (Tren del Fin del Mundo) station.</li>
+        </ul>
+      </li>
+      <li><strong>Evening</strong>: Return to Ushuaia. Dinner — order <strong>centolla (king crab)</strong> — the local specialty.</li>
+    </ul>
+    <div class="day-meta">
+      <div class="day-meta-item"><strong>Stay</strong> Hotel in Ushuaia</div>
+      <div class="day-meta-item"><strong>Note</strong> December: ~18 hrs daylight. You will not run out of light</div>
+    </div>
+
+    <h4>Day 10 · Friday, Dec 18 — Martillo Island Penguins + Beagle Channel</h4>
+    <ul>
+      <li><strong>Morning</strong>: <strong>Boat tour to Isla Martillo (Martillo Island)</strong> — the only place in the world outside Antarctica where you can <strong>walk among king penguins</strong> on guided land excursions. Also Magellanic penguins in abundance. <strong>Book well in advance — capacity extremely limited.</strong></li>
+      <li><strong>Afternoon</strong>: Drive the scenic route along the Beagle Channel. Optional: visit the <strong>Presidio (old prison/museum)</strong> or <strong>Museo del Fin del Mundo</strong>.</li>
+      <li><strong>Evening</strong>: Dinner in Ushuaia — try local lamb (<em>cordero patagónico</em>) or king crab again.</li>
+    </ul>
+    <div class="day-meta">
+      <div class="day-meta-item"><strong>Stay</strong> Hotel in Ushuaia</div>
+      <div class="day-meta-item"><strong>Note</strong> Martillo Island tours: book 4–8 weeks ahead. Limited to ~20 people per excursion</div>
+    </div>
+    <img class="hero-img" src="https://commons.wikimedia.org/wiki/Special:FilePath/Pinguinoak.jpg" alt="Penguins on Martillo Island — kings and Magellanics" />
+
+    <h4>Day 11 · Saturday, Dec 19 — Free Day + Pack Up</h4>
+    <ul>
+      <li><strong>Morning</strong>: Choose your adventure:
+        <ul>
+          <li>Hike up <strong>Cerro Martial</strong> for panoramic views (~3 hrs round-trip, moderate)</li>
+          <li>Kayaking in the Beagle Channel</li>
+          <li><strong>Lago Escondido / Lago Fagnano</strong> scenic drive east (~150 km round-trip)</li>
+        </ul>
+      </li>
+      <li><strong>Afternoon</strong>: Return rental car. Explore <strong>Ushuaia's artisan market</strong> — pick up Tierra del Fuego crafts, local chocolates, and the famous "End of the World" stamps for your passport.</li>
+      <li><strong>Evening</strong>: Last dinner in Ushuaia. Early night.</li>
+    </ul>
+    <div class="day-meta">
+      <div class="day-meta-item"><strong>Stay</strong> Hotel in Ushuaia</div>
+      <div class="day-meta-item"><strong>Note</strong> Flight to El Calafate tomorrow — no onward car rental needed there</div>
+    </div>
+  </div>
+
+  <!-- ── EL CALAFATE ── -->
+  <div id="calafate">
+    <h3>🧊 El Calafate</h3>
+    <p class="dest-dates">Dec 20–22 · 3 nights + Dec 25 · 1 night (return)</p>
+    <p class="dest-tagline">Gateway to Los Glaciares National Park — home of the world's most accessible and spectacular glacier</p>
+    <img class="hero-img" src="https://commons.wikimedia.org/wiki/Special:FilePath/Perito_Moreno_Glacier_panorama.jpg" alt="Perito Moreno Glacier — view from the walkways" />
+    <div class="map-wrap map-dest" id="map-calafate"></div>
+    <a class="gmaps-link" target="_blank" rel="noopener"
+       href="https://www.google.com/maps/place/Perito+Moreno+Glacier/@-50.4934,-73.0479,11z">↗ View on Google Maps</a>
+
+    <h4>Day 12 · Sunday, Dec 20 — Travel + Orientation</h4>
+    <ul>
+      <li><strong>Morning</strong>: Flight <strong>USH → FTE</strong> (~1.5 hrs). Check in to hotel in El Calafate.</li>
+      <li><strong>Afternoon</strong>: Walk along the turquoise shore of <strong>Lago Argentino</strong>. Visit the <strong>Glaciarium</strong> (glacier museum) if interested.</li>
+      <li><strong>Evening</strong>: Dinner in El Calafate — try <strong>Patagonian lamb</strong>.</li>
+    </ul>
+    <div class="warning"><strong>💵 CASH WARNING:</strong> Withdraw a generous amount of <strong>Argentine pesos</strong> at an El Calafate ATM before heading to El Chaltén. <strong>El Chaltén has NO ATM and minimal card payment options.</strong> Bring more than you think you need.</div>
+    <div class="day-meta">
+      <div class="day-meta-item"><strong>Stay</strong> Hotel in El Calafate</div>
+    </div>
+
+    <h4>Day 13 · Monday, Dec 21 — Perito Moreno Glacier</h4>
+    <div class="tip"><strong>This is one of the top natural spectacles on Earth. Give it a full day.</strong></div>
+    <ul>
+      <li><strong>Full Day</strong>: <strong>Glaciar Perito Moreno</strong> — 78 km west of El Calafate (take a tour or hire a remise):
+        <ul>
+          <li>The <strong>pasarelas</strong> (walkways) give you close-up views of the 5-km-wide, 74-m-tall ice wall for FREE after park entry.</li>
+          <li>Watch and listen for <strong>calving</strong> — cathedral-sized chunks of ice exploding into the lake. Happens constantly.</li>
+          <li><strong>Book a guided ice trek</strong>: <strong>Mini-Trekking</strong> (~1.5 hrs on the glacier with crampons) or <strong>Big Ice</strong> (~5 hrs). Both require advance booking months ahead.</li>
+          <li>Optional <strong>boat tour</strong>: Some operators offer a zodiac tour approaching the glacier wall from the water.</li>
+        </ul>
+      </li>
+      <li><strong>Evening</strong>: Return to El Calafate. Celebratory dinner.</li>
+    </ul>
+    <div class="day-meta">
+      <div class="day-meta-item"><strong>Stay</strong> Hotel in El Calafate</div>
+      <div class="day-meta-item"><strong>Book ahead</strong> Ice trek tours — 2–3 months ahead at minimum</div>
+    </div>
+
+    <h4>Day 14 · Tuesday, Dec 22 — Lago Argentino Boat Tour + Rest</h4>
+    <ul>
+      <li><strong>Morning</strong>: <strong>Lago Argentino boat excursion</strong> — sail past the vast <strong>Upsala Glacier</strong> and <strong>Spegazzini Glacier</strong> (ice walls rising 135 m above water).</li>
+      <li><strong>Afternoon</strong>: Rest and prepare for El Chaltén tomorrow. Buy food/snacks for the bus, and <strong>withdraw your cash now</strong>.</li>
+      <li><strong>Evening</strong>: Dinner and early night — the bus to El Chaltén leaves early.</li>
+    </ul>
+    <div class="day-meta">
+      <div class="day-meta-item"><strong>Stay</strong> Hotel in El Calafate</div>
+    </div>
+  </div>
+
+  <!-- ── EL CHALTÉN ── -->
+  <div id="chalten">
+    <h3>⛰️ El Chaltén</h3>
+    <p class="dest-dates">Dec 23–24 · 2 nights</p>
+    <p class="dest-tagline">Argentina's trekking capital, population ~1,500 — home to Fitz Roy and Cerro Torre</p>
+    <img class="hero-img" src="https://commons.wikimedia.org/wiki/Special:FilePath/Los_Glaciares_-_Fitz_Roy_006.jpg" alt="Mount Fitz Roy from Laguna de Los Tres — the classic view" />
+    <div class="map-wrap map-dest" id="map-chalten"></div>
+    <a class="gmaps-link" target="_blank" rel="noopener"
+       href="https://www.google.com/maps/place/El+Chalt%C3%A9n,+Santa+Cruz,+Argentina/@-49.3310,-72.8855,11z">↗ View on Google Maps</a>
+
+    <h4>Day 15 · Wednesday, Dec 23 — Bus to El Chaltén + Laguna de los Tres</h4>
+    <ul>
+      <li><strong>Morning</strong>: <strong>Bus from El Calafate to El Chaltén</strong> (~3 hrs, ~220 km via RN40). Buses typically depart 7–8 am. Book in advance.</li>
+      <li><strong>Late morning</strong>: Arrive El Chaltén. Drop bags. Trails start right at the edge of the village — <strong>no entry fees</strong>, national park rangers give free orientation talks at the bus terminal.</li>
+      <li><strong>Afternoon</strong>: Start the <strong>Laguna de los Tres trail</strong> — the iconic Fitz Roy hike:
+        <ul>
+          <li>20 km round-trip, ~1,200 m elevation gain, 6–8 hours total</li>
+          <li>Payoff at the top: Fitz Roy (3,405 m) reflected in the turquoise glacial lagoon. One of the great views in South America.</li>
+        </ul>
+      </li>
+      <li><strong>Evening</strong>: Return to town. Dinner — El Chaltén has surprisingly excellent restaurants. Toast to the hike.</li>
+    </ul>
+    <div class="day-meta">
+      <div class="day-meta-item"><strong>Stay</strong> Hotel or cabin in El Chaltén</div>
+      <div class="day-meta-item"><strong>Weather</strong> Patagonian weather is notoriously changeable. Check the morning forecast — reschedule if winds are severe</div>
+    </div>
+
+    <h4>Day 16 · Thursday, Dec 24 — Laguna Torre + Christmas Eve</h4>
+    <ul>
+      <li><strong>Morning/Afternoon</strong>: Hike to <strong>Laguna Torre</strong> for views of the needle-like <strong>Cerro Torre</strong>:
+        <ul>
+          <li>18 km round-trip, moderate difficulty, 5–6 hours total</li>
+          <li><em>Alternative</em>: Shorter hike to <strong>Chorrillo del Salto</strong> waterfall (~4 km round-trip) if legs are tired.</li>
+        </ul>
+      </li>
+      <li><strong>Evening</strong>: <strong>Christmas Eve (Nochebuena)</strong> dinner — many restaurants serve special menus. Toast with local craft beer (El Chaltén has a microbrewery).</li>
+    </ul>
+    <div class="day-meta">
+      <div class="day-meta-item"><strong>Stay</strong> Hotel or cabin in El Chaltén</div>
+    </div>
+  </div>
+
+  <!-- ── EL CALAFATE RETURN ── -->
+  <div id="calafate-return">
+    <h3>🧊 El Calafate (Return)</h3>
+    <p class="dest-dates">Dec 25 · 1 night</p>
+    <div class="map-wrap map-dest" id="map-calafate-return"></div>
+    <a class="gmaps-link" target="_blank" rel="noopener"
+       href="https://www.google.com/maps/place/Perito+Moreno+Glacier/@-50.4934,-73.0479,11z">↗ View on Google Maps</a>
+
+    <h4>Day 17 · Friday, Dec 25 — Bus Back + Christmas Day</h4>
+    <ul>
+      <li><strong>Morning</strong>: Bus back from El Chaltén to El Calafate (~3 hrs). Arrive around midday.</li>
+      <li><strong>Afternoon</strong>: Rest at the hotel. Optional visit to the <strong>Glaciarium</strong> museum if not already visited. Explore El Calafate's shops.</li>
+      <li><strong>Evening</strong>: <strong>Christmas dinner (Navidad)</strong> — Argentine restaurants are typically open and many offer special menus. Lamb and Malbec recommended.</li>
+    </ul>
+    <div class="day-meta">
+      <div class="day-meta-item"><strong>Stay</strong> Hotel in El Calafate</div>
+      <div class="day-meta-item"><strong>Note</strong> Flight to Bariloche tomorrow morning</div>
+    </div>
+  </div>
+
+  <!-- ── BARILOCHE ── -->
+  <div id="bariloche">
+    <h3>🍫 Bariloche</h3>
+    <p class="dest-dates">Dec 26–31 · 6 nights · NEW YEAR'S EVE! 🎉</p>
+    <p class="dest-tagline">"The Queen of Patagonia" — alpine lakes, Andean scenery, Swiss-style architecture, world-class chocolate, and one of Argentina's biggest NYE celebrations</p>
+    <img class="hero-img" src="https://commons.wikimedia.org/wiki/Special:FilePath/Nahuel_Huapi_Lake_captured_from_Cerro_Otto%27s_top_in_summer.jpg" alt="Nahuel Huapi Lake from Cerro Otto's summit, Bariloche" />
+    <div class="map-wrap map-dest" id="map-bariloche"></div>
+    <a class="gmaps-link" target="_blank" rel="noopener"
+       href="https://www.google.com/maps/place/San+Carlos+de+Bariloche,+R%C3%ADo+Negro,+Argentina/@-41.1335,-71.3103,11z">↗ View on Google Maps</a>
+
+    <h4>Day 18 · Saturday, Dec 26 — Flight to Bariloche + Arrival</h4>
+    <ul>
+      <li><strong>Morning</strong>: Flight <strong>FTE → BRC</strong> (~2 hrs). <strong>Pick up rental car</strong> at Bariloche airport.</li>
+      <li><strong>Afternoon</strong>: Check in to hotel. Drive to the iconic <strong>Civic Centre</strong>. Walk the <strong>Nahuel Huapi Lake</strong> waterfront and browse the famous <strong>chocolate shops</strong> — Bariloche is Argentina's chocolate capital.</li>
+      <li><strong>Evening</strong>: Dinner by the lake. Welcome to the Lakes District.</li>
+    </ul>
+    <div class="day-meta">
+      <div class="day-meta-item"><strong>Stay</strong> Hotel in Bariloche (pre-booked well in advance!)</div>
+    </div>
+
+    <h4>Day 19 · Sunday, Dec 27 — Circuito Chico</h4>
+    <ul>
+      <li><strong>Full Day</strong>: Drive the <strong>Circuito Chico</strong> (~60 km loop west of Bariloche):
+        <ul>
+          <li><strong>Cerro Campanario</strong> — 35-min hike (or chairlift) to Argentina's most-photographed panoramic viewpoint.</li>
+          <li><strong>Llao Llao Hotel</strong> — the legendary 1938 alpine hotel. Walk the grounds; have a coffee.</li>
+          <li><strong>Puerto Pañuelo</strong> — beautiful dock with views back to the hotel and across the lake.</li>
+          <li><strong>Lago Moreno</strong> viewpoints.</li>
+        </ul>
+      </li>
+      <li><strong>Evening</strong>: Return to Bariloche. Dinner.</li>
+    </ul>
+    <div class="day-meta">
+      <div class="day-meta-item"><strong>Stay</strong> Hotel in Bariloche</div>
+    </div>
+
+    <h4>Day 20 · Monday, Dec 28 — Cerro Catedral + Tronador</h4>
+    <ul>
+      <li><strong>Morning</strong>: Drive to <strong>Cerro Catedral</strong> (~20 km south) — South America's largest ski resort in summer. Take the cable car up for 360° Andean views.</li>
+      <li><strong>Afternoon</strong>: Continue south to <strong>Cerro Tronador</strong> (~100 km, ~1.5 hrs). Hike to the <strong>Ventisquero Negro</strong> (the "black glacier"). Drive through the gorge of the Manso River.</li>
+      <li><strong>Evening</strong>: Return to Bariloche. A long day — well worth it.</li>
+    </ul>
+    <div class="day-meta">
+      <div class="day-meta-item"><strong>Stay</strong> Hotel in Bariloche</div>
+      <div class="day-meta-item"><strong>Note</strong> The road to Ventisquero Negro is partly unpaved; AWD recommended</div>
+    </div>
+
+    <h4>Day 21 · Tuesday, Dec 29 — Circuito Grande</h4>
+    <ul>
+      <li><strong>Full Day</strong>: Drive the <strong>Circuito Grande</strong> (~250 km loop north):
+        <ul>
+          <li><strong>Villa La Angostura</strong> (~80 km) — charming lakeside village. Excellent lunch stop.</li>
+          <li><strong>Bosque de Arrayanes</strong> — unique forest of cinnamon-barked arrayán trees.</li>
+          <li>Return via <strong>Paso Córdoba</strong> with Patagonian steppe views.</li>
+        </ul>
+      </li>
+      <li><strong>Evening</strong>: Return to Bariloche.</li>
+    </ul>
+    <div class="day-meta">
+      <div class="day-meta-item"><strong>Stay</strong> Hotel in Bariloche</div>
+    </div>
+
+    <h4>Day 22 · Wednesday, Dec 30 — Free Day / Adventure Activities</h4>
+    <ul>
+      <li>Options: <strong>white-water rafting on the Río Manso</strong> (class III–IV), kayaking on Nahuel Huapi, hike Cerro Otto, fly-fishing.</li>
+      <li><strong>Afternoon</strong>: <strong>Buy chocolates</strong> for gifts at home (Abuela Goye, Mamuschka, Del Turista are the famous brands). Last chance.</li>
+      <li><strong>Evening</strong>: Pre-NYE dinner. Make a reservation somewhere special.</li>
+    </ul>
+    <div class="day-meta">
+      <div class="day-meta-item"><strong>Stay</strong> Hotel in Bariloche</div>
+    </div>
+
+    <h4>Day 23 · Thursday, Dec 31 — New Year's Eve 🎉</h4>
+    <ul>
+      <li><strong>Day</strong>: Relaxed morning. Final walk or hike. Rest up for a big night.</li>
+      <li><strong>Evening</strong>: <strong>NYE on the Bariloche waterfront</strong> — one of Argentina's biggest New Year's celebrations:
+        <ul>
+          <li>The lakefront <strong>Centro Cívico</strong> and plaza fill with tens of thousands of revellers.</li>
+          <li>Midnight <strong>fireworks over Nahuel Huapi Lake</strong> — mountains and water as backdrop.</li>
+          <li>Massive street party continues until dawn.</li>
+        </ul>
+      </li>
+    </ul>
+    <div class="day-meta">
+      <div class="day-meta-item"><strong>Stay</strong> Hotel in Bariloche</div>
+      <div class="day-meta-item"><strong>Note</strong> This is why you booked the hotel a year early. Enjoy every moment.</div>
+    </div>
+  </div>
+
+  <!-- ── MENDOZA ── -->
+  <div id="mendoza">
+    <h3>🍷 Mendoza</h3>
+    <p class="dest-dates">Jan 1–2 · 2 nights</p>
+    <p class="dest-tagline">Argentina's wine heartland — high-altitude Malbec, bodegas and the snow-capped Andes as backdrop</p>
+    <img class="hero-img" src="https://commons.wikimedia.org/wiki/Special:FilePath/Vignoble_Mendoza_Argentine.jpg" alt="Mendoza vineyards with the Andes mountains behind" />
+    <div class="map-wrap map-dest" id="map-mendoza"></div>
+    <a class="gmaps-link" target="_blank" rel="noopener"
+       href="https://www.google.com/maps/place/Mendoza,+Argentina/@-32.8908,-68.8272,11z">↗ View on Google Maps</a>
+
+    <h4>Day 24 · Friday, Jan 1 — Flight to Mendoza (New Year's Day)</h4>
+    <ul>
+      <li><strong>Morning</strong>: Flight <strong>BRC → MDZ</strong> (~2 hrs). Note: NYE will be a very late night — set multiple alarms.</li>
+      <li><strong>Afternoon</strong>: Check in to hotel. Rest and recover. Slow walk through Mendoza's <strong>leafy pedestrian streets</strong> and <strong>Plaza Independencia</strong>.</li>
+      <li><strong>Evening</strong>: Light dinner with your first <strong>Mendoza Malbec</strong> at the source. Early night.</li>
+    </ul>
+    <div class="day-meta">
+      <div class="day-meta-item"><strong>Stay</strong> Hotel in Mendoza city centre, or in the wine belt: Luján de Cuyo or Chacras de Coria</div>
+    </div>
+
+    <h4>Day 25 · Saturday, Jan 2 — Winery Tour (Bodegas)</h4>
+    <ul>
+      <li><strong>Full Day</strong>: <strong>Wine tour in the Mendoza wine region</strong>:
+        <ul>
+          <li><strong>Maipú</strong> (~15 km east) — bicycle-friendly wine route. Rent bikes for a self-guided tour.</li>
+          <li><strong>Luján de Cuyo</strong> (~25 km south) — prestige wineries: <strong>Bodega Catena Zapata</strong> (iconic Mayan pyramid architecture), Achaval Ferrer, Clos de los Siete, Renacer.</li>
+          <li><strong>Valle de Uco</strong> (~100 km south) — high-altitude vineyards at 1,200 m: <strong>Zuccardi Valle de Uco</strong> (stunning modern architecture; award-winning wines).</li>
+          <li>Try a <strong>full asado lunch at a bodega</strong> — an unforgettable combination.</li>
+        </ul>
+      </li>
+      <li><strong>Evening</strong>: Return to Mendoza. Final Argentine dinner with bottles of Malbec and Torrontés.</li>
+    </ul>
+    <div class="day-meta">
+      <div class="day-meta-item"><strong>Stay</strong> Hotel in Mendoza</div>
+      <div class="day-meta-item"><strong>Book</strong> Winery tours: at least 2–4 weeks in advance for January</div>
+    </div>
+  </div>
+
+  <!-- ── BUENOS AIRES DEPARTURE ── -->
+  <div id="ba-departure">
+    <h3>🏙️ Buenos Aires (Departure)</h3>
+    <p class="dest-dates">Jan 3 · 1 night</p>
+    <div class="map-wrap map-dest" id="map-ba-dep"></div>
+    <a class="gmaps-link" target="_blank" rel="noopener"
+       href="https://www.google.com/maps/place/Buenos+Aires,+Argentina/@-34.6037,-58.3816,13z">↗ View on Google Maps</a>
+
+    <h4>Day 26 · Sunday, Jan 3 — Last Flight + Final Night</h4>
+    <ul>
+      <li><strong>Morning</strong>: Flight <strong>MDZ → EZE</strong> (~1.5 hrs). Arrive in Buenos Aires.</li>
+      <li><strong>Afternoon</strong>: Check in to hotel near EZE airport or in the city. Freshen up and reflect on 26 extraordinary nights.</li>
+      <li><strong>Evening</strong>: <strong>Final Buenos Aires dinner</strong> — treat yourselves at a top parrilla or a restaurant you wanted to try on Day 1. Celebrate an epic journey.</li>
+    </ul>
+    <div class="day-meta">
+      <div class="day-meta-item"><strong>Stay</strong> Hotel near EZE airport (convenient) or Palermo (livelier last night)</div>
+    </div>
+
+    <h4>Day 27 · Monday, Jan 4 — Departure ✈️</h4>
+    <ul>
+      <li>Transfer to <strong>EZE</strong> with plenty of time. International departures: arrive 3 hours early.</li>
+      <li><strong>Departure: January 4, 2027</strong>.</li>
+    </ul>
+  </div>
+
+</div><!-- end #itinerary -->
+
+<!-- ═══════════ PRACTICAL TIPS ═══════════ -->
+<div class="section" id="tips">
+  <h2>🗺️ Practical Tips</h2>
+
+  <h3>Money</h3>
+  <ul>
+    <li>Bring <strong>USD cash in good condition</strong> (no tears, pen marks, or heavy creases — Argentine banks will reject them). $100 notes preferred.</li>
+    <li>Use an official <strong>casa de cambio</strong> or your hotel for exchange. Avoid unofficial street changers.</li>
+    <li>ATMs have daily withdrawal limits; extract cash in stages.</li>
+    <li><strong>El Chaltén: NO ATM.</strong> Withdraw before the El Calafate bus. Bring more than you think you need.</li>
+  </ul>
+
+  <h3>Weather &amp; Clothing</h3>
+  <table>
+    <thead><tr><th>Region</th><th>Dec–Jan Conditions</th><th>Essentials</th></tr></thead>
+    <tbody>
+      <tr><td>Buenos Aires</td><td>Hot, humid (28–35°C)</td><td>Light clothes, comfortable walking shoes</td></tr>
+      <tr><td>Iguazú</td><td>Very hot and humid (30–38°C)</td><td>Light clothes, rain poncho/waterproof</td></tr>
+      <tr><td>Patagonia (Madryn, Ushuaia, Calafate, Chaltén, Bariloche)</td><td>Cool–cold, very windy (5–20°C)</td><td><strong>Windproof/waterproof jacket (essential!)</strong>, layers, warm hat, gloves</td></tr>
+      <tr><td>Mendoza</td><td>Hot, dry (28–36°C)</td><td>Light clothes, sunscreen, hat</td></tr>
+    </tbody>
+  </table>
+  <div class="tip">In Patagonia, weather can change from sunshine to rain to wind in 20 minutes. Always carry layers.</div>
+
+  <h3>Safety</h3>
+  <ul>
+    <li>Buenos Aires: Use <strong>Uber, Cabify, or InDriver</strong> rather than street taxis. Avoid walking in La Boca after dark. Be alert in crowded areas.</li>
+    <li>Patagonian trails: Stay on marked paths. Tell someone your route. Carry water and snacks.</li>
+    <li>Sun protection: The UV index in Patagonia is surprisingly high. Use SPF 50+.</li>
+  </ul>
+
+  <h3>Language</h3>
+  <ul>
+    <li>Basic Spanish is very helpful outside Buenos Aires. Argentines speak a distinctive dialect with <em>vos</em> instead of <em>tú</em>.</li>
+    <li>Key phrases: <em>¿Cuánto cuesta?</em> (How much?), <em>Una mesa para cuatro</em> (A table for four), <em>La cuenta, por favor</em> (The bill please), <em>Sin hielo</em> (No ice).</li>
+  </ul>
+
+  <h3>Flights &amp; Booking</h3>
+  <ul>
+    <li>Book domestic flights on <strong>Aerolíneas Argentinas</strong> (most reliable), or <strong>JetSMART / Flybondi</strong> (cheaper but less reliable).</li>
+    <li>December–January is peak domestic travel season. Book all flights <strong>at least 3–4 months ahead</strong>.</li>
+    <li>Luggage limits on Aerolíneas: typically 23 kg hold + 8 kg hand luggage.</li>
+  </ul>
+
+  <h3>Visa &amp; Entry</h3>
+  <ul>
+    <li><strong>Argentina:</strong> Citizens of Israel, the EU, UK, US, Australia, and most Western countries enter <strong>visa-free</strong> for up to 90 days.</li>
+    <li><strong>Brazil (Day 4):</strong> As of 2025, Israeli passport holders do not require a visa for Brazil short tourist visits. <strong>Verify this is still in effect</strong> before travel.</li>
+    <li><strong>Passport validity:</strong> Ensure all passports are valid through at least <strong>July 2027</strong> (6 months beyond Jan 4 departure).</li>
+    <li><strong>Proof of onward travel:</strong> Have the Jan 4 departure confirmation on your phone.</li>
+    <li>Always verify current requirements at <a href="https://www.migraciones.gov.ar" target="_blank" rel="noopener">migraciones.gov.ar</a> and your own government's travel advisory before departure.</li>
+  </ul>
+
+  <h3>Useful Apps</h3>
+  <table>
+    <thead><tr><th>App</th><th>Purpose</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Uber / Cabify</strong></td><td>Safe rides in Buenos Aires and other cities</td></tr>
+      <tr><td><strong>Despegar</strong></td><td>Argentine flight and hotel aggregator</td></tr>
+      <tr><td><strong>Google Maps</strong></td><td>Download offline maps for each region before arriving — mobile data can be patchy in Patagonia</td></tr>
+      <tr><td><strong>WhatsApp</strong></td><td>Universal communication method across Argentina</td></tr>
+      <tr><td><strong>Airalo / Holafly</strong></td><td>eSIM data plans — strongly recommended over expensive international roaming</td></tr>
+      <tr><td><strong>XE Currency</strong></td><td>Exchange rate reference</td></tr>
+      <tr><td><strong>AllTrails / Wikiloc</strong></td><td>Trail maps and GPS tracks for El Chaltén and Bariloche hikes</td></tr>
+      <tr><td><strong>Infobae / Windy</strong></td><td>Patagonian wind and weather forecasting</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Emergency &amp; Useful Numbers</h3>
+  <table>
+    <thead><tr><th>Service</th><th>Number</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Argentine emergency</strong></td><td>911</td></tr>
+      <tr><td><strong>Tourist police (Buenos Aires)</strong></td><td>+54 11 4346-5748</td></tr>
+      <tr><td><strong>EZE Airport information</strong></td><td>+54 11 5480-6111</td></tr>
+      <tr><td><strong>Aerolíneas Argentinas</strong></td><td>0810-222-86527</td></tr>
+      <tr><td><strong>Argentine Red Cross</strong></td><td>107</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ═══════════ BUDGET ═══════════ -->
+<div class="section" id="budget">
+  <h2>💰 Budget Snapshot (Per Person)</h2>
+  <p>Estimated mid-range costs in USD, based on splitting car rentals and accommodation 4 ways.</p>
+  <table>
+    <thead><tr><th>Category</th><th>Est. Cost (USD)</th></tr></thead>
+    <tbody>
+      <tr><td>International flights (return)</td><td>$1,000 – 1,800</td></tr>
+      <tr><td>8 domestic flights</td><td>$600 – 1,000</td></tr>
+      <tr><td>Accommodation (26 nights, shared)</td><td>$800 – 1,400</td></tr>
+      <tr><td>Car rentals × 3 segments (÷4)</td><td>$150 – 250</td></tr>
+      <tr><td>Perito Moreno ice trek</td><td>$80 – 150</td></tr>
+      <tr><td>Martillo Island penguin tour</td><td>$60 – 100</td></tr>
+      <tr><td>Whale watching (Península Valdés)</td><td>$60 – 80</td></tr>
+      <tr><td>Iguazú boat safari</td><td>$40 – 60</td></tr>
+      <tr><td>Meals &amp; drinks (~$35–50/day × 26)</td><td>$910 – 1,300</td></tr>
+      <tr><td>National park entry fees</td><td>$60 – 100</td></tr>
+      <tr><td>Activities, tours &amp; incidentals</td><td>$200 – 400</td></tr>
+      <tr><td><strong>Total estimate</strong></td><td><strong>$4,000 – 6,640</strong></td></tr>
+    </tbody>
+  </table>
+  <div class="tip">Figures are rough guides. Exchange rate swings, flight timing, and how much Malbec you consume will all move the needle. El Chaltén is cash-only — build in a cash buffer before the bus from El Calafate.</div>
+</div>
+
+</div><!-- end .container -->
+
+<div class="footer"><em>¡Buen viaje, muchachos! Have the adventure of a lifetime. 🇦🇷</em></div>
+
+<!-- ═══════════ LEAFLET JS ═══════════ -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+  // ── Tile layer helper ──────────────────────────────────────────
+  const OSM_TILES = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+  const ATTRIBUTION = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+
+  function addTiles(map) {
+    L.tileLayer(OSM_TILES, { attribution: ATTRIBUTION, maxZoom: 18 }).addTo(map);
+  }
+
+  // ── Icon helpers ───────────────────────────────────────────────
+  function numIcon(label, bg) {
+    return L.divIcon({
+      className: '',
+      html: `<div style="background:${bg};color:#fff;border-radius:50%;width:28px;height:28px;
+             display:flex;align-items:center;justify-content:center;font-weight:700;font-size:11px;
+             border:2.5px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.4)">${label}</div>`,
+      iconSize: [28, 28],
+      iconAnchor: [14, 14],
+      popupAnchor: [0, -16]
+    });
+  }
+
+  function dotIcon(bg) {
+    return L.divIcon({
+      className: '',
+      html: `<div style="background:${bg};width:14px;height:14px;border-radius:50%;
+             border:2.5px solid #fff;box-shadow:0 2px 5px rgba(0,0,0,.4)"></div>`,
+      iconSize: [14, 14],
+      iconAnchor: [7, 7]
+    });
+  }
+
+  // ── Destination map helper ─────────────────────────────────────
+  function destMap(id, lat, lng, zoom, markers) {
+    const m = L.map(id, { scrollWheelZoom: false }).setView([lat, lng], zoom);
+    addTiles(m);
+    m.on('click', () => m.scrollWheelZoom.enable());
+    markers.forEach(mk => {
+      L.marker([mk.lat, mk.lng], { icon: dotIcon(mk.color || '#00205b') })
+        .bindPopup(`<strong>${mk.label}</strong>`)
+        .addTo(m);
+    });
+    return m;
+  }
+
+  // ════════════════════════════════════════════
+  //  OVERVIEW MAP
+  // ════════════════════════════════════════════
+  const overview = L.map('map-overview', { scrollWheelZoom: false }).setView([-39, -64], 4);
+  addTiles(overview);
+  overview.on('click', () => overview.scrollWheelZoom.enable());
+
+  const stops = [
+    { n:  1, lat: -34.6037, lng: -58.3816, bg: '#1d6fa4', label: '<strong>1 · Buenos Aires</strong><br>Dec 9–10' },
+    { n:  2, lat: -25.5996, lng: -54.5795, bg: '#16a34a', label: '<strong>2 · Puerto Iguazú</strong><br>Dec 11–12' },
+    { n:  3, lat: -34.5553, lng: -58.4173, bg: '#64748b', label: '<strong>3 · Buenos Aires</strong> (transit)<br>Dec 13' },
+    { n:  4, lat: -42.7714, lng: -65.0264, bg: '#ea580c', label: '<strong>4 · Puerto Madryn / Valdés</strong><br>Dec 14–16' },
+    { n:  5, lat: -54.8019, lng: -68.3030, bg: '#ea580c', label: '<strong>5 · Ushuaia</strong><br>Dec 17–19' },
+    { n:  6, lat: -50.3388, lng: -72.2688, bg: '#ea580c', label: '<strong>6 · El Calafate</strong><br>Dec 20–22' },
+    { n:  7, lat: -49.3310, lng: -72.8855, bg: '#ea580c', label: '<strong>7 · El Chaltén</strong><br>Dec 23–24' },
+    { n:  8, lat: -50.4500, lng: -72.4000, bg: '#64748b', label: '<strong>8 · El Calafate</strong> (return)<br>Dec 25' },
+    { n:  9, lat: -41.1335, lng: -71.3103, bg: '#db2777', label: '<strong>9 · Bariloche 🎉</strong><br>Dec 26–31' },
+    { n: 10, lat: -32.8908, lng: -68.8272, bg: '#7c3aed', label: '<strong>10 · Mendoza</strong><br>Jan 1–2' },
+    { n: 11, lat: -34.6600, lng: -58.3500, bg: '#64748b', label: '<strong>11 · Buenos Aires</strong> (departure)<br>Jan 3' }
+  ];
+
+  stops.forEach(s => {
+    L.marker([s.lat, s.lng], { icon: numIcon(s.n, s.bg) })
+      .bindPopup(s.label)
+      .addTo(overview);
+  });
+
+  // Dashed polyline for the flight route
+  L.polyline(stops.map(s => [s.lat, s.lng]), {
+    color: '#00205b', weight: 2, dashArray: '7 6', opacity: 0.65
+  }).addTo(overview);
+
+  // ════════════════════════════════════════════
+  //  DESTINATION MAPS
+  // ════════════════════════════════════════════
+
+  // Buenos Aires (arrival)
+  destMap('map-ba', -34.6037, -58.3816, 12, [
+    { lat: -34.6037, lng: -58.3816, label: 'Buenos Aires (EZE area)' },
+    { lat: -34.5572, lng: -58.4166, label: 'Aeroparque (AEP)' }
+  ]);
+
+  // Puerto Iguazú
+  destMap('map-iguazu', -25.68, -54.44, 11, [
+    { lat: -25.5996, lng: -54.5795, label: 'Puerto Iguazú town' },
+    { lat: -25.6869, lng: -54.4453, label: 'Parque Nacional Iguazú (Argentine side)' },
+    { lat: -25.6953, lng: -54.4367, label: 'Garganta del Diablo' }
+  ]);
+
+  // Buenos Aires transit
+  destMap('map-ba-transit', -34.5900, -58.4100, 12, [
+    { lat: -34.5572, lng: -58.4166, label: 'Aeroparque (AEP)' },
+    { lat: -34.5854, lng: -58.4307, label: 'Palermo' }
+  ]);
+
+  // Puerto Madryn / Valdés — wider zoom to show whole peninsula
+  destMap('map-madryn', -42.35, -64.10, 8, [
+    { lat: -42.7714, lng: -65.0264, label: 'Puerto Madryn' },
+    { lat: -42.5772, lng: -64.2895, label: 'Puerto Pirámides (whale watching)' },
+    { lat: -42.0694, lng: -63.7778, label: 'Punta Norte (elephant seals)' },
+    { lat: -44.0219, lng: -65.4347, label: 'Punta Tombo (1 million penguins!)' }
+  ]);
+
+  // Ushuaia
+  destMap('map-ushuaia', -54.78, -68.38, 10, [
+    { lat: -54.8019, lng: -68.3030, label: 'Ushuaia' },
+    { lat: -54.8475, lng: -68.5514, label: 'Parque Nacional Tierra del Fuego' },
+    { lat: -54.8612, lng: -68.5978, label: 'Lapataia Bay — end of Ruta 3' }
+  ]);
+
+  // El Calafate + Perito Moreno — zoom out to show glacier 78 km away
+  destMap('map-calafate', -50.42, -72.66, 9, [
+    { lat: -50.3388, lng: -72.2688, label: 'El Calafate' },
+    { lat: -50.4934, lng: -73.0479, label: 'Perito Moreno Glacier' }
+  ]);
+
+  // El Chaltén + Fitz Roy
+  destMap('map-chalten', -49.32, -72.91, 11, [
+    { lat: -49.3310, lng: -72.8855, label: 'El Chaltén' },
+    { lat: -49.2734, lng: -72.9581, label: 'Laguna de Los Tres (Fitz Roy viewpoint)' },
+    { lat: -49.3098, lng: -72.9875, label: 'Laguna Torre (Cerro Torre viewpoint)' }
+  ]);
+
+  // El Calafate return (same map, same data)
+  destMap('map-calafate-return', -50.42, -72.66, 9, [
+    { lat: -50.3388, lng: -72.2688, label: 'El Calafate' },
+    { lat: -50.4934, lng: -73.0479, label: 'Perito Moreno Glacier' }
+  ]);
+
+  // Bariloche — show lake + key circuits
+  destMap('map-bariloche', -41.19, -71.42, 10, [
+    { lat: -41.1335, lng: -71.3103, label: 'Bariloche' },
+    { lat: -41.0887, lng: -71.5068, label: 'Cerro Campanario' },
+    { lat: -41.0622, lng: -71.5336, label: 'Llao Llao Hotel' },
+    { lat: -41.3447, lng: -71.8867, label: 'Cerro Tronador' }
+  ]);
+
+  // Mendoza — show city + wine belt
+  destMap('map-mendoza', -33.08, -68.87, 9, [
+    { lat: -32.8908, lng: -68.8272, label: 'Mendoza city' },
+    { lat: -33.0478, lng: -68.8917, label: 'Luján de Cuyo (Catena Zapata, etc.)' },
+    { lat: -33.5292, lng: -69.0614, label: 'Valle de Uco (Zuccardi, etc.)' }
+  ]);
+
+  // Buenos Aires departure
+  destMap('map-ba-dep', -34.6037, -58.3816, 12, [
+    { lat: -34.6037, lng: -58.3816, label: 'Buenos Aires' },
+    { lat: -34.8222, lng: -58.5358, label: 'EZE — Ezeiza International Airport' }
+  ]);
+</script>
+</body>
+</html>
