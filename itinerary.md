@@ -41,7 +41,7 @@
 | 10 | Mendoza | Jan 1–2 | 2 |
 | 11 | Buenos Aires (departure) | Jan 3 | 1 |
 
-<iframe src="itinerary.html#route" title="Interactive Argentina itinerary map" width="100%" height="560" loading="lazy"></iframe>
+![Argentina trip overview — all 8 destinations](https://staticmap.openstreetmap.de/staticmap.php?center=-38,-65&zoom=4&size=800x500&markers=-34.6037,-58.3816,red-pushpin|-25.5996,-54.5795,red-pushpin|-42.7714,-65.0264,red-pushpin|-54.8019,-68.3030,red-pushpin|-50.3388,-72.2688,red-pushpin|-49.3310,-72.8855,red-pushpin|-41.1335,-71.3103,red-pushpin|-32.8908,-68.8272,red-pushpin)
 
 [Open the interactive itinerary map ↗](itinerary.html#route)
 
