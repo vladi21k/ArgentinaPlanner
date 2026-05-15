@@ -41,6 +41,9 @@
 | 10 | Mendoza | Jan 1–2 | 2 |
 | 11 | Buenos Aires (departure) | Jan 3 | 1 |
 
+![Argentina trip overview — all 8 destinations](https://staticmap.openstreetmap.de/staticmap.php?center=-38,-65&zoom=4&size=800x500&markers=-34.6037,-58.3816,red-pushpin|-25.5996,-54.5795,red-pushpin|-42.7714,-65.0264,red-pushpin|-54.8019,-68.3030,red-pushpin|-50.3388,-72.2688,red-pushpin|-49.3310,-72.8855,red-pushpin|-41.1335,-71.3103,red-pushpin|-32.8908,-68.8272,red-pushpin)
+[View Full Route on Google Maps ↗](https://www.google.com/maps/dir/Buenos+Aires,+Argentina/Puerto+Iguaz%C3%BA,+Misiones,+Argentina/Buenos+Aires,+Argentina/Puerto+Madryn,+Chubut,+Argentina/Ushuaia,+Tierra+del+Fuego,+Argentina/El+Calafate,+Santa+Cruz,+Argentina/El+Chalt%C3%A9n,+Santa+Cruz,+Argentina/San+Carlos+de+Bariloche,+R%C3%ADo+Negro,+Argentina/Mendoza,+Argentina/Buenos+Aires,+Argentina)
+
 ---
 
 ## ✈️ Domestic Flights
@@ -97,6 +100,9 @@ Book these **before anything else**:
 
 ![Buenos Aires — Puerto Madero waterfront skyline](https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_Puerto_Madero.jpg)
 
+![Buenos Aires city map](https://staticmap.openstreetmap.de/staticmap.php?center=-34.6037,-58.3816&zoom=12&size=800x400&markers=-34.6037,-58.3816,red-pushpin)
+[View on Google Maps ↗](https://www.google.com/maps/place/Buenos+Aires,+Argentina/@-34.6037,-58.3816,13z)
+
 ---
 
 #### Day 1 · Wednesday, Dec 9 — Arrival
@@ -138,6 +144,9 @@ Book these **before anything else**:
 
 ![Iguazú Falls — Argentine side panorama](https://commons.wikimedia.org/wiki/Special:FilePath/Iguazu_National_Park_Falls.jpg)
 
+![Puerto Iguazú and Iguazú Falls region map](https://staticmap.openstreetmap.de/staticmap.php?center=-25.69,-54.44&zoom=11&size=800x400&markers=-25.5996,-54.5795,red-pushpin|-25.6953,-54.4367,red-pushpin)
+[View on Google Maps ↗](https://www.google.com/maps/place/Iguaz%C3%BA+National+Park/@-25.69,-54.44,11z)
+
 ---
 
 #### Day 3 · Friday, Dec 11 — Travel + Argentine Side of the Falls
@@ -176,6 +185,9 @@ Book these **before anything else**:
 
 **Dec 13 · 1 night**
 
+![Buenos Aires city map](https://staticmap.openstreetmap.de/staticmap.php?center=-34.6037,-58.3816&zoom=12&size=800x400&markers=-34.6037,-58.3816,red-pushpin)
+[View on Google Maps ↗](https://www.google.com/maps/place/Buenos+Aires,+Argentina/@-34.6037,-58.3816,13z)
+
 ---
 
 #### Day 5 · Sunday, Dec 13 — Transit Day
@@ -198,6 +210,9 @@ Book these **before anything else**:
 *UNESCO World Heritage Site — the world's finest wildlife sanctuary for right whales, elephant seals, sea lions and penguins*
 
 ![Magellanic penguins at Península Valdés](https://commons.wikimedia.org/wiki/Special:FilePath/Halbinsel_Valdes_Pinguine.jpg)
+
+![Puerto Madryn and Península Valdés map](https://staticmap.openstreetmap.de/staticmap.php?center=-42.4,-64.0&zoom=8&size=800x400&markers=-42.7714,-65.0264,red-pushpin|-42.5196,-64.2328,red-pushpin|-44.0219,-65.4347,red-pushpin)
+[View on Google Maps ↗](https://www.google.com/maps/place/Pen%C3%ADnsula+Vald%C3%A9s/@-42.4,-64.0,9z)
 
 ---
 
@@ -252,6 +267,9 @@ Book these **before anything else**:
 *The southernmost city in the world — "Fin del Mundo" (End of the World). Gateway to Antarctica.*
 
 ![Ushuaia panorama — city and Beagle Channel](https://commons.wikimedia.org/wiki/Special:FilePath/2019-11-18_Ushuaia_Panorama.jpg)
+
+![Ushuaia and Tierra del Fuego map](https://staticmap.openstreetmap.de/staticmap.php?center=-54.75,-68.35&zoom=10&size=800x400&markers=-54.8019,-68.3030,red-pushpin)
+[View on Google Maps ↗](https://www.google.com/maps/place/Ushuaia,+Tierra+del+Fuego,+Argentina/@-54.8019,-68.3030,12z)
 
 ---
 
@@ -310,6 +328,9 @@ Book these **before anything else**:
 
 ![Perito Moreno Glacier — view from the walkways](https://commons.wikimedia.org/wiki/Special:FilePath/Perito_Moreno_Glacier_panorama.jpg)
 
+![El Calafate and Perito Moreno Glacier map](https://staticmap.openstreetmap.de/staticmap.php?center=-50.34,-72.6&zoom=10&size=800x400&markers=-50.3388,-72.2688,red-pushpin|-50.4934,-73.0479,red-pushpin)
+[View on Google Maps ↗](https://www.google.com/maps/place/Perito+Moreno+Glacier/@-50.4934,-73.0479,11z)
+
 ---
 
 #### Day 12 · Sunday, Dec 20 — Travel + Orientation
@@ -364,6 +385,9 @@ Book these **before anything else**:
 
 ![Mount Fitz Roy from Laguna de Los Tres — the classic view](https://commons.wikimedia.org/wiki/Special:FilePath/Los_Glaciares_-_Fitz_Roy_006.jpg)
 
+![El Chaltén and Fitz Roy trekking area map](https://staticmap.openstreetmap.de/staticmap.php?center=-49.33,-72.89&zoom=11&size=800x400&markers=-49.3310,-72.8855,red-pushpin|-49.2761,-72.9625,red-pushpin)
+[View on Google Maps ↗](https://www.google.com/maps/place/El+Chalt%C3%A9n,+Santa+Cruz,+Argentina/@-49.3310,-72.8855,11z)
+
 ---
 
 #### Day 15 · Wednesday, Dec 23 — Bus to El Chaltén + Laguna de los Tres
@@ -402,6 +426,9 @@ Book these **before anything else**:
 
 **Dec 25 · 1 night**
 
+![El Calafate and Perito Moreno Glacier map](https://staticmap.openstreetmap.de/staticmap.php?center=-50.34,-72.6&zoom=10&size=800x400&markers=-50.3388,-72.2688,red-pushpin|-50.4934,-73.0479,red-pushpin)
+[View on Google Maps ↗](https://www.google.com/maps/place/Perito+Moreno+Glacier/@-50.4934,-73.0479,11z)
+
 ---
 
 #### Day 17 · Friday, Dec 25 — Bus Back + Christmas Day
@@ -424,6 +451,9 @@ Book these **before anything else**:
 *"The Queen of Patagonia" — alpine lakes, Andean scenery, Swiss-style architecture, world-class chocolate, and one of Argentina's biggest NYE celebrations*
 
 ![Nahuel Huapi Lake from Cerro Otto's summit, Bariloche](https://commons.wikimedia.org/wiki/Special:FilePath/Nahuel_Huapi_Lake_captured_from_Cerro_Otto%27s_top_in_summer.jpg)
+
+![Bariloche and Nahuel Huapi Lake map](https://staticmap.openstreetmap.de/staticmap.php?center=-41.13,-71.31&zoom=10&size=800x400&markers=-41.1335,-71.3103,red-pushpin)
+[View on Google Maps ↗](https://www.google.com/maps/place/San+Carlos+de+Bariloche,+R%C3%ADo+Negro,+Argentina/@-41.1335,-71.3103,11z)
 
 ---
 
@@ -524,6 +554,9 @@ Book these **before anything else**:
 
 ![Mendoza vineyards with the Andes mountains behind](https://commons.wikimedia.org/wiki/Special:FilePath/Vignoble_Mendoza_Argentine.jpg)
 
+![Mendoza wine region map](https://staticmap.openstreetmap.de/staticmap.php?center=-33.0,-68.85&zoom=9&size=800x400&markers=-32.8908,-68.8272,red-pushpin|-33.0478,-68.8917,red-pushpin|-33.5292,-69.0614,red-pushpin)
+[View on Google Maps ↗](https://www.google.com/maps/place/Mendoza,+Argentina/@-32.8908,-68.8272,11z)
+
 ---
 
 #### Day 24 · Friday, Jan 1 — Flight to Mendoza (New Year's Day)
@@ -561,6 +594,9 @@ Book these **before anything else**:
 ### 🏙️ Buenos Aires (Departure)
 
 **Jan 3 · 1 night**
+
+![Buenos Aires city map](https://staticmap.openstreetmap.de/staticmap.php?center=-34.6037,-58.3816&zoom=12&size=800x400&markers=-34.6037,-58.3816,red-pushpin)
+[View on Google Maps ↗](https://www.google.com/maps/place/Buenos+Aires,+Argentina/@-34.6037,-58.3816,13z)
 
 ---
 
