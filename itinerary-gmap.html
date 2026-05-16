@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>🇦🇷 Argentina Adventure — December 2026 / January 2027</title>
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <!-- Google Maps API key — restrict to your domain in the Cloud Console -->
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -212,7 +212,7 @@
 
   <!-- OVERVIEW MAP -->
   <div class="map-wrap map-overview" id="map-overview"></div>
-  <p class="map-note">Click the map to enable scroll-zoom. Click any marker for details.</p>
+  <p class="map-note">Use Ctrl+scroll (desktop) or two-finger scroll (mobile) to zoom. Click any marker for details.</p>
   <a class="gmaps-link" target="_blank" rel="noopener"
      href="https://www.google.com/maps/dir/Buenos+Aires,+Argentina/Puerto+Iguaz%C3%BA,+Misiones,+Argentina/Buenos+Aires,+Argentina/Puerto+Madryn,+Chubut,+Argentina/Ushuaia,+Tierra+del+Fuego,+Argentina/El+Calafate,+Santa+Cruz,+Argentina/El+Chalt%C3%A9n,+Santa+Cruz,+Argentina/San+Carlos+de+Bariloche,+R%C3%ADo+Negro,+Argentina/Mendoza,+Argentina/Buenos+Aires,+Argentina">
     ↗ View Full Route on Google Maps
@@ -897,162 +897,196 @@
 
 <div class="footer"><em>¡Buen viaje, muchachos! Have the adventure of a lifetime. 🇦🇷</em></div>
 
-<!-- ═══════════ LEAFLET JS ═══════════ -->
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<!-- ═══════════ GOOGLE MAPS JS ═══════════ -->
 <script>
-  // ── Tile layer helper ──────────────────────────────────────────
-  const OSM_TILES = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-  const ATTRIBUTION = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+  // ── Shared references (populated in initMaps) ─────────────────
+  let _Map, _AdvancedMarker, _InfoWindow, _Polyline;
 
-  function addTiles(map) {
-    L.tileLayer(OSM_TILES, { attribution: ATTRIBUTION, maxZoom: 18 }).addTo(map);
+  // ── Marker element helpers ────────────────────────────────────
+  function numMarkerEl(label, bg) {
+    const el = document.createElement('div');
+    el.style.cssText = `background:${bg};color:#fff;border-radius:50%;width:28px;height:28px;
+      display:flex;align-items:center;justify-content:center;font-weight:700;font-size:11px;
+      border:2.5px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.4);cursor:pointer;font-family:inherit`;
+    el.textContent = label;
+    return el;
   }
 
-  // ── Icon helpers ───────────────────────────────────────────────
-  function numIcon(label, bg) {
-    return L.divIcon({
-      className: '',
-      html: `<div style="background:${bg};color:#fff;border-radius:50%;width:28px;height:28px;
-             display:flex;align-items:center;justify-content:center;font-weight:700;font-size:11px;
-             border:2.5px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.4)">${label}</div>`,
-      iconSize: [28, 28],
-      iconAnchor: [14, 14],
-      popupAnchor: [0, -16]
-    });
+  function dotMarkerEl(bg) {
+    const el = document.createElement('div');
+    el.style.cssText = `background:${bg};width:14px;height:14px;border-radius:50%;
+      border:2.5px solid #fff;box-shadow:0 2px 5px rgba(0,0,0,.4);cursor:pointer`;
+    return el;
   }
 
-  function dotIcon(bg) {
-    return L.divIcon({
-      className: '',
-      html: `<div style="background:${bg};width:14px;height:14px;border-radius:50%;
-             border:2.5px solid #fff;box-shadow:0 2px 5px rgba(0,0,0,.4)"></div>`,
-      iconSize: [14, 14],
-      iconAnchor: [7, 7]
-    });
-  }
-
-  // ── Destination map helper ─────────────────────────────────────
+  // ── Destination map helper ────────────────────────────────────
   function destMap(id, lat, lng, zoom, markers) {
-    const m = L.map(id, { scrollWheelZoom: false }).setView([lat, lng], zoom);
-    addTiles(m);
-    m.on('click', () => m.scrollWheelZoom.enable());
-    markers.forEach(mk => {
-      L.marker([mk.lat, mk.lng], { icon: dotIcon(mk.color || '#00205b') })
-        .bindPopup(`<strong>${mk.label}</strong>`)
-        .addTo(m);
+    const map = new _Map(document.getElementById(id), {
+      center: { lat, lng },
+      zoom,
+      gestureHandling: 'cooperative',
+      mapId: 'DEMO_MAP_ID',
     });
-    return m;
+    const infoWindow = new _InfoWindow();
+    markers.forEach(mk => {
+      const marker = new _AdvancedMarker({
+        position: { lat: mk.lat, lng: mk.lng },
+        map,
+        title: mk.label,
+        content: dotMarkerEl(mk.color || '#00205b'),
+      });
+      marker.addListener('click', () => {
+        infoWindow.setContent(`<strong>${mk.label}</strong>`);
+        infoWindow.open(map, marker);
+      });
+    });
   }
 
-  // ════════════════════════════════════════════
-  //  OVERVIEW MAP
-  // ════════════════════════════════════════════
-  const overview = L.map('map-overview', { scrollWheelZoom: false }).setView([-39, -64], 4);
-  addTiles(overview);
-  overview.on('click', () => overview.scrollWheelZoom.enable());
+  // ── Main init callback (called by Google Maps loader) ─────────
+  window.initMaps = async function () {
+    const mapsLib   = await google.maps.importLibrary('maps');
+    const markerLib = await google.maps.importLibrary('marker');
+    _Map            = mapsLib.Map;
+    _AdvancedMarker = markerLib.AdvancedMarkerElement;
+    _InfoWindow     = google.maps.InfoWindow;
+    _Polyline       = google.maps.Polyline;
 
-  const stops = [
-    { n:  1, lat: -34.6037, lng: -58.3816, bg: '#1d6fa4', label: '<strong>1 · Buenos Aires</strong><br>Dec 9–10' },
-    { n:  2, lat: -25.5996, lng: -54.5795, bg: '#16a34a', label: '<strong>2 · Puerto Iguazú</strong><br>Dec 11–12' },
-    { n:  3, lat: -34.5553, lng: -58.4173, bg: '#64748b', label: '<strong>3 · Buenos Aires</strong> (transit)<br>Dec 13' },
-    { n:  4, lat: -42.7714, lng: -65.0264, bg: '#ea580c', label: '<strong>4 · Puerto Madryn / Valdés</strong><br>Dec 14–16' },
-    { n:  5, lat: -54.8019, lng: -68.3030, bg: '#ea580c', label: '<strong>5 · Ushuaia</strong><br>Dec 17–19' },
-    { n:  6, lat: -50.3388, lng: -72.2688, bg: '#ea580c', label: '<strong>6 · El Calafate</strong><br>Dec 20–22' },
-    { n:  7, lat: -49.3310, lng: -72.8855, bg: '#ea580c', label: '<strong>7 · El Chaltén</strong><br>Dec 23–24' },
-    { n:  8, lat: -50.4500, lng: -72.4000, bg: '#64748b', label: '<strong>8 · El Calafate</strong> (return)<br>Dec 25' },
-    { n:  9, lat: -41.1335, lng: -71.3103, bg: '#db2777', label: '<strong>9 · Bariloche 🎉</strong><br>Dec 26–31' },
-    { n: 10, lat: -32.8908, lng: -68.8272, bg: '#7c3aed', label: '<strong>10 · Mendoza</strong><br>Jan 1–2' },
-    { n: 11, lat: -34.6600, lng: -58.3500, bg: '#64748b', label: '<strong>11 · Buenos Aires</strong> (departure)<br>Jan 3' }
-  ];
+    // ════════════════════════════════════════════
+    //  OVERVIEW MAP
+    // ════════════════════════════════════════════
+    const overview = new _Map(document.getElementById('map-overview'), {
+      center: { lat: -39, lng: -64 },
+      zoom: 4,
+      gestureHandling: 'cooperative',
+      mapId: 'DEMO_MAP_ID',
+    });
 
-  stops.forEach(s => {
-    L.marker([s.lat, s.lng], { icon: numIcon(s.n, s.bg) })
-      .bindPopup(s.label)
-      .addTo(overview);
-  });
+    const stops = [
+      { n:  1, lat: -34.6037, lng: -58.3816, bg: '#1d6fa4', label: '<strong>1 · Buenos Aires</strong><br>Dec 9–10' },
+      { n:  2, lat: -25.5996, lng: -54.5795, bg: '#16a34a', label: '<strong>2 · Puerto Iguazú</strong><br>Dec 11–12' },
+      { n:  3, lat: -34.5553, lng: -58.4173, bg: '#64748b', label: '<strong>3 · Buenos Aires</strong> (transit)<br>Dec 13' },
+      { n:  4, lat: -42.7714, lng: -65.0264, bg: '#ea580c', label: '<strong>4 · Puerto Madryn / Valdés</strong><br>Dec 14–16' },
+      { n:  5, lat: -54.8019, lng: -68.3030, bg: '#ea580c', label: '<strong>5 · Ushuaia</strong><br>Dec 17–19' },
+      { n:  6, lat: -50.3388, lng: -72.2688, bg: '#ea580c', label: '<strong>6 · El Calafate</strong><br>Dec 20–22' },
+      { n:  7, lat: -49.3310, lng: -72.8855, bg: '#ea580c', label: '<strong>7 · El Chaltén</strong><br>Dec 23–24' },
+      { n:  8, lat: -50.4500, lng: -72.4000, bg: '#64748b', label: '<strong>8 · El Calafate</strong> (return)<br>Dec 25' },
+      { n:  9, lat: -41.1335, lng: -71.3103, bg: '#db2777', label: '<strong>9 · Bariloche 🎉</strong><br>Dec 26–31' },
+      { n: 10, lat: -32.8908, lng: -68.8272, bg: '#7c3aed', label: '<strong>10 · Mendoza</strong><br>Jan 1–2' },
+      { n: 11, lat: -34.6600, lng: -58.3500, bg: '#64748b', label: '<strong>11 · Buenos Aires</strong> (departure)<br>Jan 3' }
+    ];
 
-  // Dashed polyline for the flight route
-  L.polyline(stops.map(s => [s.lat, s.lng]), {
-    color: '#00205b', weight: 2, dashArray: '7 6', opacity: 0.65
-  }).addTo(overview);
+    const overviewInfo = new _InfoWindow();
+    stops.forEach(s => {
+      const marker = new _AdvancedMarker({
+        position: { lat: s.lat, lng: s.lng },
+        map: overview,
+        title: `${s.n}`,
+        content: numMarkerEl(s.n, s.bg),
+      });
+      marker.addListener('click', () => {
+        overviewInfo.setContent(s.label);
+        overviewInfo.open(overview, marker);
+      });
+    });
 
-  // ════════════════════════════════════════════
-  //  DESTINATION MAPS
-  // ════════════════════════════════════════════
+    // Dashed polyline for the flight route
+    new _Polyline({
+      path: stops.map(s => ({ lat: s.lat, lng: s.lng })),
+      strokeColor: '#00205b',
+      strokeOpacity: 0,
+      strokeWeight: 2,
+      icons: [{ icon: { path: 'M 0,-1 0,1', strokeOpacity: 1, scale: 3 }, offset: '0', repeat: '14px' }],
+      map: overview,
+    });
 
-  // Buenos Aires (arrival)
-  destMap('map-ba', -34.6037, -58.3816, 12, [
-    { lat: -34.6037, lng: -58.3816, label: 'Buenos Aires (EZE area)' },
-    { lat: -34.5572, lng: -58.4166, label: 'Aeroparque (AEP)' }
-  ]);
+    // ════════════════════════════════════════════
+    //  DESTINATION MAPS
+    // ════════════════════════════════════════════
 
-  // Puerto Iguazú
-  destMap('map-iguazu', -25.68, -54.44, 11, [
-    { lat: -25.5996, lng: -54.5795, label: 'Puerto Iguazú town' },
-    { lat: -25.6869, lng: -54.4453, label: 'Parque Nacional Iguazú (Argentine side)' },
-    { lat: -25.6953, lng: -54.4367, label: 'Garganta del Diablo' }
-  ]);
+    // Buenos Aires (arrival)
+    destMap('map-ba', -34.6037, -58.3816, 12, [
+      { lat: -34.6037, lng: -58.3816, label: 'Buenos Aires (EZE area)' },
+      { lat: -34.5572, lng: -58.4166, label: 'Aeroparque (AEP)' }
+    ]);
 
-  // Buenos Aires transit
-  destMap('map-ba-transit', -34.5900, -58.4100, 12, [
-    { lat: -34.5572, lng: -58.4166, label: 'Aeroparque (AEP)' },
-    { lat: -34.5854, lng: -58.4307, label: 'Palermo' }
-  ]);
+    // Puerto Iguazú
+    destMap('map-iguazu', -25.68, -54.44, 11, [
+      { lat: -25.5996, lng: -54.5795, label: 'Puerto Iguazú town' },
+      { lat: -25.6869, lng: -54.4453, label: 'Parque Nacional Iguazú (Argentine side)' },
+      { lat: -25.6953, lng: -54.4367, label: 'Garganta del Diablo' }
+    ]);
 
-  // Puerto Madryn / Valdés — wider zoom to show whole peninsula
-  destMap('map-madryn', -42.35, -64.10, 8, [
-    { lat: -42.7714, lng: -65.0264, label: 'Puerto Madryn' },
-    { lat: -42.5772, lng: -64.2895, label: 'Puerto Pirámides (whale watching)' },
-    { lat: -42.0694, lng: -63.7778, label: 'Punta Norte (elephant seals)' },
-    { lat: -44.0219, lng: -65.4347, label: 'Punta Tombo (1 million penguins!)' }
-  ]);
+    // Buenos Aires transit
+    destMap('map-ba-transit', -34.5900, -58.4100, 12, [
+      { lat: -34.5572, lng: -58.4166, label: 'Aeroparque (AEP)' },
+      { lat: -34.5854, lng: -58.4307, label: 'Palermo' }
+    ]);
 
-  // Ushuaia
-  destMap('map-ushuaia', -54.78, -68.38, 10, [
-    { lat: -54.8019, lng: -68.3030, label: 'Ushuaia' },
-    { lat: -54.8475, lng: -68.5514, label: 'Parque Nacional Tierra del Fuego' },
-    { lat: -54.8612, lng: -68.5978, label: 'Lapataia Bay — end of Ruta 3' }
-  ]);
+    // Puerto Madryn / Valdés — wider zoom to show whole peninsula
+    destMap('map-madryn', -42.35, -64.10, 8, [
+      { lat: -42.7714, lng: -65.0264, label: 'Puerto Madryn' },
+      { lat: -42.5772, lng: -64.2895, label: 'Puerto Pirámides (whale watching)' },
+      { lat: -42.0694, lng: -63.7778, label: 'Punta Norte (elephant seals)' },
+      { lat: -44.0219, lng: -65.4347, label: 'Punta Tombo (1 million penguins!)' }
+    ]);
 
-  // El Calafate + Perito Moreno — zoom out to show glacier 78 km away
-  destMap('map-calafate', -50.42, -72.66, 9, [
-    { lat: -50.3388, lng: -72.2688, label: 'El Calafate' },
-    { lat: -50.4934, lng: -73.0479, label: 'Perito Moreno Glacier' }
-  ]);
+    // Ushuaia
+    destMap('map-ushuaia', -54.78, -68.38, 10, [
+      { lat: -54.8019, lng: -68.3030, label: 'Ushuaia' },
+      { lat: -54.8475, lng: -68.5514, label: 'Parque Nacional Tierra del Fuego' },
+      { lat: -54.8612, lng: -68.5978, label: 'Lapataia Bay — end of Ruta 3' }
+    ]);
 
-  // El Chaltén + Fitz Roy
-  destMap('map-chalten', -49.32, -72.91, 11, [
-    { lat: -49.3310, lng: -72.8855, label: 'El Chaltén' },
-    { lat: -49.2734, lng: -72.9581, label: 'Laguna de Los Tres (Fitz Roy viewpoint)' },
-    { lat: -49.3098, lng: -72.9875, label: 'Laguna Torre (Cerro Torre viewpoint)' }
-  ]);
+    // El Calafate + Perito Moreno — zoom out to show glacier 78 km away
+    destMap('map-calafate', -50.42, -72.66, 9, [
+      { lat: -50.3388, lng: -72.2688, label: 'El Calafate' },
+      { lat: -50.4934, lng: -73.0479, label: 'Perito Moreno Glacier' }
+    ]);
 
-  // El Calafate return (same map, same data)
-  destMap('map-calafate-return', -50.42, -72.66, 9, [
-    { lat: -50.3388, lng: -72.2688, label: 'El Calafate' },
-    { lat: -50.4934, lng: -73.0479, label: 'Perito Moreno Glacier' }
-  ]);
+    // El Chaltén + Fitz Roy
+    destMap('map-chalten', -49.32, -72.91, 11, [
+      { lat: -49.3310, lng: -72.8855, label: 'El Chaltén' },
+      { lat: -49.2734, lng: -72.9581, label: 'Laguna de Los Tres (Fitz Roy viewpoint)' },
+      { lat: -49.3098, lng: -72.9875, label: 'Laguna Torre (Cerro Torre viewpoint)' }
+    ]);
 
-  // Bariloche — show lake + key circuits
-  destMap('map-bariloche', -41.19, -71.42, 10, [
-    { lat: -41.1335, lng: -71.3103, label: 'Bariloche' },
-    { lat: -41.0887, lng: -71.5068, label: 'Cerro Campanario' },
-    { lat: -41.0622, lng: -71.5336, label: 'Llao Llao Hotel' },
-    { lat: -41.3447, lng: -71.8867, label: 'Cerro Tronador' }
-  ]);
+    // El Calafate return (same data)
+    destMap('map-calafate-return', -50.42, -72.66, 9, [
+      { lat: -50.3388, lng: -72.2688, label: 'El Calafate' },
+      { lat: -50.4934, lng: -73.0479, label: 'Perito Moreno Glacier' }
+    ]);
 
-  // Mendoza — show city + wine belt
-  destMap('map-mendoza', -33.08, -68.87, 9, [
-    { lat: -32.8908, lng: -68.8272, label: 'Mendoza city' },
-    { lat: -33.0478, lng: -68.8917, label: 'Luján de Cuyo (Catena Zapata, etc.)' },
-    { lat: -33.5292, lng: -69.0614, label: 'Valle de Uco (Zuccardi, etc.)' }
-  ]);
+    // Bariloche — show lake + key circuits
+    destMap('map-bariloche', -41.19, -71.42, 10, [
+      { lat: -41.1335, lng: -71.3103, label: 'Bariloche' },
+      { lat: -41.0887, lng: -71.5068, label: 'Cerro Campanario' },
+      { lat: -41.0622, lng: -71.5336, label: 'Llao Llao Hotel' },
+      { lat: -41.3447, lng: -71.8867, label: 'Cerro Tronador' }
+    ]);
 
-  // Buenos Aires departure
-  destMap('map-ba-dep', -34.6037, -58.3816, 12, [
-    { lat: -34.6037, lng: -58.3816, label: 'Buenos Aires' },
-    { lat: -34.8222, lng: -58.5358, label: 'EZE — Ezeiza International Airport' }
-  ]);
+    // Mendoza — show city + wine belt
+    destMap('map-mendoza', -33.08, -68.87, 9, [
+      { lat: -32.8908, lng: -68.8272, label: 'Mendoza city' },
+      { lat: -33.0478, lng: -68.8917, label: 'Luján de Cuyo (Catena Zapata, etc.)' },
+      { lat: -33.5292, lng: -69.0614, label: 'Valle de Uco (Zuccardi, etc.)' }
+    ]);
+
+    // Buenos Aires departure
+    destMap('map-ba-dep', -34.6037, -58.3816, 12, [
+      { lat: -34.6037, lng: -58.3816, label: 'Buenos Aires' },
+      { lat: -34.8222, lng: -58.5358, label: 'EZE — Ezeiza International Airport' }
+    ]);
+  };
+</script>
+<script src="config.js"></script>
+<script>
+  (function () {
+    const s = document.createElement('script');
+    s.src = `https://maps.googleapis.com/maps/api/js?key=${window.GOOGLE_MAPS_API_KEY}&callback=initMaps&loading=async&libraries=marker`;
+    s.async = true;
+    s.defer = true;
+    document.head.appendChild(s);
+  })();
 </script>
 </body>
 </html>
