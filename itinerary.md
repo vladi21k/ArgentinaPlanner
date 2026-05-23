@@ -2,6 +2,8 @@
 
 **4 friends · 26 nights · Dec 9, 2026 → Jan 4, 2027**
 
+> ✏️ *Itinerary updated: Puerto Madryn / Península Valdés and Buenos Aires transit (Dec 13) removed. Direct Iguazú → Ushuaia flight added. Extra nights reinvested in Ushuaia (+1) and Bariloche (+3).*
+
 ---
 
 ## 📋 Contents
@@ -13,12 +15,10 @@
 - [Day-by-Day Itinerary](#day-by-day-itinerary)
   - [Buenos Aires — Days 1–2](#️-buenos-aires)
   - [Puerto Iguazú — Days 3–4](#-puerto-iguazú)
-  - [Buenos Aires Transit — Day 5](#️-buenos-aires-transit)
-  - [Puerto Madryn / Península Valdés — Days 6–8](#-puerto-madryn--península-valdés)
-  - [Ushuaia — Days 9–11](#-ushuaia)
-  - [El Calafate — Days 12–14, 17](#-el-calafate)
-  - [El Chaltén — Days 15–16](#️-el-chaltén)
-  - [Bariloche — Days 18–23](#-bariloche)
+  - [Ushuaia — Days 5–8](#-ushuaia)
+  - [El Calafate — Days 9–11, 14](#-el-calafate)
+  - [El Chaltén — Days 12–13](#️-el-chaltén)
+  - [Bariloche — Days 15–23](#-bariloche)
   - [Mendoza — Days 24–25](#️-mendoza)
   - [Buenos Aires Departure — Days 26–27](#️-buenos-aires-departure)
 - [Practical Tips](#️-practical-tips)
@@ -31,15 +31,13 @@
 |---|-------------|-------|--------|
 | 1 | Buenos Aires | Dec 9–10 | 2 |
 | 2 | Puerto Iguazú | Dec 11–12 | 2 |
-| 3 | Buenos Aires (transit) | Dec 13 | 1 |
-| 4 | Puerto Madryn / Península Valdés | Dec 14–16 | 3 |
-| 5 | Ushuaia | Dec 17–19 | 3 |
-| 6 | El Calafate | Dec 20–22 | 3 |
-| 7 | El Chaltén | Dec 23–24 | 2 |
-| 8 | El Calafate (return) | Dec 25 | 1 |
-| 9 | **Bariloche (NYE! 🎉)** | Dec 26–31 | 6 |
-| 10 | Mendoza | Jan 1–2 | 2 |
-| 11 | Buenos Aires (departure) | Jan 3 | 1 |
+| 3 | Ushuaia | Dec 13–16 | 4 |
+| 4 | El Calafate | Dec 17–19 | 3 |
+| 5 | El Chaltén | Dec 20–21 | 2 |
+| 6 | El Calafate (return) | Dec 22 | 1 |
+| 7 | **Bariloche (NYE! 🎉)** | Dec 23–31 | 9 |
+| 8 | Mendoza | Jan 1–2 | 2 |
+| 9 | Buenos Aires (departure) | Jan 3 | 1 |
 
 ![Argentina trip overview — all 8 destinations](./assets/images/maps/map_overview.png)
 [View Full Route on Google Maps ↗](https://www.google.com/maps/dir/Buenos+Aires,+Argentina/Puerto+Iguaz%C3%BA,+Misiones,+Argentina/Buenos+Aires,+Argentina/Puerto+Madryn,+Chubut,+Argentina/Ushuaia,+Tierra+del+Fuego,+Argentina/El+Calafate,+Santa+Cruz,+Argentina/El+Chalt%C3%A9n,+Santa+Cruz,+Argentina/San+Carlos+de+Bariloche,+R%C3%ADo+Negro,+Argentina/Mendoza,+Argentina/Buenos+Aires,+Argentina)
@@ -51,13 +49,13 @@
 | # | Date | Route | Airports |
 |---|------|-------|----------|
 | 1 | Dec 11 | Buenos Aires → Puerto Iguazú | EZE → IGR |
-| 2 | Dec 13 | Puerto Iguazú → Buenos Aires | IGR → AEP |
-| 3 | Dec 14 | Buenos Aires → Puerto Madryn | AEP → PMY |
-| 4 | Dec 17 | Puerto Madryn → Ushuaia | PMY → USH |
-| 5 | Dec 20 | Ushuaia → El Calafate | USH → FTE |
-| 6 | Dec 26 | El Calafate → Bariloche | FTE → BRC |
-| 7 | Jan 1 | Bariloche → Mendoza | BRC → MDZ |
-| 8 | Jan 3 | Mendoza → Buenos Aires | MDZ → EZE |
+| 2 | Dec 13 | Puerto Iguazú → Ushuaia | IGR → USH |
+| 3 | Dec 17 | Ushuaia → El Calafate | USH → FTE |
+| 4 | Dec 23 | El Calafate → Bariloche | FTE → BRC |
+| 5 | Jan 1 | Bariloche → Mendoza | BRC → MDZ |
+| 6 | Jan 3 | Mendoza → Buenos Aires | MDZ → EZE |
+
+> **Note on IGR → USH**: There is no direct scheduled flight between Puerto Iguazú and Ushuaia. You will connect through **Buenos Aires (AEP or EZE)** on the same day — typically a 2–3 hr layover. Book both legs together on Aerolíneas Argentinas for the smoothest connection. Same-day connection is achievable; allow 3+ hours between legs.
 
 > **Airlines**: Aerolíneas Argentinas (most reliable), JetSMART, Flybondi (cheaper). Book all flights early — December/January is peak season.
 
@@ -67,11 +65,11 @@
 
 | Destination | Dates | Days | Why Essential |
 |-------------|-------|------|---------------|
-| Puerto Madryn | Dec 14–16 | 3 | Península Valdés & Punta Tombo have NO public transport |
-| Ushuaia | Dec 17–19 | 3 | Tierra del Fuego NP, Beagle Channel scenic drives |
-| Bariloche | Dec 26–31 | 6 | Circuito Chico, Seven Lakes / Circuito Grande, Cerro Tronador |
+| Ushuaia | Dec 13–16 | 4 | Tierra del Fuego NP, Beagle Channel scenic drives |
+| El Calafate *(optional)* | Dec 17–22 | 6 | Self-drive to Perito Moreno; drive to/from El Chaltén on your own schedule |
+| Bariloche | Dec 23–31 | 9 | Circuito Chico, Seven Lakes / Circuito Grande, Cerro Tronador |
 
-> **Tip**: At Bariloche, book an AWD/SUV if possible — the Tronador road is unpaved gravel.
+> **Tip**: At Bariloche and El Calafate, book an AWD/SUV if possible — the Tronador road and some sections of RN40 toward El Chaltén are unpaved gravel. The El Calafate rental is optional: the bus is reliable and cheap, but a car gives you total freedom over timing and stops.
 
 ---
 
@@ -82,9 +80,8 @@ Book these **before anything else**:
 1. 🏨 **Bariloche NYE hotel** — Book 6–12 months in advance. Dec 31 sells out a full year ahead.
 2. 🧊 **Perito Moreno Ice Trek** (Mini-trekking or Big Ice) — Book 2–3 months ahead.
 3. 🐧 **Martillo Island penguin boat tour** (Ushuaia) — Very limited capacity. Book 1–2 months ahead.
-4. ✈️ **All 8 domestic flights** — Book ASAP. Prices rise sharply near travel dates.
+4. ✈️ **All 6 domestic flights** — Book ASAP. Prices rise sharply near travel dates.
 5. 🍷 **Mendoza winery tours** — January is high season; reserve tables well in advance.
-6. 🐋 **Península Valdés whale-watching** — Book 2–4 weeks ahead.
 
 ---
 
@@ -197,93 +194,9 @@ Book these **before anything else**:
 
 ---
 
-### ✈️ Buenos Aires (Transit)
-
-**Dec 13 · 1 night**
-
-![Buenos Aires city map](./assets/images/maps/map_buenos_aires.png)
-[View on Google Maps ↗](https://www.google.com/maps/place/Buenos+Aires,+Argentina/@-34.6037,-58.3816,13z)
-
----
-
-#### Day 5 · Sunday, Dec 13 — Transit Day
-
-- **Morning**: Flight **IGR → AEP** (Aeroparque Jorge Newbery, the domestic airport — central Buenos Aires, ~2 hrs).
-- **Afternoon**: Check in to hotel near Aeroparque or Palermo. Leave bags. Easy afternoon in **Palermo** — the parks, Palermo Soho boutiques, bookstores.
-- **Evening**: Dinner in Palermo or the Recoleta neighbourhood. Early night — you have an early flight tomorrow.
-
-| | |
-|---|---|
-| **Stay** | Hotel near Aeroparque (AEP) — Palermo or Las Cañitas |
-| **Note** | Tomorrow's flight departs from **AEP** — a 15-min taxi ride |
-
----
-
-### 🐋 Puerto Madryn / Península Valdés
-
-**Dec 14–16 · 3 nights**
-
-*UNESCO World Heritage Site — the world's finest wildlife sanctuary for right whales, elephant seals, sea lions and penguins*
-
-<table width="100%" border="0" cellspacing="4" cellpadding="0"><tr>
-<td colspan="2"><img src="./assets/images/peninsula-valdes/halbinsel_valdes_pinguine.jpg" alt="Magellanic penguins at Península Valdés" width="100%" /></td>
-<td colspan="2"><img src="./assets/images/peninsula-valdes/mother_and_calf_right_whale.jpg" alt="Southern right whale mother and calf — peak season December" width="100%" /></td>
-<td colspan="2"><img src="./assets/images/peninsula-valdes/elefantes_marinos_en_peninsula_valdes_panoramio.jpg" alt="Elephant seals — massive bulls at Punta Norte" width="100%" /></td>
-</tr><tr>
-<td colspan="3"><img src="./assets/images/peninsula-valdes/orcas_in_punta_norte_valdes_peninsula_panoramio.jpg" alt="Orca beaching to hunt sea lion — found nowhere else on Earth" width="100%" /></td>
-<td colspan="3"><img src="./assets/images/peninsula-valdes/chubut-puntatomo-p2220157b-small.jpg" alt="Punta Tombo — one million Magellanic penguins in December" width="100%" /></td>
-</tr></table>
-
-![Puerto Madryn and Península Valdés map](./assets/images/maps/map_peninsula_valdes.png)
-[View on Google Maps ↗](https://www.google.com/maps/place/Pen%C3%ADnsula+Vald%C3%A9s/@-42.4,-64.0,9z)
-
----
-
-#### Day 6 · Monday, Dec 14 — Travel + Punta Tombo
-
-- **Morning**: Flight **AEP → PMY** (~2 hrs). Pick up **rental car** at Puerto Madryn airport.
-- **Afternoon**: Drive south to **Punta Tombo** (~180 km, ~2 hrs). This is the **largest Magellanic penguin colony in the world** — approximately 1 million penguins in December! A boardwalk trail lets you walk right among them as they ignore you completely. Extraordinary.
-- **Evening**: Drive back to Puerto Madryn (~2 hrs). Dinner by the waterfront.
-
-| | |
-|---|---|
-| **Stay** | Hotel in Puerto Madryn |
-| **Distance** | Punta Tombo is 180 km south; allow a full 4–5 hrs for the visit + driving |
-
----
-
-#### Day 7 · Tuesday, Dec 15 — Península Valdés Full Day
-
-- **Morning**: Drive to **Península Valdés** (80 km, ~1 hr). Pay park entry fee at the gate. Head to **Puerto Pirámides** for a **whale-watching boat tour** — December is peak season for **southern right whale** mothers and calves. Breathtaking up close.
-- **Afternoon**: Drive around the peninsula:
-  - **Punta Norte** — colony of **elephant seals** and **South American sea lions**. September–March is breeding season; December has massive animals and pups.
-  - **Caleta Valdés** — more elephant seals along stunning cliffs. Watch for orcas offshore.
-  - Keep eyes open for **guanacos, rheas (ñandú), and Patagonian maras** en route.
-- **Evening**: Return to Puerto Madryn. Dinner with fresh Patagonian seafood — try *merluza* (hake) or *camarones* (prawns).
-
-| | |
-|---|---|
-| **Stay** | Hotel in Puerto Madryn |
-| **Tip** | Binoculars essential. Bring snacks — restaurants on the peninsula are limited |
-
----
-
-#### Day 8 · Wednesday, Dec 16 — Free Morning + Prep
-
-- **Morning**: Optional return to the peninsula for anything missed, or explore Puerto Madryn seafront. The **EcoCentro** (marine biology museum on a cliff) is excellent if open.
-- **Afternoon**: Return rental car to airport. Rest. Pack for Ushuaia — you'll need warm layers even in December.
-- **Evening**: Last dinner in Puerto Madryn. Early night — flight to Ushuaia tomorrow.
-
-| | |
-|---|---|
-| **Stay** | Hotel in Puerto Madryn |
-| **Pack** | Wind/waterproof jacket, layers — Ushuaia is cold and unpredictable even in summer |
-
----
-
 ### 🐧 Ushuaia
 
-**Dec 17–19 · 3 nights**
+**Dec 13–16 · 4 nights**
 
 *The southernmost city in the world — "Fin del Mundo" (End of the World). Gateway to Antarctica.*
 
@@ -302,9 +215,11 @@ Book these **before anything else**:
 
 ---
 
-#### Day 9 · Thursday, Dec 17 — Travel + Tierra del Fuego National Park
+#### Day 5 · Saturday, Dec 13 — Travel + Tierra del Fuego National Park
 
-- **Morning**: Flight **PMY → USH** (~2.5 hrs). Pick up **rental car** at Ushuaia airport.
+> ⚠️ **Flight note**: No direct IGR → USH service exists. You will connect through Buenos Aires (AEP) on the same day — same-day connection, no overnight. Book both legs as one itinerary on Aerolíneas Argentinas.
+
+- **Morning**: Fly **IGR → AEP → USH** (same-day connection via Buenos Aires). Pick up **rental car** at Ushuaia airport.
 - **Afternoon**: Drive west to **Parque Nacional Tierra del Fuego** (~12 km):
   - Hike the **Senda Costera** (coastal trail along the Beagle Channel) — easy to moderate, stunning views.
   - Walk to the **Lapataia Bay** — the literal end of **Ruta Nacional 3**, the Pan-American Highway (Buenos Aires: 3,079 km). Photo stop essential.
@@ -318,7 +233,7 @@ Book these **before anything else**:
 
 ---
 
-#### Day 10 · Friday, Dec 18 — Martillo Island Penguins + Beagle Channel
+#### Day 6 · Sunday, Dec 14 — Martillo Island Penguins + Beagle Channel
 
 - **Morning**: **Boat tour to Isla Martillo (Martillo Island)** — the only place in the world outside Antarctica where you can **walk among king penguins** on guided land excursions. Also Magellanic penguins in abundance. Tours depart from Puerto Almanza or from Ushuaia docks. **Book well in advance — capacity extremely limited.**
 - **Afternoon**: Drive the scenic route along the Beagle Channel back towards town. Stop at panoramic lookouts. Optional: visit the **Presidio (old prison/museum)** or **Museo del Fin del Mundo**.
@@ -331,25 +246,41 @@ Book these **before anything else**:
 
 ---
 
-#### Day 11 · Saturday, Dec 19 — Free Day + Pack Up
+#### Day 7 · Monday, Dec 15 — Free Day / Adventure Activities
 
 - **Morning**: Choose your adventure:
-  - Hike up **Cerro Martial** for panoramic views over Ushuaia and the Beagle Channel (~3 hrs round-trip, moderate)
-  - Kayaking in the Beagle Channel
-  - **Lago Escondido / Lago Fagnano** scenic drive east (~150 km round-trip — big lakes straddling Chile border)
+  - Hike up **Cerro Martial** for panoramic views over Ushuaia and the Beagle Channel (~3 hrs round-trip, moderate — the most demanding option)
+  - Kayaking in the Beagle Channel (easy, guided tours available)
+  - **Lago Escondido / Lago Fagnano** scenic drive east (~150 km round-trip — big lakes straddling the Chile border; zero hiking, pure scenery from the car)
+
+> **Prefer easy?** The **Lago Escondido / Lago Fagnano drive** is the relaxed choice — beautiful lakes and Patagonian mountain scenery with no exertion required. Save your legs for El Chaltén.
+
 - **Afternoon**: Return rental car. Explore **Ushuaia's artisan market and shops** — pick up Tierra del Fuego crafts, local chocolates, and the famous "End of the World" stamps for your passport.
 - **Evening**: Last dinner in Ushuaia. Early night.
 
 | | |
 |---|---|
 | **Stay** | Hotel in Ushuaia |
-| **Note** | Flight to El Calafate tomorrow — no onward car rental needed there |
+| **Note** | One more Ushuaia day — flight to El Calafate on Dec 17 |
+
+---
+
+#### Day 8 · Tuesday, Dec 16 — Pack Up + Final Ushuaia Moments
+
+- **Morning**: Last chance to pick up **centolla (king crab)** at the market, or do a short walk along the Beagle Channel waterfront.
+- **Afternoon**: Return rental car. Browse **Ushuaia's artisan market and shops** — Tierra del Fuego crafts, local chocolates, and the famous "End of the World" stamps for your passport.
+- **Evening**: Last dinner in Ushuaia. Early night.
+
+| | |
+|---|---|
+| **Stay** | Hotel in Ushuaia |
+| **Note** | Flight to El Calafate tomorrow morning — consider picking up a rental car there (see Car Rentals section above) |
 
 ---
 
 ### 🧊 El Calafate
 
-**Dec 20–22 · 3 nights + Dec 25 · 1 night (return)**
+**Dec 17–19 · 3 nights + Dec 22 · 1 night (return)**
 
 *Gateway to Los Glaciares National Park — home of the world's most accessible and spectacular glacier*
 
@@ -367,7 +298,7 @@ Book these **before anything else**:
 
 ---
 
-#### Day 12 · Sunday, Dec 20 — Travel + Orientation
+#### Day 9 · Wednesday, Dec 17 — Travel + Orientation
 
 - **Morning**: Flight **USH → FTE** (~1.5 hrs). Check in to hotel in El Calafate.
 - **Afternoon**: Walk along the turquoise shore of **Lago Argentino** — one of the world's largest lakes. Visit the **Glaciarium** (glacier museum) if interested, with 3D film about the Southern Patagonian Ice Field.
@@ -381,11 +312,11 @@ Book these **before anything else**:
 
 ---
 
-#### Day 13 · Monday, Dec 21 — Perito Moreno Glacier
+#### Day 10 · Thursday, Dec 18 — Perito Moreno Glacier
 
 **This is one of the top natural spectacles on Earth. Give it a full day.**
 
-- **Full Day**: **Glaciar Perito Moreno** — 78 km west of El Calafate (take a tour or hire a remise — no car rental needed):
+- **Full Day**: **Glaciar Perito Moreno** — 78 km west of El Calafate (drive yourself if you have a rental car, or take a guided tour or hire a remise):
   - The **pasarelas** (walkways) along the southern and eastern flanks give you close-up views of the 5-km-wide, 74-m-tall ice wall — for FREE after park entry.
   - Watch and listen for **calving** — cathedral-sized chunks of ice exploding into the lake with a deafening crack. Happens constantly.
   - **Book a guided ice trek**: **Mini-Trekking** (~1.5 hrs on the glacier with crampons) is the popular option. **Big Ice** (~5 hrs) is for the more adventurous. Both require advance booking months ahead.
@@ -399,11 +330,11 @@ Book these **before anything else**:
 
 ---
 
-#### Day 14 · Tuesday, Dec 22 — Lago Argentino Boat Tour + Rest
+#### Day 11 · Friday, Dec 19 — Lago Argentino Boat Tour + Rest
 
 - **Morning**: **Lago Argentino boat excursion** — sail past the vast **Upsala Glacier** (one of South America's largest, though retreating) and **Spegazzini Glacier** (with ice walls rising 135 m above water — the tallest accessible glacier face in the world). Full-day tours available.
-- **Afternoon**: Rest and prepare for El Chaltén tomorrow. Buy food/snacks for the bus, and **withdraw your cash now**.
-- **Evening**: Dinner and early night — the bus to El Chaltén leaves early.
+- **Afternoon**: Rest and prepare for El Chaltén tomorrow. Buy food/snacks for the road, and **withdraw your cash now**.
+- **Evening**: Dinner and early night — it's an early start to El Chaltén tomorrow.
 
 | | |
 |---|---|
@@ -413,7 +344,7 @@ Book these **before anything else**:
 
 ### ⛰️ El Chaltén
 
-**Dec 23–24 · 2 nights**
+**Dec 20–21 · 2 nights**
 
 *Argentina's trekking capital, population ~1,500 — home to Fitz Roy and Cerro Torre*
 
@@ -431,14 +362,21 @@ Book these **before anything else**:
 
 ---
 
-#### Day 15 · Wednesday, Dec 23 — Bus to El Chaltén + Laguna de los Tres
+#### Day 12 · Saturday, Dec 20 — El Calafate → El Chaltén + Laguna de los Tres
 
-- **Morning**: **Bus from El Calafate to El Chaltén** (~3 hrs, ~220 km via RN40). Buses typically depart 7–8 am from El Calafate bus terminal. Book in advance.
+- **Morning**: Travel to El Chaltén (~3 hrs, ~220 km via RN40/RN23):
+  - **By bus**: Departs 7–8 am from El Calafate bus terminal. Reliable, cheap (~$15–20 USD), the standard tourist option. Book in advance.
+  - **By rental car**: Full schedule flexibility — stop wherever you like along the empty Patagonian steppe. AWD recommended.
 - **Late morning**: Arrive El Chaltén. Drop bags at hotel. Trails start right at the edge of the village — **no entry fees**, national park rangers give free orientation talks at the bus terminal.
 - **Afternoon**: Start the **Laguna de los Tres trail** — the iconic Fitz Roy hike:
   - 20 km round-trip, ~1,200 m elevation gain
   - 6–8 hours total
   - The payoff at the top: Fitz Roy (3,405 m) reflected in the turquoise glacial lagoon. One of the great views in all of South America.
+
+> **Can't do 6–8 hours?** Two shorter alternatives still deliver Fitz Roy:
+> - **Mirador Fitz Roy** — branch off the main trail after ~1 hr; ~2–3 hrs round-trip total, minimal elevation gain, excellent views of the massif from below. Genuinely worth it on its own.
+> - **Poincenot campsite** — continue past the Mirador to the camp directly beneath the towers; ~3–4 hrs round-trip, moderate. Gets you right under Fitz Roy without the brutal 400 m final climb to the laguna. Horse-trekking operators in El Chaltén can also take you to this point on horseback — the final rocky section to the laguna itself is foot-only regardless.
+
 - **Evening**: Return to town. Dinner — El Chaltén has surprisingly excellent restaurants for such a tiny place. Toast to the hike.
 
 | | |
@@ -448,14 +386,19 @@ Book these **before anything else**:
 
 ---
 
-#### Day 16 · Thursday, Dec 24 — Laguna Torre + Christmas Eve
+#### Day 13 · Sunday, Dec 21 — Laguna Torre
 
 - **Morning/Afternoon**: Hike to **Laguna Torre** for views of the needle-like **Cerro Torre** (one of the world's most technically demanding climbs):
   - 18 km round-trip, moderate difficulty
   - 5–6 hours total
   - On clear days, views of the floating hanging glaciers on Cerro Torre's peak are extraordinary.
-  - *First cut if needed*: If Day 15 ran long, legs are cooked, or the weather turns ugly, drop this full hike before forcing it and switch to **Chorrillo del Salto** waterfall (~4 km round-trip).
-- **Evening**: **Christmas Eve (Nochebuena)** dinner — many El Chaltén restaurants serve special menus. Toast with local craft beer (El Chaltén has a microbrewery). Celebrate one of the most spectacular 48 hours of the trip.
+
+> **Shorter alternatives for Laguna Torre:**
+> - **Chorrillo del Salto waterfall** — 4 km round-trip, ~1.5 hrs, essentially flat. A beautiful cascade just outside the village. Very easy and genuinely lovely.
+> - **Walk the first section of the trail** — the Laguna Torre path is much flatter than Laguna de los Tres (only ~200 m elevation gain total). The first ~4–5 km follow a wide, gentle valley with growing views of the Torre massif. Turn back at **Bridwell Camp** for a ~2–2.5 hr round-trip with no real climbing.
+> - **Horse trekking** — operators in El Chaltén offer guided horse rides on this trail that can take you further along the valley than you'd comfortably walk.
+
+- **Evening**: Dinner in El Chaltén. Toast with local craft beer (El Chaltén has a microbrewery). Celebrate one of the most spectacular 48 hours of the trip.
 
 | | |
 |---|---|
@@ -465,18 +408,18 @@ Book these **before anything else**:
 
 ### 🧊 El Calafate (Return)
 
-**Dec 25 · 1 night**
+**Dec 22 · 1 night**
 
 ![El Calafate and Perito Moreno Glacier map](./assets/images/maps/map_el_calafate.png)
 [View on Google Maps ↗](https://www.google.com/maps/place/Perito+Moreno+Glacier/@-50.4934,-73.0479,11z)
 
 ---
 
-#### Day 17 · Friday, Dec 25 — Bus Back + Christmas Day
+#### Day 14 · Monday, Dec 22 — El Chaltén → El Calafate (Return)
 
-- **Morning**: Bus back from El Chaltén to El Calafate (~3 hrs). Arrive around midday.
+- **Morning**: Return to El Calafate (~3 hrs) by bus or rental car. Arrive around midday.
 - **Afternoon**: Rest at the hotel. Optional visit to the **Glaciarium** museum if not already visited. Explore El Calafate's shops.
-- **Evening**: **Christmas dinner** (Navidad) — Argentine restaurants are typically open and many offer special menus. Lamb and Malbec recommended.
+- **Evening**: Dinner in El Calafate.
 
 | | |
 |---|---|
@@ -487,7 +430,7 @@ Book these **before anything else**:
 
 ### 🍫 Bariloche
 
-**Dec 26–31 · 6 nights · NEW YEAR'S EVE!**
+**Dec 23–31 · 9 nights · NEW YEAR'S EVE!**
 
 *"The Queen of Patagonia" — alpine lakes, Andean scenery, Swiss-style architecture, world-class chocolate, and one of Argentina's biggest NYE celebrations*
 
@@ -505,7 +448,7 @@ Book these **before anything else**:
 
 ---
 
-#### Day 18 · Saturday, Dec 26 — Flight to Bariloche + Arrival
+#### Day 15 · Tuesday, Dec 23 — Flight to Bariloche + Arrival
 
 - **Morning**: Flight **FTE → BRC** (~2 hrs). **Pick up rental car** at Bariloche airport.
 - **Afternoon**: Check in to hotel (booked months ago!). Drive to the iconic **Civic Centre** (tuff-stone alpine architecture declared a national monument). Walk the **Nahuel Huapi Lake** waterfront and browse the famous **chocolate shops** — Bariloche is Argentina's chocolate capital.
@@ -517,7 +460,7 @@ Book these **before anything else**:
 
 ---
 
-#### Day 19 · Sunday, Dec 27 — Circuito Chico
+#### Day 16 · Wednesday, Dec 24 — Circuito Chico + Christmas Eve
 
 - **Must-do**: Drive the **Circuito Chico** (~60 km loop west of Bariloche) and go up **Cerro Campanario** — 35-min hike (or chairlift) to Argentina's most-photographed panoramic viewpoint: Nahuel Huapi Lake, islands and Andes in all directions.
 - **Strong additions**:
@@ -525,7 +468,7 @@ Book these **before anything else**:
   - **Puerto Pañuelo** — beautiful dock with views back to the hotel and across the lake.
   - **Lago Moreno** viewpoints.
 - **Nice if energy allows**: Leave extra time for a lakeside stop or short walk rather than rushing the loop.
-- **Evening**: Return to Bariloche. Dinner.
+- **Evening**: Return to Bariloche. **Christmas Eve (Nochebuena)** dinner — many restaurants serve special menus. Celebrate in the Alps of Patagonia.
 
 | | |
 |---|---|
@@ -533,7 +476,7 @@ Book these **before anything else**:
 
 ---
 
-#### Day 20 · Monday, Dec 28 — Cerro Tronador
+#### Day 17 · Thursday, Dec 25 — Cerro Tronador (Christmas Day)
 
 - **Must-do**: Give **Cerro Tronador** the day it deserves. Drive south through native Valdivian forest, visit the **Ventisquero Negro** (the "black glacier" — a dramatic dark-streaked hanging glacier), and take in the gorge of the Manso River.
 - **Nice if energy allows**: Add only a short extra stop on the return. Do **not** count on fitting **Cerro Catedral** into the same day unless you start very early and are happy with an unusually long outing.
@@ -546,7 +489,7 @@ Book these **before anything else**:
 
 ---
 
-#### Day 21 · Tuesday, Dec 29 — Lakes District Road Trip
+#### Day 18 · Friday, Dec 26 — Lakes District Road Trip
 
 - **Strongest recommendation**: Drive the **Route of the Seven Lakes** toward **San Martín de los Andes**, a classic Lakes District outing linking standout lakes such as **Correntoso**, **Escondido**, and **Lácar** with mountain scenery all day.
 - **Strong alternative**: Keep the current **Circuito Grande** (~250 km loop north of Bariloche) if you prefer a somewhat shorter Bariloche-based loop:
@@ -564,17 +507,59 @@ Book these **before anything else**:
 
 ---
 
-#### Day 22 · Wednesday, Dec 30 — Free Day / Adventure Activities
+#### Day 19 · Saturday, Dec 27 — Cerro Catedral + Adventure Activities
 
-- **Must-do**: Keep this as your flexible Bariloche pick-your-own day after the heavier road trips.
+- **Must-do**: **Cerro Catedral** (~20 km south) — take the summer lifts to the ridge for 360° Andean views. The lifts handle all the elevation gain; a short stroll from the upper station to the nearest viewpoint is enough for a spectacular experience. Walking further along the ridgeline is entirely optional — do as little or as much as you like once you're up.
 - **Strong options**:
-  - **Cerro Catedral** (~20 km south) — summer lifts, 360° Andean views, and ridgeline hiking.
-  - **White-water rafting on the Río Manso** (class III–IV; half-day trips available — operators in town)
-  - **Kayaking on Nahuel Huapi** (guided or rental)
+  - **Kayaking on Nahuel Huapi** (guided or rental) — gentle and scenic
+  - **White-water rafting on the Río Manso** — class III–IV, exhilarating but physically demanding and very wet. Only if the whole group is keen.
 - **Nice if energy allows**:
-  - **Hike Cerro Otto** (~1 hr drive + 4 hr hike to panoramic summit)
+  - **Cerro Otto** — the **teleférico (cable car)** takes you to the summit panorama in ~20 min with no hiking required. The 4 hr foot trail is there for the most energetic, but the cable car gives the same views.
   - **Fly-fishing** on one of the region's famous rivers
-- **Afternoon**: **Buy chocolates** for gifts at home (Abuela Goye, Mamuschka, and Del Turista are the most famous brands). This is your last chance.
+- **Evening**: Dinner in Bariloche.
+
+| | |
+|---|---|
+| **Stay** | Hotel in Bariloche |
+
+---
+
+#### Day 20 · Sunday, Dec 28 — Free Day / Relax
+
+- **Day**: Use this bonus day however you like — re-do a favourite spot, sleep in, take a gentle lakeside walk, or just recharge after the intense Patagonian hiking of the past week.
+- **Strong options**:
+  - Return to **Cerro Campanario** for sunrise or sunset
+  - Short hike in **Parque Municipal Llao Llao**
+  - Visit the **Museo de la Patagonia** in the Civic Centre
+- **Afternoon**: **Buy chocolates** for gifts at home (Abuela Goye, Mamuschka, and Del Turista are the most famous brands).
+- **Evening**: Dinner out — try a **fondue** (a Bariloche speciality).
+
+| | |
+|---|---|
+| **Stay** | Hotel in Bariloche |
+
+---
+
+#### Day 21 · Monday, Dec 29 — Seven Lakes Drive (Full Day)
+
+- **Full Day**: Drive the **Route of the Seven Lakes** toward **San Martín de los Andes** — a legendary Lakes District road trip linking lakes Correntoso, Espejo, Escondido, Villarino, Falkner, Machónico, and Lácar with mountain scenery all day.
+  - Stop for lunch in **San Martín de los Andes** — a beautiful alpine town on Lago Lácar.
+  - Return via the same route or loop back through **Villa La Angostura** and the **Bosque de Arrayanes**.
+- **Evening**: Return to Bariloche. Rest up.
+
+| | |
+|---|---|
+| **Stay** | Hotel in Bariloche |
+
+---
+
+#### Day 22 · Tuesday, Dec 30 — Circuito Grande + Pre-NYE
+
+- **Day**: Drive the **Circuito Grande** (~250 km loop north of Bariloche):
+  - **Lago Nahuel Huapi** northern shore panoramas
+  - **Villa La Angostura** (if not visited on Seven Lakes day) — charming lakeside village
+  - **Bosque de Arrayanes** — unique cinnamon-barked arrayán trees
+- **Afternoon**: Back in Bariloche early. Last chocolate shopping.
 - **Evening**: Pre-NYE dinner. Make a reservation somewhere special. The city fills up on Dec 31.
 
 | | |
@@ -583,7 +568,7 @@ Book these **before anything else**:
 
 ---
 
-#### Day 23 · Thursday, Dec 31 — New Year's Eve 🎉
+#### Day 23 · Wednesday, Dec 31 — New Year's Eve 🎉
 
 - **Day**: Relaxed morning. Final walk or hike. Rest up for a big night.
 - **Afternoon**: Explore Bariloche's historic centre; have a leisurely lunch.
@@ -620,7 +605,7 @@ Book these **before anything else**:
 
 ---
 
-#### Day 24 · Friday, Jan 1 — Flight to Mendoza (New Year's Day)
+#### Day 24 · Thursday, Jan 1 — Flight to Mendoza (New Year's Day)
 
 - **Morning**: Flight **BRC → MDZ** (~2 hrs). Note: NYE will be a very late night — set multiple alarms.
 - **Afternoon**: Check in to hotel. Rest and recover. A slow walk through Mendoza's **leafy pedestrian streets** and **Plaza Independencia** is the ideal pace.
@@ -632,7 +617,7 @@ Book these **before anything else**:
 
 ---
 
-#### Day 25 · Saturday, Jan 2 — Winery Tour (Bodegas)
+#### Day 25 · Friday, Jan 2 — Winery Tour (Bodegas)
 
 - **Full Day**: **Wine tour in the Mendoza wine region** — Argentina's most important wine-producing area, responsible for nearly two-thirds of national wine output:
   - **Maipú** (~15 km east) — bicycle-friendly wine route through dozens of bodegas. Rent bikes for a self-guided tour.
@@ -661,7 +646,7 @@ Book these **before anything else**:
 
 ---
 
-#### Day 26 · Sunday, Jan 3 — Last Flight + Final Night
+#### Day 26 · Saturday, Jan 3 — Last Flight + Final Night
 
 - **Morning**: Flight **MDZ → EZE** (~1.5 hrs). Arrive in Buenos Aires.
 - **Afternoon**: Check in to hotel near EZE airport or in the city for a last night. Freshen up and reflect on 26 extraordinary nights.
@@ -695,7 +680,7 @@ Book these **before anything else**:
 |--------|----------------------------|------------|
 | Buenos Aires | Hot, humid (28–35°C) | Light clothes, comfortable walking shoes |
 | Iguazú | Very hot and humid (30–38°C) | Light clothes, rain poncho/waterproof |
-| Patagonia (Madryn, Ushuaia, Calafate, Chaltén, Bariloche) | Cool–cold, very windy (5–20°C) | **Windproof/waterproof jacket (essential!)**, layers, warm hat, gloves |
+| Patagonia (Ushuaia, Calafate, Chaltén, Bariloche) | Cool–cold, very windy (5–20°C) | **Windproof/waterproof jacket (essential!)**, layers, warm hat, gloves |
 | Mendoza | Hot, dry (28–36°C) | Light clothes, sunscreen, hat |
 
 > In Patagonia, weather can change from sunshine to rain to wind in 20 minutes. Always carry layers.
@@ -734,17 +719,16 @@ Estimated mid-range costs in USD. Based on splitting car rentals and accommodati
 | Category | Est. Cost (USD) |
 |----------|----------------|
 | International flights (return) | $1,000 – 1,800 |
-| 8 domestic flights | $600 – 1,000 |
+| 6 domestic flights | $450 – 750 |
 | Accommodation (26 nights, shared) | $800 – 1,400 |
-| Car rentals × 3 segments (÷4) | $150 – 250 |
+| Car rentals × 2 segments (÷4) | $100 – 175 |
 | Perito Moreno ice trek | $80 – 150 |
 | Martillo Island penguin tour | $60 – 100 |
-| Whale watching (Península Valdés) | $60 – 80 |
 | Iguazú boat safari | $40 – 60 |
 | Meals & drinks (~$35–50/day × 26) | $910 – 1,300 |
 | National park entry fees | $60 – 100 |
 | Activities, tours & incidentals | $200 – 400 |
-| **Total estimate** | **$4,000 – 6,640** |
+| **Total estimate** | **$3,780 – 6,135** |
 
 > Figures are rough guides. Exchange rate swings, flight timing, and how much Malbec you consume will all move the needle. El Chaltén is cash-only — build in a cash buffer before the bus from El Calafate.
 
