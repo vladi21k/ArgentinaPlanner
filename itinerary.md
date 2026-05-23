@@ -40,7 +40,7 @@
 | 9 | Buenos Aires (departure) | Jan 3 | 1 |
 
 ![Argentina trip overview — all 8 destinations](./assets/images/maps/map_overview.png)
-[View Full Route on Google Maps ↗](https://www.google.com/maps/dir/Buenos+Aires,+Argentina/Puerto+Iguaz%C3%BA,+Misiones,+Argentina/Buenos+Aires,+Argentina/Puerto+Madryn,+Chubut,+Argentina/Ushuaia,+Tierra+del+Fuego,+Argentina/El+Calafate,+Santa+Cruz,+Argentina/El+Chalt%C3%A9n,+Santa+Cruz,+Argentina/San+Carlos+de+Bariloche,+R%C3%ADo+Negro,+Argentina/Mendoza,+Argentina/Buenos+Aires,+Argentina)
+[View Full Route on Google Maps ↗](https://www.google.com/maps/dir/Buenos+Aires,+Argentina/Puerto+Iguaz%C3%BA,+Misiones,+Argentina/Ushuaia,+Tierra+del+Fuego,+Argentina/El+Calafate,+Santa+Cruz,+Argentina/El+Chalt%C3%A9n,+Santa+Cruz,+Argentina/San+Carlos+de+Bariloche,+R%C3%ADo+Negro,+Argentina/Mendoza,+Argentina/Buenos+Aires,+Argentina)
 
 ---
 
@@ -78,10 +78,12 @@
 Book these **before anything else**:
 
 1. 🏨 **Bariloche NYE hotel** — Book 6–12 months in advance. Dec 31 sells out a full year ahead.
-2. 🧊 **Perito Moreno Ice Trek** (Mini-trekking or Big Ice) — Book 2–3 months ahead.
-3. 🐧 **Martillo Island penguin boat tour** (Ushuaia) — Very limited capacity. Book 1–2 months ahead.
-4. ✈️ **All 6 domestic flights** — Book ASAP. Prices rise sharply near travel dates.
-5. 🍷 **Mendoza winery tours** — January is high season; reserve tables well in advance.
+2. ✈️ **All 6 domestic flights** — Book ASAP. Prices rise sharply near travel dates.
+3. 🚗 **Car rentals** (Ushuaia, El Calafate optional, Bariloche) — AWD/SUV vehicles run out fast in peak summer. Book 3–4 months ahead, especially the 9-day Bariloche rental over NYE.
+4. 🧊 **Perito Moreno Ice Trek** (Mini-trekking or Big Ice) — Book 2–3 months ahead.
+5. 🐧 **Martillo Island penguin boat tour** (Ushuaia) — Very limited capacity. Book 1–2 months ahead.
+6. ⛵ **Lago Argentino boat excursion** (Upsala + Spegazzini glaciers) — Popular full-day tour; book 2–4 weeks ahead in January peak season.
+7. 🍷 **Mendoza winery tours** — January is high season; reserve tables well in advance.
 
 ---
 
@@ -215,7 +217,7 @@ Book these **before anything else**:
 
 ---
 
-#### Day 5 · Saturday, Dec 13 — Travel + Tierra del Fuego National Park
+#### Day 5 · Sunday, Dec 13 — Travel + Tierra del Fuego National Park
 
 > ⚠️ **Flight note**: No direct IGR → USH service exists. You will connect through Buenos Aires (AEP) on the same day — same-day connection, no overnight. Book both legs as one itinerary on Aerolíneas Argentinas.
 
@@ -233,7 +235,7 @@ Book these **before anything else**:
 
 ---
 
-#### Day 6 · Sunday, Dec 14 — Martillo Island Penguins + Beagle Channel
+#### Day 6 · Monday, Dec 14 — Martillo Island Penguins + Beagle Channel
 
 - **Morning**: **Boat tour to Isla Martillo (Martillo Island)** — the only place in the world outside Antarctica where you can **walk among king penguins** on guided land excursions. Also Magellanic penguins in abundance. Tours depart from Puerto Almanza or from Ushuaia docks. **Book well in advance — capacity extremely limited.**
 - **Afternoon**: Drive the scenic route along the Beagle Channel back towards town. Stop at panoramic lookouts. Optional: visit the **Presidio (old prison/museum)** or **Museo del Fin del Mundo**.
@@ -246,7 +248,7 @@ Book these **before anything else**:
 
 ---
 
-#### Day 7 · Monday, Dec 15 — Free Day / Adventure Activities
+#### Day 7 · Tuesday, Dec 15 — Free Day / Adventure Activities
 
 - **Morning**: Choose your adventure:
   - Hike up **Cerro Martial** for panoramic views over Ushuaia and the Beagle Channel (~3 hrs round-trip, moderate — the most demanding option)
@@ -255,7 +257,7 @@ Book these **before anything else**:
 
 > **Prefer easy?** The **Lago Escondido / Lago Fagnano drive** is the relaxed choice — beautiful lakes and Patagonian mountain scenery with no exertion required. Save your legs for El Chaltén.
 
-- **Afternoon**: Return rental car. Explore **Ushuaia's artisan market and shops** — pick up Tierra del Fuego crafts, local chocolates, and the famous "End of the World" stamps for your passport.
+- **Afternoon**: Explore **Ushuaia's artisan market and shops** — pick up Tierra del Fuego crafts, local chocolates, and the famous "End of the World" stamps for your passport.
 - **Evening**: Last dinner in Ushuaia. Early night.
 
 | | |
@@ -265,7 +267,7 @@ Book these **before anything else**:
 
 ---
 
-#### Day 8 · Tuesday, Dec 16 — Pack Up + Final Ushuaia Moments
+#### Day 8 · Wednesday, Dec 16 — Pack Up + Final Ushuaia Moments
 
 - **Morning**: Last chance to pick up **centolla (king crab)** at the market, or do a short walk along the Beagle Channel waterfront.
 - **Afternoon**: Return rental car. Browse **Ushuaia's artisan market and shops** — Tierra del Fuego crafts, local chocolates, and the famous "End of the World" stamps for your passport.
@@ -298,7 +300,7 @@ Book these **before anything else**:
 
 ---
 
-#### Day 9 · Wednesday, Dec 17 — Travel + Orientation
+#### Day 9 · Thursday, Dec 17 — Travel + Orientation
 
 - **Morning**: Flight **USH → FTE** (~1.5 hrs). Check in to hotel in El Calafate.
 - **Afternoon**: Walk along the turquoise shore of **Lago Argentino** — one of the world's largest lakes. Visit the **Glaciarium** (glacier museum) if interested, with 3D film about the Southern Patagonian Ice Field.
@@ -312,7 +314,7 @@ Book these **before anything else**:
 
 ---
 
-#### Day 10 · Thursday, Dec 18 — Perito Moreno Glacier
+#### Day 10 · Friday, Dec 18 — Perito Moreno Glacier
 
 **This is one of the top natural spectacles on Earth. Give it a full day.**
 
@@ -330,7 +332,7 @@ Book these **before anything else**:
 
 ---
 
-#### Day 11 · Friday, Dec 19 — Lago Argentino Boat Tour + Rest
+#### Day 11 · Saturday, Dec 19 — Lago Argentino Boat Tour + Rest
 
 - **Morning**: **Lago Argentino boat excursion** — sail past the vast **Upsala Glacier** (one of South America's largest, though retreating) and **Spegazzini Glacier** (with ice walls rising 135 m above water — the tallest accessible glacier face in the world). Full-day tours available.
 - **Afternoon**: Rest and prepare for El Chaltén tomorrow. Buy food/snacks for the road, and **withdraw your cash now**.
@@ -362,7 +364,7 @@ Book these **before anything else**:
 
 ---
 
-#### Day 12 · Saturday, Dec 20 — El Calafate → El Chaltén + Laguna de los Tres
+#### Day 12 · Sunday, Dec 20 — El Calafate → El Chaltén + Laguna de los Tres
 
 - **Morning**: Travel to El Chaltén (~3 hrs, ~220 km via RN40/RN23):
   - **By bus**: Departs 7–8 am from El Calafate bus terminal. Reliable, cheap (~$15–20 USD), the standard tourist option. Book in advance.
@@ -386,7 +388,7 @@ Book these **before anything else**:
 
 ---
 
-#### Day 13 · Sunday, Dec 21 — Laguna Torre
+#### Day 13 · Monday, Dec 21 — Laguna Torre
 
 - **Morning/Afternoon**: Hike to **Laguna Torre** for views of the needle-like **Cerro Torre** (one of the world's most technically demanding climbs):
   - 18 km round-trip, moderate difficulty
@@ -415,7 +417,7 @@ Book these **before anything else**:
 
 ---
 
-#### Day 14 · Monday, Dec 22 — El Chaltén → El Calafate (Return)
+#### Day 14 · Tuesday, Dec 22 — El Chaltén → El Calafate (Return)
 
 - **Morning**: Return to El Calafate (~3 hrs) by bus or rental car. Arrive around midday.
 - **Afternoon**: Rest at the hotel. Optional visit to the **Glaciarium** museum if not already visited. Explore El Calafate's shops.
@@ -448,7 +450,7 @@ Book these **before anything else**:
 
 ---
 
-#### Day 15 · Tuesday, Dec 23 — Flight to Bariloche + Arrival
+#### Day 15 · Wednesday, Dec 23 — Flight to Bariloche + Arrival
 
 - **Morning**: Flight **FTE → BRC** (~2 hrs). **Pick up rental car** at Bariloche airport.
 - **Afternoon**: Check in to hotel (booked months ago!). Drive to the iconic **Civic Centre** (tuff-stone alpine architecture declared a national monument). Walk the **Nahuel Huapi Lake** waterfront and browse the famous **chocolate shops** — Bariloche is Argentina's chocolate capital.
@@ -460,7 +462,7 @@ Book these **before anything else**:
 
 ---
 
-#### Day 16 · Wednesday, Dec 24 — Circuito Chico + Christmas Eve
+#### Day 16 · Thursday, Dec 24 — Circuito Chico + Christmas Eve
 
 - **Must-do**: Drive the **Circuito Chico** (~60 km loop west of Bariloche) and go up **Cerro Campanario** — 35-min hike (or chairlift) to Argentina's most-photographed panoramic viewpoint: Nahuel Huapi Lake, islands and Andes in all directions.
 - **Strong additions**:
@@ -476,7 +478,7 @@ Book these **before anything else**:
 
 ---
 
-#### Day 17 · Thursday, Dec 25 — Cerro Tronador (Christmas Day)
+#### Day 17 · Friday, Dec 25 — Cerro Tronador (Christmas Day)
 
 - **Must-do**: Give **Cerro Tronador** the day it deserves. Drive south through native Valdivian forest, visit the **Ventisquero Negro** (the "black glacier" — a dramatic dark-streaked hanging glacier), and take in the gorge of the Manso River.
 - **Nice if energy allows**: Add only a short extra stop on the return. Do **not** count on fitting **Cerro Catedral** into the same day unless you start very early and are happy with an unusually long outing.
@@ -489,16 +491,14 @@ Book these **before anything else**:
 
 ---
 
-#### Day 18 · Friday, Dec 26 — Lakes District Road Trip
+#### Day 18 · Saturday, Dec 26 — Circuito Grande
 
-- **Strongest recommendation**: Drive the **Route of the Seven Lakes** toward **San Martín de los Andes**, a classic Lakes District outing linking standout lakes such as **Correntoso**, **Escondido**, and **Lácar** with mountain scenery all day.
-- **Strong alternative**: Keep the current **Circuito Grande** (~250 km loop north of Bariloche) if you prefer a somewhat shorter Bariloche-based loop:
+- **Full Day**: Drive the **Circuito Grande** (~250 km loop north of Bariloche) — a superb lakes district road trip with mountain and lake views all day:
   - **Lago Nahuel Huapi** northern shore panoramas
   - **Confluencia** — viewpoint where the Limay River begins its journey east
   - **Villa La Angostura** (~80 km from Bariloche) — charming lakeside village on a peninsula in the lake. Excellent lunch stop.
   - **Bosque de Arrayanes** — unique forest of cinnamon-barked arrayán trees; optional short boat tour from Villa La Angostura.
   - Return via **Paso Córdoba** with Patagonian steppe views.
-- **First cut if needed**: If you choose Seven Lakes, keep the day about the road trip itself and skip extra detours once timing starts to slip.
 - **Evening**: Return to Bariloche.
 
 | | |
@@ -507,7 +507,7 @@ Book these **before anything else**:
 
 ---
 
-#### Day 19 · Saturday, Dec 27 — Cerro Catedral + Adventure Activities
+#### Day 19 · Sunday, Dec 27 — Cerro Catedral + Adventure Activities
 
 - **Must-do**: **Cerro Catedral** (~20 km south) — take the summer lifts to the ridge for 360° Andean views. The lifts handle all the elevation gain; a short stroll from the upper station to the nearest viewpoint is enough for a spectacular experience. Walking further along the ridgeline is entirely optional — do as little or as much as you like once you're up.
 - **Strong options**:
@@ -524,7 +524,7 @@ Book these **before anything else**:
 
 ---
 
-#### Day 20 · Sunday, Dec 28 — Free Day / Relax
+#### Day 20 · Monday, Dec 28 — Free Day / Relax
 
 - **Day**: Use this bonus day however you like — re-do a favourite spot, sleep in, take a gentle lakeside walk, or just recharge after the intense Patagonian hiking of the past week.
 - **Strong options**:
@@ -540,7 +540,7 @@ Book these **before anything else**:
 
 ---
 
-#### Day 21 · Monday, Dec 29 — Seven Lakes Drive (Full Day)
+#### Day 21 · Tuesday, Dec 29 — Seven Lakes Drive (Full Day)
 
 - **Full Day**: Drive the **Route of the Seven Lakes** toward **San Martín de los Andes** — a legendary Lakes District road trip linking lakes Correntoso, Espejo, Escondido, Villarino, Falkner, Machónico, and Lácar with mountain scenery all day.
   - Stop for lunch in **San Martín de los Andes** — a beautiful alpine town on Lago Lácar.
@@ -553,13 +553,14 @@ Book these **before anything else**:
 
 ---
 
-#### Day 22 · Tuesday, Dec 30 — Circuito Grande + Pre-NYE
+#### Day 22 · Wednesday, Dec 30 — Relaxed Day + Pre-NYE
 
-- **Day**: Drive the **Circuito Grande** (~250 km loop north of Bariloche):
-  - **Lago Nahuel Huapi** northern shore panoramas
-  - **Villa La Angostura** (if not visited on Seven Lakes day) — charming lakeside village
-  - **Bosque de Arrayanes** — unique cinnamon-barked arrayán trees
-- **Afternoon**: Back in Bariloche early. Last chocolate shopping.
+- **Day**: A lighter day before the big night — sleep in, wander, recharge.
+- **Options**:
+  - **Bosque de Arrayanes** by boat from Villa La Angostura — if you skipped it on the Circuito Grande day
+  - Return to **Cerro Campanario** for a sunset view
+  - Short walk in **Parque Municipal Llao Llao**
+- **Afternoon**: Back in Bariloche. Last **chocolate shopping** — stock up on gifts (Abuela Goye, Mamuschka, Del Turista).
 - **Evening**: Pre-NYE dinner. Make a reservation somewhere special. The city fills up on Dec 31.
 
 | | |
@@ -568,7 +569,7 @@ Book these **before anything else**:
 
 ---
 
-#### Day 23 · Wednesday, Dec 31 — New Year's Eve 🎉
+#### Day 23 · Thursday, Dec 31 — New Year's Eve 🎉
 
 - **Day**: Relaxed morning. Final walk or hike. Rest up for a big night.
 - **Afternoon**: Explore Bariloche's historic centre; have a leisurely lunch.
@@ -605,7 +606,7 @@ Book these **before anything else**:
 
 ---
 
-#### Day 24 · Thursday, Jan 1 — Flight to Mendoza (New Year's Day)
+#### Day 24 · Friday, Jan 1 — Flight to Mendoza (New Year's Day)
 
 - **Morning**: Flight **BRC → MDZ** (~2 hrs). Note: NYE will be a very late night — set multiple alarms.
 - **Afternoon**: Check in to hotel. Rest and recover. A slow walk through Mendoza's **leafy pedestrian streets** and **Plaza Independencia** is the ideal pace.
@@ -617,7 +618,7 @@ Book these **before anything else**:
 
 ---
 
-#### Day 25 · Friday, Jan 2 — Winery Tour (Bodegas)
+#### Day 25 · Saturday, Jan 2 — Winery Tour (Bodegas)
 
 - **Full Day**: **Wine tour in the Mendoza wine region** — Argentina's most important wine-producing area, responsible for nearly two-thirds of national wine output:
   - **Maipú** (~15 km east) — bicycle-friendly wine route through dozens of bodegas. Rent bikes for a self-guided tour.
@@ -646,7 +647,7 @@ Book these **before anything else**:
 
 ---
 
-#### Day 26 · Saturday, Jan 3 — Last Flight + Final Night
+#### Day 26 · Sunday, Jan 3 — Last Flight + Final Night
 
 - **Morning**: Flight **MDZ → EZE** (~1.5 hrs). Arrive in Buenos Aires.
 - **Afternoon**: Check in to hotel near EZE airport or in the city for a last night. Freshen up and reflect on 26 extraordinary nights.
