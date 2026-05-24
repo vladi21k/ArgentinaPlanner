@@ -46,18 +46,18 @@
 
 ## ✈️ Domestic Flights
 
-| # | Date | Route | Airports | Cheaper Practical Fare Found* | Search |
+| # | Date | Route | Airports | Selected Practical Fare* | Search |
 |---|------|-------|----------|-------------------------------|--------|
-| 1 | Dec 11 | Buenos Aires → Puerto Iguazú | EZE → IGR | **$59** JetSMART · nonstop · 18:49–20:38 | [Flights ↗](https://www.google.com/travel/flights?q=Flights%20to%20IGR%20from%20EZE%20on%202026-12-11%20oneway&curr=USD&hl=en) |
+| 1 | Dec 11 | Buenos Aires → Puerto Iguazú | EZE → IGR | **$72** JetSMART · nonstop · 06:30–08:19 | [Flights ↗](https://www.google.com/travel/flights?q=Flights%20to%20IGR%20from%20EZE%20on%202026-12-11%20oneway&curr=USD&hl=en) |
 | 2 | Dec 13 | Puerto Iguazú → Ushuaia | IGR → USH | **$219** Aerolíneas · via AEP · 14:00–21:40 same day | [Flights ↗](https://www.google.com/travel/flights?q=Flights%20to%20USH%20from%20IGR%20on%202026-12-13%20oneway&curr=USD&hl=en) |
 | 3 | Dec 17 | Ushuaia → El Calafate | USH → FTE | **$78** Aerolíneas · nonstop · 15:20–16:40 | [Flights ↗](https://www.google.com/travel/flights?q=Flights%20to%20FTE%20from%20USH%20on%202026-12-17%20oneway&curr=USD&hl=en) |
-| 4 | Dec 23 | El Calafate → Bariloche | FTE → BRC | **$157** JetSMART · via AEP · 08:27–20:19 | [Flights ↗](https://www.google.com/travel/flights?q=Flights%20to%20BRC%20from%20FTE%20on%202026-12-23%20oneway&curr=USD&hl=en) |
+| 4 | Dec 23 | El Calafate → Bariloche | FTE → BRC | **$298** Aerolíneas · nonstop · 09:25–11:10 | [Flights ↗](https://www.google.com/travel/flights?q=Flights%20to%20BRC%20from%20FTE%20on%202026-12-23%20oneway&curr=USD&hl=en) |
 | 5 | Jan 1 | Bariloche → Mendoza | BRC → MDZ | **$156** Aerolíneas · via AEP · 13:20–20:20 same day | [Flights ↗](https://www.google.com/travel/flights?q=Flights%20to%20MDZ%20from%20BRC%20on%202027-01-01%20oneway&curr=USD&hl=en) |
 | 6 | Jan 3 | Mendoza → Buenos Aires | MDZ → EZE | **$122** Aerolíneas · nonstop · 19:00–20:40 | [Flights ↗](https://www.google.com/travel/flights?q=Flights%20to%20EZE%20from%20MDZ%20on%202027-01-03%20oneway&curr=USD&hl=en) |
 
 > **Note on IGR → USH**: There is no direct scheduled flight between Puerto Iguazú and Ushuaia. You will connect through **Buenos Aires (AEP or EZE)** on the same day — typically a 2–3 hr layover. Book both legs together on Aerolíneas Argentinas for the smoothest connection. Same-day connection is achievable; allow 3+ hours between legs.
 
-> **Estimated flight budget**: **$791 USD per person / $3,164 USD for 4 travelers** using the cheaper practical same-day/evening options above. A faster **FTE → BRC** nonstop on Aerolíneas was found for **$298** (09:25–11:10), increasing the total to **$932 per person / $3,728 for 4**.
+> **Estimated flight budget**: **$945 USD per person / $3,780 USD for 4 travelers** using flight times that preserve the planned sightseeing days. Cheaper fares were available for **EZE → IGR** and **FTE → BRC**, but their late arrivals would effectively consume the Iguazú or first Bariloche activity day.
 
 > \* **Fare check**: Prices researched on **May 24, 2026** for one adult, one-way economy. Google Flights states fares include required taxes and fees; JetSMART base fares may exclude overhead-bin carry-on and checked baggage. Prices and availability can change before booking.
 
@@ -170,8 +170,8 @@ Book these **before anything else**:
 
 #### Day 3 · Friday, Dec 11 — Travel + Argentine Side of the Falls
 
-- **Morning**: Flight **EZE → IGR** (~2 hrs). Hotel check-in in Puerto Iguazú town (~8 km from the park).
-- **Afternoon**: Visit **Parque Nacional Iguazú (Argentine side)**:
+- **Early morning**: Flight **EZE → IGR** (**06:30–08:19**). Leave luggage at your hotel in Puerto Iguazú town (~8 km from the park) and head to the park.
+- **Late morning / afternoon**: Visit **Parque Nacional Iguazú (Argentine side)**:
   - **Upper Circuit** (Circuito Superior) — walkway above the falls
   - **Lower Circuit** (Circuito Inferior) — get close to the base
   - **Garganta del Diablo (Devil's Throat)** — the centrepiece: a 150m-wide horseshoe cataract. Stand at the railing as millions of litres pour past you. Unforgettable.
@@ -221,21 +221,18 @@ Book these **before anything else**:
 
 ---
 
-#### Day 5 · Sunday, Dec 13 — Travel + Tierra del Fuego National Park
+#### Day 5 · Sunday, Dec 13 — Travel to Ushuaia
 
-> ⚠️ **Flight note**: No direct IGR → USH service exists. You will connect through Buenos Aires (AEP) on the same day — same-day connection, no overnight. Book both legs as one itinerary on Aerolíneas Argentinas.
+> ⚠️ **Flight note**: No direct IGR → USH service exists. The selected practical connection runs **14:00–21:40** via Buenos Aires (AEP). Treat this as a travel day, not a sightseeing day.
 
-- **Morning**: Fly **IGR → AEP → USH** (same-day connection via Buenos Aires). Pick up **rental car** at Ushuaia airport.
-- **Afternoon**: Drive west to **Parque Nacional Tierra del Fuego** (~12 km):
-  - Hike the **Senda Costera** (coastal trail along the Beagle Channel) — easy to moderate, stunning views.
-  - Walk to the **Lapataia Bay** — the literal end of **Ruta Nacional 3**, the Pan-American Highway (Buenos Aires: 3,079 km). Photo stop essential.
-  - Visit the **End of the World Train** (Tren del Fin del Mundo) station.
-- **Evening**: Return to Ushuaia. Dinner — order **centolla (king crab)** — the local specialty. A Ushuaia tradition.
+- **Morning**: Slow final morning in Puerto Iguazú; check out and have lunch before heading to the airport.
+- **Afternoon / evening**: Fly **IGR → AEP → USH** (**14:00–21:40**). Transfer to the hotel after landing.
+- **Late dinner**: If energy allows, order **centolla (king crab)** close to the hotel; otherwise make it an early night.
 
 | | |
 |---|---|
 | **Stay** | Hotel in Ushuaia |
-| **Note** | December: ~18 hrs daylight. You will not run out of light |
+| **Note** | Pick up the rental car tomorrow morning unless your airport desk confirms late-night pickup |
 
 ---
 
@@ -262,19 +259,22 @@ Book these **before anything else**:
 > **Prefer easy?** The **Lago Escondido / Lago Fagnano drive** is the relaxed choice — beautiful lakes and Patagonian mountain scenery with no exertion required. Save your legs for El Chaltén.
 
 - **Afternoon**: Explore **Ushuaia's artisan market and shops** — pick up Tierra del Fuego crafts, local chocolates, and the famous "End of the World" stamps for your passport.
-- **Evening**: Last dinner in Ushuaia. Early night.
+- **Evening**: Dinner in Ushuaia. Keep the following day for Tierra del Fuego National Park.
 
 | | |
 |---|---|
 | **Stay** | Hotel in Ushuaia |
-| **Note** | One more Ushuaia day — flight to El Calafate on Dec 17 |
+| **Note** | Tomorrow is the national park day moved from the late-arrival flight day |
 
 ---
 
-#### Day 8 · Wednesday, Dec 16 — Pack Up + Final Ushuaia Moments
+#### Day 8 · Wednesday, Dec 16 — Tierra del Fuego National Park
 
-- **Morning**: Last chance to pick up **centolla (king crab)** at the market, or do a short walk along the Beagle Channel waterfront.
-- **Afternoon**: Return rental car. Browse **Ushuaia's artisan market and shops** — Tierra del Fuego crafts, local chocolates, and the famous "End of the World" stamps for your passport.
+- **Morning / afternoon**: Drive west to **Parque Nacional Tierra del Fuego** (~12 km):
+  - Walk a suitable stretch of the **Senda Costera** for Beagle Channel views.
+  - Visit **Lapataia Bay**, the end of **Ruta Nacional 3**.
+  - Stop by the **End of the World Train** station if of interest.
+- **Late afternoon**: Return the rental car and pack for tomorrow's flight.
 - **Evening**: Last dinner in Ushuaia. Early night.
 
 | | |
@@ -456,7 +456,7 @@ Book these **before anything else**:
 
 #### Day 15 · Wednesday, Dec 23 — Flight to Bariloche + Arrival
 
-- **Morning**: Flight **FTE → BRC** (~2 hrs). **Pick up rental car** at Bariloche airport.
+- **Morning**: Nonstop flight **FTE → BRC** (**09:25–11:10**). **Pick up rental car** at Bariloche airport.
 - **Afternoon**: Check in to hotel (booked months ago!). Drive to the iconic **Civic Centre** (tuff-stone alpine architecture declared a national monument). Walk the **Nahuel Huapi Lake** waterfront and browse the famous **chocolate shops** — Bariloche is Argentina's chocolate capital.
 - **Evening**: Dinner by the lake. Welcome to the Lakes District.
 
@@ -612,9 +612,9 @@ Book these **before anything else**:
 
 #### Day 24 · Friday, Jan 1 — Flight to Mendoza (New Year's Day)
 
-- **Morning**: Flight **BRC → MDZ** (~2 hrs). Note: NYE will be a very late night — set multiple alarms.
-- **Afternoon**: Check in to hotel. Rest and recover. A slow walk through Mendoza's **leafy pedestrian streets** and **Plaza Independencia** is the ideal pace.
-- **Evening**: Light dinner with your first **Mendoza Malbec** at the source. Early night.
+- **Morning**: Recover after NYE, check out, and have a relaxed final Bariloche brunch.
+- **Afternoon / evening**: Fly **BRC → AEP → MDZ** (**13:20–20:20**). This is a connection day, not a Mendoza sightseeing day.
+- **Late evening**: Check in and have a simple dinner with your first **Mendoza Malbec** if still awake.
 
 | | |
 |---|---|
@@ -653,9 +653,9 @@ Book these **before anything else**:
 
 #### Day 26 · Sunday, Jan 3 — Last Flight + Final Night
 
-- **Morning**: Flight **MDZ → EZE** (~1.5 hrs). Arrive in Buenos Aires.
-- **Afternoon**: Check in to hotel near EZE airport or in the city for a last night. Freshen up and reflect on 26 extraordinary nights.
-- **Evening**: **Final Buenos Aires dinner** — treat yourselves at a top parrilla or a restaurant you wanted to try on Day 1. Celebrate an epic journey.
+- **Morning / afternoon**: Enjoy a final relaxed Mendoza morning and lunch; keep luggage with the hotel after check-out.
+- **Evening**: Nonstop flight **MDZ → EZE** (**19:00–20:40**). Stay near EZE for the international departure the next day.
+- **Late dinner**: Have a final celebratory meal near the airport hotel rather than planning a cross-city Buenos Aires evening.
 
 | | |
 |---|---|
@@ -724,7 +724,7 @@ Estimated mid-range costs in USD. Based on splitting car rentals and accommodati
 | Category | Est. Cost (USD) |
 |----------|----------------|
 | International flights (return) | $1,000 – 1,800 |
-| 6 domestic flights | $450 – 750 |
+| 6 domestic flights (current practical selection) | ~$945 |
 | Accommodation (26 nights, shared) | $800 – 1,400 |
 | Car rentals × 2 segments (÷4) | $100 – 175 |
 | Perito Moreno ice trek | $80 – 150 |
@@ -733,7 +733,7 @@ Estimated mid-range costs in USD. Based on splitting car rentals and accommodati
 | Meals & drinks (~$35–50/day × 26) | $910 – 1,300 |
 | National park entry fees | $60 – 100 |
 | Activities, tours & incidentals | $200 – 400 |
-| **Total estimate** | **$3,780 – 6,135** |
+| **Total estimate** | **$4,275 – 6,330** |
 
 > Figures are rough guides. Exchange rate swings, flight timing, and how much Malbec you consume will all move the needle. El Chaltén is cash-only — build in a cash buffer before the bus from El Calafate.
 
