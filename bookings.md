@@ -62,7 +62,7 @@ Book at the airport pickup desks or via [Rentalcars.com](https://www.rentalcars.
 
 | # | Activity | Location | Date | Operator | Booking Ref | Status | Notes |
 |---|----------|----------|------|----------|-------------|--------|-------|
-| 1 | **Martillo Island penguin tour** | Ushuaia | Dec 14 | — | — | ⬜ | ⚠️ Book well in advance; confirm land-walk excursion if desired |
+| 1 | **Martillo Island penguin land-walk excursion** | Ushuaia | Dec 14 | — | — | ⬜ | ⚠️ Book well in advance; Magellanic/Gentoo expected, king penguins not guaranteed |
 | 2 | **Perito Moreno ice trek** (Mini-Trekking) | El Calafate | Dec 18 | [Hielo y Aventura](https://www.hieloyaventura.com) | — | ⬜ | ⚠️ **Book 2–3 months ahead** |
 | 3 | Iguazú boat safari (Macuco) | Puerto Iguazú / Brazil side | Dec 12 | — | — | ⬜ | Book in advance if keeping Brazil-side day |
 | 4 | Lago Argentino boat cruise (Upsala/Spegazzini) | El Calafate | Dec 19 | — | — | ⬜ | Full-day; book in advance |

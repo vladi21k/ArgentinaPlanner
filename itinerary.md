@@ -85,7 +85,7 @@ Book these **before anything else**:
 2. ✈️ **All 6 domestic flights** — Book ASAP. Prices rise sharply near travel dates.
 3. 🚗 **Car rentals** (Ushuaia, El Calafate optional, Bariloche) — AWD/SUV vehicles run out fast in peak summer. Book 3–4 months ahead, especially the 9-day Bariloche rental over NYE.
 4. 🧊 **Perito Moreno Ice Trek** (Mini-trekking or Big Ice) — Book 2–3 months ahead.
-5. 🐧 **Martillo Island penguin boat tour** (Ushuaia) — Very limited capacity. Book 1–2 months ahead.
+5. 🐧 **Martillo Island penguin land-walk excursion** (Ushuaia) — Controlled, limited-capacity experience; expect Magellanic and Gentoo penguins, with king penguins only an occasional sighting. Book 1–2 months ahead.
 6. ⛵ **Lago Argentino boat excursion** (Upsala + Spegazzini glaciers) — Popular full-day tour; book 2–4 weeks ahead in January peak season.
 7. 🍷 **Mendoza winery tours** — January is high season; reserve tables well in advance.
 
@@ -209,7 +209,7 @@ Book these **before anything else**:
 <table width="100%" border="0" cellspacing="4" cellpadding="0"><tr>
 <td colspan="2"><img src="./assets/images/ushuaia/2019-11-18_ushuaia_panorama.jpg" alt="Ushuaia panorama — city at the end of the world" width="100%" /></td>
 </tr><tr>
-<td><img src="./assets/images/ushuaia/king_penguins_martillo_island.jpg" alt="King penguins at Martillo Island — walk among them" width="100%" /></td>
+<td><img src="./assets/images/ushuaia/king_penguins_martillo_island.jpg" alt="Magellanic and Gentoo penguins at Martillo Island — controlled land-walk excursion" width="100%" /></td>
 <td><img src="./assets/images/ushuaia/lapataia_bay.jpg" alt="Lapataia Bay — end of the Pan-American Highway" width="100%" /></td>
 </tr><tr>
 <td><img src="./assets/images/ushuaia/ushuaia_and_the_beagle_channel_5525434752.jpg" alt="Beagle Channel at sunset from Ushuaia" width="100%" /></td>
@@ -238,14 +238,14 @@ Book these **before anything else**:
 
 #### Day 6 · Monday, Dec 14 — Martillo Island Penguins + Beagle Channel
 
-- **Morning**: **Boat tour to Isla Martillo (Martillo Island)** — the only place in the world outside Antarctica where you can **walk among king penguins** on guided land excursions. Also Magellanic penguins in abundance. Tours depart from Puerto Almanza or from Ushuaia docks. **Book well in advance — capacity extremely limited.**
+- **Morning**: Book the controlled **Isla Martillo (Martillo Island) land-walk excursion** if you want to go ashore among penguins. Expect **Magellanic and Gentoo penguins**; **king penguins are occasional visitors, not guaranteed**. Other boat navigations may view the colony without a landing. **Book well in advance — capacity is limited.**
 - **Afternoon**: Drive the scenic route along the Beagle Channel back towards town. Stop at panoramic lookouts. Optional: visit the **Presidio (old prison/museum)** or **Museo del Fin del Mundo**.
 - **Evening**: Dinner in Ushuaia — try local lamb (*cordero patagónico*) or king crab again.
 
 | | |
 |---|---|
 | **Stay** | Hotel in Ushuaia |
-| **Note** | Martillo Island tours: book 4–8 weeks ahead. Limited to ~20 people per excursion |
+| **Note** | Martillo Island: confirm that your reservation includes the controlled land-walk if going ashore matters to you |
 
 ---
 
@@ -310,7 +310,7 @@ Book these **before anything else**:
 - **Afternoon**: Walk along the turquoise shore of **Lago Argentino** — one of the world's largest lakes. Visit the **Glaciarium** (glacier museum) if interested, with 3D film about the Southern Patagonian Ice Field.
 - **Evening**: Dinner in El Calafate. The town has excellent restaurants — try **Patagonian lamb**.
 
-> **💵 CASH WARNING**: Withdraw a generous amount of **Argentine pesos** at an El Calafate ATM before heading to El Chaltén. **El Chaltén has NO ATM and minimal card payment options.** Budget for 2 nights of meals, drinks, and incidentals. Bring more than you think you need.
+> **💵 CASH WARNING**: Withdraw a generous amount of **Argentine pesos** at an El Calafate ATM before heading to El Chaltén. El Chaltén has limited ATM service (Banco Santa Cruz / Red Link), but a single local ATM can run short of cash or be unavailable. Budget for 2 nights of meals, drinks, and incidentals.
 
 | | |
 |---|---|
@@ -373,7 +373,7 @@ Book these **before anything else**:
 - **Morning**: Travel to El Chaltén (~3 hrs, ~220 km via RN40/RN23):
   - **By bus**: Departs 7–8 am from El Calafate bus terminal. Reliable, cheap (~$15–20 USD), the standard tourist option. Book in advance.
   - **By rental car**: Full schedule flexibility — stop wherever you like along the empty Patagonian steppe. AWD recommended.
-- **Late morning**: Arrive El Chaltén. Drop bags at hotel. Trails start right at the edge of the village — **no entry fees**, national park rangers give free orientation talks at the bus terminal.
+- **Late morning**: Arrive El Chaltén. Drop bags at hotel. Trails start right at the edge of the village; **Los Glaciares National Park charges access at Portada El Chaltén**, so check the current tariff and purchase requirements before hiking.
 - **Afternoon**: Start the **Laguna de los Tres trail** — the iconic Fitz Roy hike:
   - 20 km round-trip, ~1,200 m elevation gain
   - 6–8 hours total
@@ -445,7 +445,7 @@ Book these **before anything else**:
 <td colspan="3"><img src="./assets/images/bariloche/cerro_campanario_bariloche_argentina_panoramio_12.jpg" alt="Cerro Campanario — Argentina's most-photographed panorama" width="100%" /></td>
 </tr><tr>
 <td colspan="2"><img src="./assets/images/bariloche/hotel_llao_llao_bariloche_argentina.jpg" alt="Llao Llao Hotel — legendary 1938 alpine resort" width="100%" /></td>
-<td colspan="2"><img src="./assets/images/bariloche/nye_fireworks_bariloche.jpg" alt="NYE fireworks over Nahuel Huapi Lake and the Andes" width="100%" /></td>
+<td colspan="2"><img src="./assets/images/bariloche/nye_fireworks_bariloche.jpg" alt="New Year's Eve celebration on the Bariloche waterfront and Nahuel Huapi Lake" width="100%" /></td>
 <td colspan="2"><img src="./assets/images/bariloche/ventisquero_negro_cerro_tronador.jpg" alt="Ventisquero Negro — the dramatic black glacier at Cerro Tronador" width="100%" /></td>
 </tr></table>
 
@@ -579,7 +579,7 @@ Book these **before anything else**:
 - **Afternoon**: Explore Bariloche's historic centre; have a leisurely lunch.
 - **Evening**: **NYE on the Bariloche waterfront** — one of Argentina's biggest New Year's celebrations:
   - The lakefront **Centro Cívico** and adjacent plaza fill with tens of thousands of revellers.
-  - Midnight **fireworks over Nahuel Huapi Lake** — a spectacular backdrop of mountains and water.
+  - Midnight celebration by **Nahuel Huapi Lake** — Bariloche has a **zero-pyrotechnics ordinance**, so plan on the waterfront atmosphere rather than an official fireworks display.
   - Massive street party continues until dawn.
   - Many restaurants and hotels host special NYE dinners (book in advance!).
 
@@ -677,7 +677,7 @@ Book these **before anything else**:
 - Bring **USD cash in good condition** (no tears, pen marks, or heavy creases — Argentine banks will reject them). $100 notes preferred.
 - Use an official **casa de cambio** or your hotel for exchange. Avoid unofficial street changers.
 - ATMs have daily withdrawal limits; extract cash in stages.
-- **El Chaltén: NO ATM.** Withdraw before the El Calafate bus. Bring more than you think you need.
+- **El Chaltén has limited ATM service.** Withdraw before leaving El Calafate rather than relying on the single local ATM being stocked and working.
 
 ### Weather & Clothing
 
@@ -735,7 +735,7 @@ Estimated mid-range costs in USD. Based on splitting car rentals and accommodati
 | Activities, tours & incidentals | $200 – 400 |
 | **Total estimate** | **$4,275 – 6,330** |
 
-> Figures are rough guides. Exchange rate swings, flight timing, and how much Malbec you consume will all move the needle. El Chaltén is cash-only — build in a cash buffer before the bus from El Calafate.
+> Figures are rough guides. Exchange rate swings, flight timing, and how much Malbec you consume will all move the needle. El Chaltén has limited ATM availability — build in a cash buffer before traveling from El Calafate.
 
 ---
 
