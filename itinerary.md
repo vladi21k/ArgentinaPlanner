@@ -46,16 +46,20 @@
 
 ## ✈️ Domestic Flights
 
-| # | Date | Route | Airports |
-|---|------|-------|----------|
-| 1 | Dec 11 | Buenos Aires → Puerto Iguazú | EZE → IGR |
-| 2 | Dec 13 | Puerto Iguazú → Ushuaia | IGR → USH |
-| 3 | Dec 17 | Ushuaia → El Calafate | USH → FTE |
-| 4 | Dec 23 | El Calafate → Bariloche | FTE → BRC |
-| 5 | Jan 1 | Bariloche → Mendoza | BRC → MDZ |
-| 6 | Jan 3 | Mendoza → Buenos Aires | MDZ → EZE |
+| # | Date | Route | Airports | Cheaper Practical Fare Found* | Search |
+|---|------|-------|----------|-------------------------------|--------|
+| 1 | Dec 11 | Buenos Aires → Puerto Iguazú | EZE → IGR | **$59** JetSMART · nonstop · 18:49–20:38 | [Flights ↗](https://www.google.com/travel/flights?q=Flights%20to%20IGR%20from%20EZE%20on%202026-12-11%20oneway&curr=USD&hl=en) |
+| 2 | Dec 13 | Puerto Iguazú → Ushuaia | IGR → USH | **$219** Aerolíneas · via AEP · 14:00–21:40 same day | [Flights ↗](https://www.google.com/travel/flights?q=Flights%20to%20USH%20from%20IGR%20on%202026-12-13%20oneway&curr=USD&hl=en) |
+| 3 | Dec 17 | Ushuaia → El Calafate | USH → FTE | **$78** Aerolíneas · nonstop · 15:20–16:40 | [Flights ↗](https://www.google.com/travel/flights?q=Flights%20to%20FTE%20from%20USH%20on%202026-12-17%20oneway&curr=USD&hl=en) |
+| 4 | Dec 23 | El Calafate → Bariloche | FTE → BRC | **$157** JetSMART · via AEP · 08:27–20:19 | [Flights ↗](https://www.google.com/travel/flights?q=Flights%20to%20BRC%20from%20FTE%20on%202026-12-23%20oneway&curr=USD&hl=en) |
+| 5 | Jan 1 | Bariloche → Mendoza | BRC → MDZ | **$156** Aerolíneas · via AEP · 13:20–20:20 same day | [Flights ↗](https://www.google.com/travel/flights?q=Flights%20to%20MDZ%20from%20BRC%20on%202027-01-01%20oneway&curr=USD&hl=en) |
+| 6 | Jan 3 | Mendoza → Buenos Aires | MDZ → EZE | **$122** Aerolíneas · nonstop · 19:00–20:40 | [Flights ↗](https://www.google.com/travel/flights?q=Flights%20to%20EZE%20from%20MDZ%20on%202027-01-03%20oneway&curr=USD&hl=en) |
 
 > **Note on IGR → USH**: There is no direct scheduled flight between Puerto Iguazú and Ushuaia. You will connect through **Buenos Aires (AEP or EZE)** on the same day — typically a 2–3 hr layover. Book both legs together on Aerolíneas Argentinas for the smoothest connection. Same-day connection is achievable; allow 3+ hours between legs.
+
+> **Estimated flight budget**: **$791 USD per person / $3,164 USD for 4 travelers** using the cheaper practical same-day/evening options above. A faster **FTE → BRC** nonstop on Aerolíneas was found for **$298** (09:25–11:10), increasing the total to **$932 per person / $3,728 for 4**.
+
+> \* **Fare check**: Prices researched on **May 24, 2026** for one adult, one-way economy. Google Flights states fares include required taxes and fees; JetSMART base fares may exclude overhead-bin carry-on and checked baggage. Prices and availability can change before booking.
 
 > **Airlines**: Aerolíneas Argentinas (most reliable), JetSMART, Flybondi (cheaper). Book all flights early — December/January is peak season.
 
