@@ -1,7 +1,6 @@
 ---
 name: argentina-itinerary
 description: 'Day-by-day travel itinerary generation for Argentina. Use when planning a trip to Argentina, creating a travel schedule, routing between regions (Buenos Aires, Patagonia, Mendoza, Bariloche, El Calafate, El Chaltén, Ushuaia, Iguazu Falls, Salta, Jujuy, Peninsula Valdes), recommending how many days per region, or adapting a plan for specific interests, pace, and budget. Adaptable to other international destinations. Triggers: plan my trip, itinerary, day-by-day schedule, what to do in, how many days, route Argentina, Patagonia trip, wine region.'
-argument-hint: 'Destination(s), number of days, interests (food/nature/adventure/wine/culture/tango), pace (relaxed/moderate/packed)'
 ---
 
 # Argentina Itinerary Generator
@@ -70,6 +69,12 @@ Deliver:
 2. **Day-by-day schedule** — using the structure from Step 3
 3. **Advance booking checklist** — what to reserve and how far ahead
 4. **Practical logistics note** — arrival airport, inter-region transport method
+
+### Step 6: Render Repository Itinerary Changes
+When applying any change to `itinerary.md` in this repository, use
+`../itinerary-render/SKILL.md` after editing. Regenerate
+`itinerary-gmap.html` and `itinerary-leaflet.html` from the Markdown source
+before committing or pushing.
 
 ## Adapting for Other Destinations
 Replace Argentine regions with target-country equivalents. The gathering, routing, and day-structure procedures apply universally to any international trip.
