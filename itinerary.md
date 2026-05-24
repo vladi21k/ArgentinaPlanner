@@ -69,9 +69,9 @@
 
 | Destination | Dates | Days | Why Essential |
 |-------------|-------|------|---------------|
-| Ushuaia | Dec 13–16 | 4 | Tierra del Fuego NP, Beagle Channel scenic drives |
+| Ushuaia | Dec 14–16 | 3 | Pick up after the late Dec 13 arrival; Tierra del Fuego NP and Beagle Channel scenic drives |
 | El Calafate *(optional)* | Dec 17–22 | 6 | Self-drive to Perito Moreno; drive to/from El Chaltén on your own schedule |
-| Bariloche | Dec 23–31 | 9 | Circuito Chico, Seven Lakes / Circuito Grande, Cerro Tronador |
+| Bariloche | Dec 23–Jan 1 | 10 | Circuito Chico, Seven Lakes / Circuito Grande, Cerro Tronador; return at BRC before the Mendoza flight |
 
 > **Tip**: At Bariloche and El Calafate, book an AWD/SUV if possible — the Tronador road and some sections of RN40 toward El Chaltén are unpaved gravel. The El Calafate rental is optional: the bus is reliable and cheap, but a car gives you total freedom over timing and stops.
 
@@ -83,7 +83,7 @@ Book these **before anything else**:
 
 1. 🏨 **Bariloche NYE hotel** — Book 6–12 months in advance. Dec 31 sells out a full year ahead.
 2. ✈️ **All 6 domestic flights** — Book ASAP. Prices rise sharply near travel dates.
-3. 🚗 **Car rentals** (Ushuaia, El Calafate optional, Bariloche) — AWD/SUV vehicles run out fast in peak summer. Book 3–4 months ahead, especially the 9-day Bariloche rental over NYE.
+3. 🚗 **Car rentals** (Ushuaia, El Calafate optional, Bariloche) — AWD/SUV vehicles run out fast in peak summer. Book 3–4 months ahead, especially the Bariloche rental covering NYE through the Jan 1 airport drop-off.
 4. 🧊 **Perito Moreno Ice Trek** (Mini-trekking or Big Ice) — Book 2–3 months ahead.
 5. 🐧 **Martillo Island penguin land-walk excursion** (Ushuaia) — Controlled, limited-capacity experience; expect Magellanic and Gentoo penguins, with king penguins only an occasional sighting. Book 1–2 months ahead.
 6. ⛵ **Lago Argentino boat excursion** (Upsala + Spegazzini glaciers) — Popular full-day tour; book 2–4 weeks ahead in January peak season.
@@ -280,7 +280,7 @@ Book these **before anything else**:
 | | |
 |---|---|
 | **Stay** | Hotel in Ushuaia |
-| **Note** | Flight to El Calafate tomorrow morning — consider picking up a rental car there (see Car Rentals section above) |
+| **Note** | Flight to El Calafate tomorrow afternoon; if renting there, arrange airport pickup after the 16:40 arrival |
 
 ---
 
@@ -304,11 +304,11 @@ Book these **before anything else**:
 
 ---
 
-#### Day 9 · Thursday, Dec 17 — Travel + Orientation
+#### Day 9 · Thursday, Dec 17 — Travel to El Calafate
 
-- **Morning**: Flight **USH → FTE** (~1.5 hrs). Check in to hotel in El Calafate.
-- **Afternoon**: Walk along the turquoise shore of **Lago Argentino** — one of the world's largest lakes. Visit the **Glaciarium** (glacier museum) if interested, with 3D film about the Southern Patagonian Ice Field.
-- **Evening**: Dinner in El Calafate. The town has excellent restaurants — try **Patagonian lamb**.
+- **Morning / early afternoon**: Have a relaxed final Ushuaia morning, check out, and head to the airport.
+- **Late afternoon**: Flight **USH → FTE** (**15:20–16:40**). Pick up the optional rental car at the airport or transfer to your hotel in El Calafate.
+- **Evening**: If daylight and energy allow, take a short walk along **Lago Argentino**, then have dinner in El Calafate and try **Patagonian lamb**. Save the **Glaciarium** museum for the return afternoon on Dec 22 if desired.
 
 > **💵 CASH WARNING**: Withdraw a generous amount of **Argentine pesos** at an El Calafate ATM before heading to El Chaltén. El Chaltén has limited ATM service (Banco Santa Cruz / Red Link), but a single local ATM can run short of cash or be unavailable. Budget for 2 nights of meals, drinks, and incidentals.
 
@@ -613,6 +613,7 @@ Book these **before anything else**:
 #### Day 24 · Friday, Jan 1 — Flight to Mendoza (New Year's Day)
 
 - **Morning**: Recover after NYE, check out, and have a relaxed final Bariloche brunch.
+- **Before flight**: Return the Bariloche rental car at **BRC airport**.
 - **Afternoon / evening**: Fly **BRC → AEP → MDZ** (**13:20–20:20**). This is a connection day, not a Mendoza sightseeing day.
 - **Late evening**: Check in and have a simple dinner with your first **Mendoza Malbec** if still awake.
 

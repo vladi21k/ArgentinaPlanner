@@ -23,7 +23,7 @@ Book on [Aerolíneas Argentinas](https://www.aerolineas.com.ar), [Flybondi](http
 |---|-------|------|----------|------------------|-------------|--------|-------|
 | 1 | Buenos Aires → Puerto Iguazú | Dec 11 | EZE → IGR | JetSMART · 06:30–08:19 · est. $72 | — | ⬜ | Early flight preserves Argentine-side falls day |
 | 2 | Puerto Iguazú → Ushuaia | Dec 13 | IGR → AEP → USH | Aerolíneas · 14:00–21:40 · est. $219 | — | ⬜ | Same-day connection; sightseeing moved to Dec 16 |
-| 3 | Ushuaia → El Calafate | Dec 17 | USH → FTE | Aerolíneas · 15:20–16:40 · est. $78 | — | ⬜ | Nonstop |
+| 3 | Ushuaia → El Calafate | Dec 17 | USH → FTE | Aerolíneas · 15:20–16:40 · est. $78 | — | ⬜ | Nonstop; late-afternoon arrival, no museum plan before flight |
 | 4 | El Calafate → Bariloche | Dec 23 | FTE → BRC | Aerolíneas · 09:25–11:10 · est. $298 | — | ⬜ | Nonstop preserves Bariloche arrival day |
 | 5 | Bariloche → Mendoza | Jan 1 | BRC → AEP → MDZ | Aerolíneas · 13:20–20:20 · est. $156 | — | ⬜ | Connection day after NYE |
 | 6 | Mendoza → Buenos Aires | Jan 3 | MDZ → EZE | Aerolíneas · 19:00–20:40 · est. $122 | — | ⬜ | Evening arrival; stay near EZE |
@@ -53,8 +53,8 @@ Book at the airport pickup desks or via [Rentalcars.com](https://www.rentalcars.
 | # | Location | Dates | Days | Vehicle | Booking Ref | Status | Notes |
 |---|----------|-------|------|---------|-------------|--------|-------|
 | 1 | Ushuaia | Dec 14–16 | 3 | Standard 4-door | — | ⬜ | Pick up morning after late USH arrival |
-| 2 | El Calafate *(optional)* | Dec 17–22 | 6 | Standard 4-door | — | ⬜ | Alternative to buses for El Chaltén transfer |
-| 3 | Bariloche | Dec 23–31 | 9 | **AWD/SUV preferred** | — | ⬜ | Tronador road is gravel — AWD strongly recommended |
+| 2 | El Calafate *(optional)* | Dec 17–22 | 6 | Standard 4-door | — | ⬜ | Airport pickup after 16:40 arrival; alternative to buses for El Chaltén transfer |
+| 3 | Bariloche | Dec 23–Jan 1 | 10 | **AWD/SUV preferred** | — | ⬜ | Keep through Jan 1 BRC airport drop-off; Tronador road is gravel |
 
 ---
 
@@ -88,7 +88,7 @@ Book at the airport pickup desks or via [Rentalcars.com](https://www.rentalcars.
 |---|-----------|------|------|------|--------|-------|
 | 1 | NYE dinner (TBD) | Bariloche | Dec 31 | Evening | ⬜ | Book at same time as hotel — NYE menus sell out |
 | 2 | Bodega asado lunch | Mendoza | Jan 2 | Lunch | ⬜ | Reserve with winery tour |
-| 3 | Top parrilla final dinner | Buenos Aires | Jan 3 | Evening | ⬜ | Don Julio, La Cabrera, or El Preferido |
+| 3 | Final dinner near EZE hotel | Buenos Aires / Ezeiza | Jan 3 | Late evening | ⬜ | Keep it near the airport after the 20:40 arrival before international departure day |
 
 ---
 
