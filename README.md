@@ -11,6 +11,13 @@ Trip planning repo for **4 friends · 26 nights · Dec 9, 2026 → Jan 4, 2027**
 | [itinerary.md](itinerary.md) | Full day-by-day plan, route overview, domestic flights, car rentals, and practical tips |
 | [packing.md](packing.md) | Packing list tailored for this trip's multi-climate route |
 | [bookings.md](bookings.md) | Advance booking tracker — status, platforms, and deadlines |
+| [itinerary-leaflet.html](itinerary-leaflet.html) | Served HTML view generated from `itinerary.md` |
+
+To regenerate the browser pages after changing the itinerary:
+
+```powershell
+python .\render_itinerary_html.py
+```
 
 ---
 
