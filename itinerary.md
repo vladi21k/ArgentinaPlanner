@@ -560,16 +560,10 @@ Book these **before anything else**:
 #### Day 22 · Wednesday, Dec 30 — Relaxed Day + Pre-NYE
 
 - **Day**: A lighter day before the big night — sleep in, wander, recharge.
-- **Recommended option**: **Colonia Suiza artisan fair + curanto lunch**. Dec 30, 2026 is a Wednesday, one of the official fair days, making this a well-timed relaxed cultural and food outing before NYE.
-
-| Candidate | Description | Time / fit for Dec 30 | Source |
-|-----------|-------------|-----------------------|--------|
-| **Colonia Suiza artisan fair + curanto** *(recommended)* | Historic settlement 25 km from Bariloche with handicraft stalls, local-product tastings, tea houses and the traditional underground-cooked *curanto*. The official tourism site identifies Wednesday as a fair/curanto day. | Half day or full day; ideal low-effort lunch outing on this specific Wednesday. | [Official tourism ↗](https://www.barilocheturismo.gob.ar/en/colonia-suiza) |
-| **Cerro Otto teleférico + revolving café** | Panoramic gondola ride to the 1,405 m summit, with views over Nahuel Huapi and the Andes plus the rotating café; transfers from central Bariloche are included in the ascent tariff according to the tourism site. | About 3–4 hours; excellent relaxed or weather-dependent alternative without a long drive. | [Official tourism ↗](https://barilocheturismo.gob.ar/es/actividades-cerro-otto) |
-| **Puerto Blest + Cascada de los Cántaros navigation** | Cruise from Puerto Pañuelo through the green-water Blest arm of Nahuel Huapi, followed by a rainforest walk to the waterfall and its ancient larch-tree setting. | Scenic boat-focused outing; reserve ahead and choose only if the group wants a fuller excursion rather than downtime. | [Official tourism ↗](https://www.barilocheturismo.gob.ar/en/puerto-blest-and-cascada-de-los-cantaros) |
-| **Isla Victoria + Bosque de Arrayanes navigation** | Boat excursion from Puerto Pañuelo to the saffron-barked arrayán forest, then Isla Victoria and Playa del Toro, where the official description notes indigenous rock paintings. | Half day or full day; good if not already covered while driving near Villa La Angostura. | [Official tourism ↗](https://www.barilocheturismo.gob.ar/es/isla-victoria-y-bosque-de-arrayanes) |
-| **Nahuel Huapi beach / lakeside picnic** | Keep the day deliberately open with a beach or picnic stop around Nahuel Huapi, such as Playa Bonita or Villa Tacul, for lake views and sun rather than another structured tour. | Flexible and reservation-free; best sunny-weather recovery option before NYE. | [Official tourism ↗](https://barilocheturismo.gob.ar/en/lakes-and-beaches) |
-
+- **Options**:
+  - **Bosque de Arrayanes** by boat from Villa La Angostura — if you skipped it on the Circuito Grande day
+  - Return to **Cerro Campanario** for a sunset view
+  - Short walk in **Parque Municipal Llao Llao**
 - **Afternoon**: Back in Bariloche. Last **chocolate shopping** — stock up on gifts (Abuela Goye, Mamuschka, Del Turista).
 - **Evening**: Pre-NYE dinner. Make a reservation somewhere special. The city fills up on Dec 31.
 
