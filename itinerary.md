@@ -69,7 +69,7 @@
 
 | Destination | Dates | Days | Why Essential |
 |-------------|-------|------|---------------|
-| Ushuaia | Dec 14–16 | 3 | Pick up after the late Dec 13 arrival; Tierra del Fuego NP and Beagle Channel scenic drives |
+| Ushuaia | Dec 14 or 15–16 | 2–3 | Start Dec 14 only if the booked Martillo excursion provides transport or leaves time for post-tour pickup; otherwise pick up Dec 15. Return late afternoon Dec 16 after Tierra del Fuego NP |
 | El Calafate *(optional)* | Dec 17–22 | 6 | Self-drive to Perito Moreno; drive to/from El Chaltén on your own schedule |
 | Bariloche | Dec 23–Jan 1 | 10 | Circuito Chico, Seven Lakes / Circuito Grande, Cerro Tronador; return at BRC before the Mendoza flight |
 
@@ -232,7 +232,7 @@ Book these **before anything else**:
 | | |
 |---|---|
 | **Stay** | Hotel in Ushuaia |
-| **Note** | Pick up the rental car tomorrow morning unless your airport desk confirms late-night pickup |
+| **Note** | Confirm Martillo excursion transport first: pick up the rental car on Dec 14 only if practical around the tour; otherwise begin the rental on Dec 15 |
 
 ---
 
@@ -245,7 +245,7 @@ Book these **before anything else**:
 | | |
 |---|---|
 | **Stay** | Hotel in Ushuaia |
-| **Note** | Martillo Island: confirm that your reservation includes the controlled land-walk if going ashore matters to you |
+| **Note** | Martillo Island: confirm both the controlled land-walk and whether transport is provided before fixing the rental pickup date |
 
 ---
 
@@ -482,16 +482,18 @@ Book these **before anything else**:
 
 ---
 
-#### Day 17 · Friday, Dec 25 — Cerro Tronador (Christmas Day)
+#### Day 17 · Friday, Dec 25 — Cerro Tronador (Christmas Day, Subject to Access Confirmation)
 
-- **Must-do**: Give **Cerro Tronador** the day it deserves. Drive south through native Valdivian forest, visit the **Ventisquero Negro** (the "black glacier" — a dramatic dark-streaked hanging glacier), and take in the gorge of the Manso River.
+- **Conditional full-day plan**: Give **Cerro Tronador** the day it deserves only after confirming that the access road and visitor areas are operating on **Christmas Day**. Drive south through native Valdivian forest, visit the **Ventisquero Negro** (the "black glacier" — a dramatic dark-streaked hanging glacier), and take in the gorge of the Manso River.
+- **Controlled-road timing**: The official National Parks guidance states that the approximately **50 km gravel section from Los Rápidos to Pampa Linda** operates with timed traffic: **entry only 10:30–14:00**, **exit only 16:00–18:00**, and **two-way traffic 19:30–09:00**. Leave Bariloche early enough to enter in the outbound window and plan the return around the exit window. [Official access hours ↗](https://www.argentina.gob.ar/parquesnacionales/regionpatagonia/parque-nacional-nahuel-huapi/horarios-como-llegar)
+- **Holiday check / fallback**: Shortly before **Dec 25, 2026**, confirm Christmas-Day access and any service restrictions with **Parque Nacional Nahuel Huapi**. If it is closed or unsuitable, swap Tronador with one of the later flexible Bariloche days rather than driving out speculatively.
 - **Nice if energy allows**: Add only a short extra stop on the return. Do **not** count on fitting **Cerro Catedral** into the same day unless you start very early and are happy with an unusually long outing.
 - **Evening**: Return to Bariloche. This is one of the biggest road days of the trip.
 
 | | |
 |---|---|
 | **Stay** | Hotel in Bariloche |
-| **Note** | The road to Ventisquero Negro is partly unpaved; AWD recommended |
+| **Note** | AWD recommended; confirm Christmas-Day access and obey the controlled entry/exit windows before setting out |
 
 ---
 
@@ -564,6 +566,14 @@ Book these **before anything else**:
   - **Bosque de Arrayanes** by boat from Villa La Angostura — if you skipped it on the Circuito Grande day
   - Return to **Cerro Campanario** for a sunset view
   - Short walk in **Parque Municipal Llao Llao**
+- **Additional activity candidates**:
+
+  | Activity | Description and source | Time / fit for this day | Approx. travel distance from central Bariloche |
+  |---|---|---|---|
+  | **Cerro Otto teleferico + revolving cafe** | Ride the cable car to summit views over the city and Nahuel Huapi, with time at the revolving cafe. [Official tourism](https://barilocheturismo.gob.ar/en/mount-otto) | About **3-4 hours**; the easiest add-on for a relaxed pre-NYE day. | About **5 km each way** to the cable-car base (**~10 km round trip**), plus the cable-car ascent. |
+  | **Puerto Blest + Cascada de los Cantaros** | Lake navigation from Puerto Pañuelo toward Puerto Blest, paired with forest and waterfall scenery. [Official tourism](https://www.barilocheturismo.gob.ar/en/puerto-blest-and-cascada-de-los-cantaros) | **Half or full day**; scenic, but a bigger commitment before NYE than a city-adjacent outing. | Puerto Pañuelo is **25.5 km each way** by road (**~51 km round trip**), followed by the boat excursion. |
+  | **Isla Victoria + Bosque de Arrayanes** | Boat excursion combining Isla Victoria with the distinctive arrayan forest. [Official tourism](https://www.barilocheturismo.gob.ar/es/isla-victoria-y-bosque-de-arrayanes) | **Half or full day**; best if a lake excursion is preferred over a genuinely restful day. | Puerto Pañuelo is **25.5 km each way** by road (**~51 km round trip**), followed by the boat excursion. |
+
 - **Afternoon**: Back in Bariloche. Last **chocolate shopping** — stock up on gifts (Abuela Goye, Mamuschka, Del Turista).
 - **Evening**: Pre-NYE dinner. Make a reservation somewhere special. The city fills up on Dec 31.
 

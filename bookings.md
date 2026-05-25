@@ -52,9 +52,9 @@ Book at the airport pickup desks or via [Rentalcars.com](https://www.rentalcars.
 
 | # | Location | Dates | Days | Vehicle | Booking Ref | Status | Notes |
 |---|----------|-------|------|---------|-------------|--------|-------|
-| 1 | Ushuaia | Dec 14–16 | 3 | Standard 4-door | — | ⬜ | Pick up morning after late USH arrival |
+| 1 | Ushuaia | Dec 14 or 15–16 | 2–3 | Standard 4-door | — | ⬜ | Start Dec 14 only if booked Martillo tour provides transport or enables post-tour pickup; otherwise start Dec 15. Return late afternoon Dec 16 |
 | 2 | El Calafate *(optional)* | Dec 17–22 | 6 | Standard 4-door | — | ⬜ | Airport pickup after 16:40 arrival; alternative to buses for El Chaltén transfer |
-| 3 | Bariloche | Dec 23–Jan 1 | 10 | **AWD/SUV preferred** | — | ⬜ | Keep through Jan 1 BRC airport drop-off; Tronador road is gravel |
+| 3 | Bariloche | Dec 23–Jan 1 | 10 | **AWD/SUV preferred** | — | ⬜ | Keep through Jan 1 BRC airport drop-off; for Dec 25 Tronador, confirm holiday access and comply with timed gravel-road entry/exit |
 
 ---
 
@@ -62,12 +62,13 @@ Book at the airport pickup desks or via [Rentalcars.com](https://www.rentalcars.
 
 | # | Activity | Location | Date | Operator | Booking Ref | Status | Notes |
 |---|----------|----------|------|----------|-------------|--------|-------|
-| 1 | **Martillo Island penguin land-walk excursion** | Ushuaia | Dec 14 | — | — | ⬜ | ⚠️ Book well in advance; Magellanic/Gentoo expected, king penguins not guaranteed |
+| 1 | **Martillo Island penguin land-walk excursion** | Ushuaia | Dec 14 | — | — | ⬜ | ⚠️ Book well in advance; confirm land-walk and included transport before choosing Dec 14 vs Dec 15 rental pickup |
 | 2 | **Perito Moreno ice trek** (Mini-Trekking) | El Calafate | Dec 18 | [Hielo y Aventura](https://www.hieloyaventura.com) | — | ⬜ | ⚠️ **Book 2–3 months ahead** |
 | 3 | Iguazú boat safari (Macuco) | Puerto Iguazú / Brazil side | Dec 12 | — | — | ⬜ | Book in advance if keeping Brazil-side day |
 | 4 | Lago Argentino boat cruise (Upsala/Spegazzini) | El Calafate | Dec 19 | — | — | ⬜ | Full-day; book in advance |
 | 5 | Winery tours | Mendoza | Jan 2 | — | — | ⬜ | Book 2–4 weeks ahead for January |
-| 6 | Tango dinner show | Buenos Aires | Dec 10 | Café de los Angelitos / El Viejo Almacén | — | ⬜ | Optional; reserve 1–2 weeks ahead |
+| 6 | **Cerro Tronador access confirmation** | Bariloche / Nahuel Huapi NP | Dec 25 | [Parque Nacional Nahuel Huapi](https://www.argentina.gob.ar/parquesnacionales/regionpatagonia/parque-nacional-nahuel-huapi/horarios-como-llegar) | — | ⬜ | Confirm Christmas-Day operation shortly before travel; current road windows: enter 10:30–14:00, exit 16:00–18:00 |
+| 7 | Tango dinner show | Buenos Aires | Dec 10 | Café de los Angelitos / El Viejo Almacén | — | ⬜ | Optional; reserve 1–2 weeks ahead |
 
 ---
 
@@ -100,7 +101,7 @@ Book at the airport pickup desks or via [Rentalcars.com](https://www.rentalcars.
 | Domestic flights | 6 | 0 | 6 |
 | Accommodation | 9 | 0 | 9 |
 | Car rentals | 3 | 0 | 3 |
-| Tours & activities | 6 | 0 | 6 |
+| Tours & activities | 7 | 0 | 7 |
 | Buses | 2 | 0 | 2 |
 | Restaurants | 3 | 0 | 3 |
-| **Total** | **31** | **0** | **31** |
+| **Total** | **32** | **0** | **32** |
