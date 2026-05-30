@@ -217,7 +217,7 @@ def render() -> None:
     content = renderer.convert(source)
     page = TEMPLATE.format(toc=renderer.toc, content=content)
     for output in OUTPUTS:
-        output.write_text(page, encoding="utf-8", newline="\n")
+        output.write_text(page, encoding="utf-8")
         print(f"Rendered {output.name} from {SOURCE.name}")
 
 
