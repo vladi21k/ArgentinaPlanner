@@ -2,7 +2,7 @@
 
 **4 friends · 26 nights · Dec 9, 2026 → Jan 4, 2027**
 
-> ✏️ *Itinerary updated: Puerto Madryn / Península Valdés and Buenos Aires transit (Dec 13) removed. Direct Iguazú → Ushuaia flight added. Extra nights reinvested in Ushuaia (+1) and Bariloche (+3).*
+> ✏️ *Itinerary updated: Mendoza removed. Now flying BRC → EZE direct on Jan 2. Extra night reinvested in Bariloche (now 10 nights) and Buenos Aires departure (now 2 nights).*
 
 ---
 
@@ -19,9 +19,8 @@
   - [Ushuaia — Days 5–8](#-ushuaia)
   - [El Calafate — Days 9–11, 14](#-el-calafate)
   - [El Chaltén — Days 12–13](#️-el-chaltén)
-  - [Bariloche — Days 15–23](#-bariloche)
-  - [Mendoza — Days 24–25](#️-mendoza)
-  - [Buenos Aires Departure — Days 26–27](#️-buenos-aires-departure)
+  - [Bariloche — Days 15–24](#-bariloche)
+  - [Buenos Aires Departure — Days 25–26](#️-buenos-aires-departure)
 - [Practical Tips](#️-practical-tips)
 
 ---
@@ -36,12 +35,11 @@
 | 4 | El Calafate | Dec 17–19 | 3 |
 | 5 | El Chaltén | Dec 20–21 | 2 |
 | 6 | El Calafate (return) | Dec 22 | 1 |
-| 7 | **Bariloche (NYE! 🎉)** | Dec 23–31 | 9 |
-| 8 | Mendoza | Jan 1–2 | 2 |
-| 9 | Buenos Aires (departure) | Jan 3 | 1 |
+| 7 | **Bariloche (NYE! 🎉)** | Dec 23–Jan 1 | 10 |
+| 8 | Buenos Aires (departure) | Jan 2–3 | 2 |
 
-![Argentina trip overview — all 8 destinations](./assets/images/maps/map_overview.png)
-[View Full Route on Google Maps ↗](https://www.google.com/maps/dir/Buenos+Aires,+Argentina/Puerto+Iguaz%C3%BA,+Misiones,+Argentina/Ushuaia,+Tierra+del+Fuego,+Argentina/El+Calafate,+Santa+Cruz,+Argentina/El+Chalt%C3%A9n,+Santa+Cruz,+Argentina/San+Carlos+de+Bariloche,+R%C3%ADo+Negro,+Argentina/Mendoza,+Argentina/Buenos+Aires,+Argentina)
+![Argentina trip overview — all 6 destinations](./assets/images/maps/map_overview.png)
+[View Full Route on Google Maps ↗](https://www.google.com/maps/dir/Buenos+Aires,+Argentina/Puerto+Iguaz%C3%BA,+Misiones,+Argentina/Ushuaia,+Tierra+del+Fuego,+Argentina/El+Calafate,+Santa+Cruz,+Argentina/El+Chalt%C3%A9n,+Santa+Cruz,+Argentina/San+Carlos+de+Bariloche,+R%C3%ADo+Negro,+Argentina/Buenos+Aires,+Argentina)
 
 ---
 
@@ -72,9 +70,9 @@
 | 21 | Tue Dec 29 | Bariloche | | 🚗 Bariloche | Seven Lakes Drive to San Martín de los Andes: lakes Correntoso, Espejo, Villarino, Falkner, Machónico, Lácar; lunch in San Martín | Full-day road trip — return via Villa La Angostura if desired |
 | 22 | Wed Dec 30 | Bariloche | | 🚗 Bariloche | Light pre-NYE day: Cerro Otto cable car + revolving café OR Isla Victoria + Arrayanes boat excursion; last chocolate shopping | Don't overdo it — big night tomorrow |
 | 23 | Thu Dec 31 | Bariloche | | 🚗 Bariloche | NYE: relaxed morning; lakefront Centro Cívico celebration at midnight; massive street party by Nahuel Huapi Lake until dawn | No official fireworks (city ordinance); book NYE dinner well in advance |
-| 24 | Fri Jan 1 | Mendoza | 2 | 🚗 Return | Fly BRC → AEP → MDZ (13:20–20:20); return rental car at BRC airport before flight; check in; first Mendoza Malbec | Return car at BRC airport; no car needed in Mendoza |
-| 25 | Sat Jan 2 | Mendoza | | | Full-day winery tour: Maipú bicycle route OR Luján de Cuyo bodegas (Catena Zapata, Achaval Ferrer) OR Valle de Uco; asado lunch | Bikes or tours for wineries — no rental car needed |
-| 26 | Sun Jan 3 | Buenos Aires (transit) | 1 | | Relaxed Mendoza morning; fly MDZ → EZE (19:00–20:40); dinner near airport | Stay near EZE — early international departure tomorrow |
+| 24 | Fri Jan 1 | Bariloche | | 🚗 Bariloche | New Year's Day: slow morning; recover from NYE; gentle lakeside walk, Museo de la Patagonia, or last chocolate shopping | Last full day in Bariloche; return rental car tonight or at BRC airport tomorrow |
+| 25 | Sat Jan 2 | Buenos Aires (transit) | 2 | 🚗 Return | Return rental car at BRC airport; fly BRC → EZE (~2 hrs nonstop); afternoon arrival; last dinner in Buenos Aires | Palermo or Recoleta hotel for the final night |
+| 26 | Sun Jan 3 | Buenos Aires | | | Final day: San Telmo Sunday market, strolling Palermo, last asado and alfajores | Early night — international departure tomorrow |
 | 27 | Mon Jan 4 | — Departure — | | | Transfer to EZE (arrive 3 hrs early for international); fly home | Trip ends Jan 4, 2027 — ¡buen viaje! |
 
 ---
@@ -87,14 +85,13 @@
 | 2 | Dec 13 | Puerto Iguazú → Ushuaia | IGR → USH | **$219** Aerolíneas · via AEP · 14:00–21:40 same day | [Flights ↗](https://www.google.com/travel/flights?q=Flights%20to%20USH%20from%20IGR%20on%202026-12-13%20oneway&curr=USD&hl=en) |
 | 3 | Dec 17 | Ushuaia → El Calafate | USH → FTE | **$78** Aerolíneas · nonstop · 15:20–16:40 | [Flights ↗](https://www.google.com/travel/flights?q=Flights%20to%20FTE%20from%20USH%20on%202026-12-17%20oneway&curr=USD&hl=en) |
 | 4 | Dec 23 | El Calafate → Bariloche | FTE → BRC | **$298** Aerolíneas · nonstop · 09:25–11:10 | [Flights ↗](https://www.google.com/travel/flights?q=Flights%20to%20BRC%20from%20FTE%20on%202026-12-23%20oneway&curr=USD&hl=en) |
-| 5 | Jan 1 | Bariloche → Mendoza | BRC → MDZ | **$156** Aerolíneas · via AEP · 13:20–20:20 same day | [Flights ↗](https://www.google.com/travel/flights?q=Flights%20to%20MDZ%20from%20BRC%20on%202027-01-01%20oneway&curr=USD&hl=en) |
-| 6 | Jan 3 | Mendoza → Buenos Aires | MDZ → EZE | **$122** Aerolíneas · nonstop · 19:00–20:40 | [Flights ↗](https://www.google.com/travel/flights?q=Flights%20to%20EZE%20from%20MDZ%20on%202027-01-03%20oneway&curr=USD&hl=en) |
+| 5 | Jan 2 | Bariloche → Buenos Aires | BRC → EZE | **~$120** Aerolíneas · nonstop · ~2 hrs | [Flights ↗](https://www.google.com/travel/flights?q=Flights%20to%20EZE%20from%20BRC%20on%202027-01-02%20oneway&curr=USD&hl=en) |
 
 > **Note on IGR → USH**: There is no direct scheduled flight between Puerto Iguazú and Ushuaia. You will connect through **Buenos Aires (AEP or EZE)** on the same day — typically a 2–3 hr layover. Book both legs together on Aerolíneas Argentinas for the smoothest connection. Same-day connection is achievable; allow 3+ hours between legs.
 
-> **Estimated flight budget**: **$945 USD per person / $3,780 USD for 4 travelers** using flight times that preserve the planned sightseeing days. Cheaper fares were available for **EZE → IGR** and **FTE → BRC**, but their late arrivals would effectively consume the Iguazú or first Bariloche activity day.
+> **Estimated flight budget**: **~$787 USD per person / ~$3,148 USD for 4 travelers** using flight times that preserve the planned sightseeing days. Cheaper fares were available for **EZE → IGR** and **FTE → BRC**, but their late arrivals would effectively consume the Iguazú or first Bariloche activity day.
 
-> \* **Fare check**: Prices researched on **May 24, 2026** for one adult, one-way economy. Google Flights states fares include required taxes and fees; JetSMART base fares may exclude overhead-bin carry-on and checked baggage. Prices and availability can change before booking.
+> \* **Fare check**: Prices researched on **May 24, 2026** for one adult, one-way economy. Flight 5 (BRC → EZE) is an estimate — search and book early. Google Flights states fares include required taxes and fees; JetSMART base fares may exclude overhead-bin carry-on and checked baggage. Prices and availability can change before booking.
 
 > **Airlines**: Aerolíneas Argentinas (most reliable), JetSMART, Flybondi (cheaper). Book all flights early — December/January is peak season.
 
@@ -106,7 +103,7 @@
 |-------------|-------|------|---------------|
 | Ushuaia | Dec 14 or 15–16 | 2–3 | Start Dec 14 only if the booked Martillo excursion provides transport or leaves time for post-tour pickup; otherwise pick up Dec 15. Return late afternoon Dec 16 after Tierra del Fuego NP |
 | El Calafate *(optional)* | Dec 17–22 | 6 | Self-drive to Perito Moreno; drive to/from El Chaltén on your own schedule |
-| Bariloche | Dec 23–Jan 1 | 10 | Circuito Chico, Seven Lakes / Circuito Grande, Cerro Tronador; return at BRC before the Mendoza flight |
+| Bariloche | Dec 23–Jan 2 | 11 | Circuito Chico, Seven Lakes / Circuito Grande, Cerro Tronador; return at BRC airport before the Buenos Aires flight |
 
 > **Tip**: At Bariloche and El Calafate, book an AWD/SUV if possible — the Tronador road and some sections of RN40 toward El Chaltén are unpaved gravel. The El Calafate rental is optional: the bus is reliable and cheap, but a car gives you total freedom over timing and stops.
 
@@ -117,12 +114,11 @@
 Book these **before anything else**:
 
 1. 🏨 **Bariloche NYE hotel** — Book 6–12 months in advance. Dec 31 sells out a full year ahead.
-2. ✈️ **All 6 domestic flights** — Book ASAP. Prices rise sharply near travel dates.
-3. 🚗 **Car rentals** (Ushuaia, El Calafate optional, Bariloche) — AWD/SUV vehicles run out fast in peak summer. Book 3–4 months ahead, especially the Bariloche rental covering NYE through the Jan 1 airport drop-off.
+2. ✈️ **All 5 domestic flights** — Book ASAP. Prices rise sharply near travel dates.
+3. 🚗 **Car rentals** (Ushuaia, El Calafate optional, Bariloche) — AWD/SUV vehicles run out fast in peak summer. Book 3–4 months ahead, especially the Bariloche rental covering NYE through the Jan 2 airport drop-off.
 4. 🧊 **Perito Moreno Ice Trek** (Mini-trekking or Big Ice) — Book 2–3 months ahead.
 5. 🐧 **Martillo Island penguin land-walk excursion** (Ushuaia) — Controlled, limited-capacity experience; expect Magellanic and Gentoo penguins, with king penguins only an occasional sighting. Book 1–2 months ahead.
 6. ⛵ **Lago Argentino boat excursion** (Upsala + Spegazzini glaciers) — Popular full-day tour; book 2–4 weeks ahead in January peak season.
-7. 🍷 **Mendoza winery tours** — January is high season; reserve tables well in advance.
 
 ---
 
@@ -471,7 +467,7 @@ Book these **before anything else**:
 
 ### 🍫 Bariloche
 
-**Dec 23–31 · 9 nights · NEW YEAR'S EVE!**
+**Dec 23–Jan 1 · 10 nights · NEW YEAR'S EVE!**
 
 *"The Queen of Patagonia" — alpine lakes, Andean scenery, Swiss-style architecture, world-class chocolate, and one of Argentina's biggest NYE celebrations*
 
@@ -635,77 +631,57 @@ Book these **before anything else**:
 
 ---
 
-### 🍷 Mendoza
+#### Day 24 · Friday, Jan 1 — New Year's Day
 
-**Jan 1–2 · 2 nights**
-
-*Argentina's wine heartland — high-altitude Malbec, bodegas and the snow-capped Andes as backdrop*
-
-<table width="100%" border="0" cellspacing="4" cellpadding="0"><tr>
-<td colspan="4"><img src="./assets/images/mendoza/vignoble_mendoza_argentine.jpg" alt="Mendoza vineyards with the snow-capped Andes behind" width="100%" /></td>
-</tr><tr>
-<td><img src="./assets/images/mendoza/la_boca_malbec.jpg" alt="Malbec wine tasting in a Mendoza bodega" width="100%" /></td>
-<td><img src="./assets/images/mendoza/wine-touring_on_bikes.jpg" alt="Maipú bicycle wine tour — the most fun way to taste Malbec" width="100%" /></td>
-<td><img src="./assets/images/mendoza/aconcagua_13.jpg" alt="Aconcagua — the highest peak in the Americas seen from Mendoza" width="100%" /></td>
-<td><img src="./assets/images/mendoza/altura_argentina_wine_tourism_bodega_catena_zapata_panoramio.jpg" alt="Bodega Catena Zapata — iconic Mayan pyramid winery" width="100%" /></td>
-</tr></table>
-
-![Mendoza wine region map](./assets/images/maps/map_mendoza.png)
-[View on Google Maps ↗](https://www.google.com/maps/place/Mendoza,+Argentina/@-32.8908,-68.8272,11z)
-
----
-
-#### Day 24 · Friday, Jan 1 — Flight to Mendoza (New Year's Day)
-
-- **Morning**: Recover after NYE, check out, and have a relaxed final Bariloche brunch.
-- **Before flight**: Return the Bariloche rental car at **BRC airport**.
-- **Afternoon / evening**: Fly **BRC → AEP → MDZ** (**13:20–20:20**). This is a connection day, not a Mendoza sightseeing day.
-- **Late evening**: Check in and have a simple dinner with your first **Mendoza Malbec** if still awake.
+- **Morning**: Slow start — recover from NYE celebrations. Breakfast at the hotel or a café in the Centro Cívico.
+- **Afternoon**: Choose a gentle activity:
+  - Lakeside stroll along the **Nahuel Huapi waterfront**
+  - Visit the **Museo de la Patagonia** in the Civic Centre
+  - Last browse of the **chocolate shops** — stock up on gifts (Abuela Goye, Mamuschka, Del Turista)
+  - Cerro Otto **teleférico** for an easy summit view if energy allows
+- **Evening**: Final dinner in Bariloche. Return the rental car at **BRC airport** tonight or early tomorrow before the flight.
 
 | | |
 |---|---|
-| **Stay** | Hotel in Mendoza city centre, or in the wine belt: Luján de Cuyo or Chacras de Coria |
+| **Stay** | Hotel in Bariloche |
+| **Note** | Flight to Buenos Aires tomorrow — return rental car at BRC airport before check-in |
 
 ---
 
-#### Day 25 · Saturday, Jan 2 — Winery Tour (Bodegas)
+### �️ Buenos Aires (Departure)
 
-- **Full Day**: **Wine tour in the Mendoza wine region** — Argentina's most important wine-producing area, responsible for nearly two-thirds of national wine output:
-  - **Maipú** (~15 km east) — bicycle-friendly wine route through dozens of bodegas. Rent bikes for a self-guided tour.
-  - **Luján de Cuyo** (~25 km south) — prestige wineries including:
-    - **Bodega Catena Zapata** (iconic Mayan pyramid architecture; world-class Malbec)
-    - **Achaval Ferrer**, **Clos de los Siete**, **Renacer**
-  - **Valle de Uco** (~100 km south) — high-altitude vineyards at 1,200 m with Andes backdrop:
-    - **Zuccardi Valle de Uco** (stunning modern architecture; award-winning wines)
-  - Book tours/tastings in advance — January is high season.
-  - Try a **full asado lunch at a bodega** — an unforgettable combination.
-- **Evening**: Return to Mendoza. Final Argentine dinner with bottles of Malbec and Torrontés (white).
-
-| | |
-|---|---|
-| **Stay** | Hotel in Mendoza |
-| **Book** | Winery tours: at least 2–4 weeks in advance for January |
-
----
-
-### 🏙️ Buenos Aires (Departure)
-
-**Jan 3 · 1 night**
+**Jan 2–3 · 2 nights**
 
 ![Buenos Aires city map](./assets/images/maps/map_buenos_aires.png)
 [View on Google Maps ↗](https://www.google.com/maps/place/Buenos+Aires,+Argentina/@-34.6037,-58.3816,13z)
 
 ---
 
-#### Day 26 · Sunday, Jan 3 — Last Flight + Final Night
+#### Day 25 · Saturday, Jan 2 — Flight to Buenos Aires
 
-- **Morning / afternoon**: Enjoy a final relaxed Mendoza morning and lunch; keep luggage with the hotel after check-out.
-- **Evening**: Nonstop flight **MDZ → EZE** (**19:00–20:40**). Stay near EZE for the international departure the next day.
-- **Late dinner**: Have a final celebratory meal near the airport hotel rather than planning a cross-city Buenos Aires evening.
+- **Morning**: Final Bariloche morning. Return the rental car at **BRC airport**.
+- **Midday**: Fly **BRC → EZE** (~2 hrs nonstop). Land in Buenos Aires early/mid-afternoon.
+- **Afternoon**: Transfer to hotel — Palermo or Recoleta for a lively last night, or near EZE for convenience.
+- **Evening**: Last dinner in Buenos Aires — a proper parrilla send-off.
 
 | | |
 |---|---|
-| **Stay** | Hotel near EZE airport (convenient) or Palermo (livelier last night) |
+| **Stay** | Hotel in Palermo or Recoleta (or near EZE) |
+| **Note** | Return rental car at BRC airport before check-in |
+
+---
+
+#### Day 26 · Sunday, Jan 3 — Final Day in Buenos Aires
+
+- **Morning**: Slow breakfast. Explore or revisit any neighbourhood.
+- **Strong option**: **San Telmo Sunday market** (Feria de San Pedro Telmo) — runs all day along Defensa street; antiques, street food, tango performers.
+- **Afternoon**: Palermo Soho shopping, last *alfajores* and *dulce de leche* to bring home, or a return visit to any favourite from Day 2.
+- **Evening**: Early night. International departure early tomorrow.
+
+| | |
+|---|---|
+| **Stay** | Hotel in Palermo or near EZE |
+| **Note** | International departure tomorrow — arrive at EZE 3 hours early |
 
 ---
 
@@ -732,7 +708,6 @@ Book these **before anything else**:
 | Buenos Aires | Hot, humid (28–35°C) | Light clothes, comfortable walking shoes |
 | Iguazú | Very hot and humid (30–38°C) | Light clothes, rain poncho/waterproof |
 | Patagonia (Ushuaia, Calafate, Chaltén, Bariloche) | Cool–cold, very windy (5–20°C) | **Windproof/waterproof jacket (essential!)**, layers, warm hat, gloves |
-| Mendoza | Hot, dry (28–36°C) | Light clothes, sunscreen, hat |
 
 > In Patagonia, weather can change from sunshine to rain to wind in 20 minutes. Always carry layers.
 
@@ -770,7 +745,7 @@ Estimated mid-range costs in USD. Based on splitting car rentals and accommodati
 | Category | Est. Cost (USD) |
 |----------|----------------|
 | International flights (return) | $1,000 – 1,800 |
-| 6 domestic flights (current practical selection) | ~$945 |
+| 5 domestic flights (current practical selection) | ~$787 |
 | Accommodation (26 nights, shared) | $800 – 1,400 |
 | Car rentals × 2 segments (÷4) | $100 – 175 |
 | Perito Moreno ice trek | $80 – 150 |
