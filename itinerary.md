@@ -47,35 +47,35 @@
 
 ## Day-by-Day Summary
 
-| Day | Date | Destination | Nights | What to Do | Notes |
-|-----|------|-------------|--------|------------|-------|
-| 1 | Wed Dec 9 | Buenos Aires | 2 | Arrival at EZE (05:40); immigration & customs; transfer to hotel; rest; neighbourhood stroll; parrilla dinner | Pre-book remise (~$25–35 USD); Palermo or Recoleta hotel |
-| 2 | Thu Dec 10 | Buenos Aires | | Plaza de Mayo → Casa Rosada → San Telmo → La Boca/Caminito → Recoleta Cemetery; optional tango show | Early night — flight tomorrow at 06:30 |
-| 3 | Fri Dec 11 | Puerto Iguazú | 2 | Fly EZE → IGR (06:30–08:19); Argentine side of the falls: Upper & Lower Circuits, Garganta del Diablo | Rain poncho essential — you will get soaked |
-| 4 | Sat Dec 12 | Puerto Iguazú | | Brazilian side: panoramic view of the horseshoe; optional Macuco Boat Safari | Bring passport for border crossing |
-| 5 | Sun Dec 13 | Ushuaia | 4 | Travel day: fly IGR → AEP → USH (14:00–21:40); late dinner near hotel | No direct flight — connects via Buenos Aires AEP |
-| 6 | Mon Dec 14 | Ushuaia | | Martillo Island penguin land-walk excursion; Beagle Channel scenic drive; optional Presidio museum | Book Martillo well in advance; confirm transport before fixing rental pickup date |
-| 7 | Tue Dec 15 | Ushuaia | | Cerro Martial hike OR kayaking in Beagle Channel OR Lago Escondido/Fagnano scenic drive; artisan market | Lago Fagnano drive is the easy, scenic option — save legs for El Chaltén |
-| 8 | Wed Dec 16 | Ushuaia | | Tierra del Fuego National Park: Senda Costera walk, Lapataia Bay (end of Ruta 3), End of the World Train; return rental car | Flight to El Calafate tomorrow afternoon |
-| 9 | Thu Dec 17 | El Calafate | 3 | Fly USH → FTE (15:20–16:40); Lago Argentino lakeside walk; dinner | **Withdraw generous cash now** — limited ATMs in El Chaltén |
-| 10 | Fri Dec 18 | El Calafate | | Perito Moreno Glacier full day: pasarelas walkways, calving, guided ice trek (Mini-Trekking or Big Ice) | Book ice trek 2–3 months ahead |
-| 11 | Sat Dec 19 | El Calafate | | Lago Argentino boat excursion: Upsala + Spegazzini glaciers; rest; final cash withdrawal before El Chaltén | Book boat excursion 2–4 weeks ahead |
-| 12 | Sun Dec 20 | El Chaltén | 2 | Bus or drive to El Chaltén (~3 hrs); Laguna de los Tres hike (Fitz Roy) — 20 km, 6–8 hrs; or Mirador Fitz Roy (2–3 hrs) | Check morning weather — reschedule if winds are severe |
-| 13 | Mon Dec 21 | El Chaltén | | Laguna Torre hike: Cerro Torre views — 18 km, 5–6 hrs; or shorter Chorrillo del Salto waterfall walk | Local craft beer at the microbrewery in the evening |
-| 14 | Tue Dec 22 | El Calafate (return) | 1 | Return to El Calafate (~3 hrs); rest; optional Glaciarium museum; shopping | Flight to Bariloche tomorrow morning |
-| 15 | Wed Dec 23 | Bariloche | 9 | Fly FTE → BRC (09:25–11:10); pick up rental car; Civic Centre; chocolate shops; Nahuel Huapi Lake waterfront | **Pick up rental car at airport**; hotel booked months ahead |
-| 16 | Thu Dec 24 | Bariloche | | Circuito Chico (~60 km loop): Cerro Campanario viewpoint (chairlift or 35-min hike), Llao Llao Hotel grounds, Puerto Pañuelo | Christmas Eve dinner — reserve a restaurant in advance |
-| 17 | Fri Dec 25 | Bariloche | | Cerro Tronador + Ventisquero Negro — confirm Christmas Day access first; obey controlled entry/exit windows | AWD recommended; fallback: swap with a flexible Bariloche day if closed |
-| 18 | Sat Dec 26 | Bariloche | | Circuito Grande (~250 km loop): Lago Nahuel Huapi north shore, Villa La Angostura, Bosque de Arrayanes, Paso Córdoba | Lunch stop in Villa La Angostura |
-| 19 | Sun Dec 27 | Bariloche | | Cerro Catedral summer lifts + ridge views; optional kayaking on Nahuel Huapi or white-water rafting (Río Manso); optional Cerro Otto cable car | Lifts handle all elevation gain — hike along ridge as much or little as desired |
-| 20 | Mon Dec 28 | Bariloche | | Free / relax day; optional Cerro Campanario sunrise; Museo de la Patagonia; fondue dinner | Buy chocolates for home: Abuela Goye, Mamuschka, Del Turista |
-| 21 | Tue Dec 29 | Bariloche | | Seven Lakes Drive to San Martín de los Andes: lakes Correntoso, Espejo, Villarino, Falkner, Machónico, Lácar; lunch in San Martín | Full-day road trip — return via Villa La Angostura if desired |
-| 22 | Wed Dec 30 | Bariloche | | Light pre-NYE day: Cerro Otto cable car + revolving café OR Isla Victoria + Arrayanes boat excursion; last chocolate shopping | Don't overdo it — big night tomorrow |
-| 23 | Thu Dec 31 | Bariloche | | NYE: relaxed morning; lakefront Centro Cívico celebration at midnight; massive street party by Nahuel Huapi Lake until dawn | No official fireworks (city ordinance); book NYE dinner well in advance |
-| 24 | Fri Jan 1 | Mendoza | 2 | Fly BRC → AEP → MDZ (13:20–20:20); return rental car at BRC airport; check in; first Mendoza Malbec | New Year's Day — connection day only |
-| 25 | Sat Jan 2 | Mendoza | | Full-day winery tour: Maipú bicycle route OR Luján de Cuyo bodegas (Catena Zapata, Achaval Ferrer) OR Valle de Uco; asado lunch | Book tastings 2–4 weeks ahead; January is high season |
-| 26 | Sun Jan 3 | Buenos Aires (transit) | 1 | Relaxed Mendoza morning; fly MDZ → EZE (19:00–20:40); dinner near airport | Stay near EZE — early international departure tomorrow |
-| 27 | Mon Jan 4 | — Departure — | | Transfer to EZE (arrive 3 hrs early for international); fly home | Trip ends Jan 4, 2027 — ¡buen viaje! |
+| Day | Date | Destination | Nights | Car Rental | What to Do | Notes |
+|-----|------|-------------|--------|:----------:|------------|-------|
+| 1 | Wed Dec 9 | Buenos Aires | 2 | | Arrival at EZE (05:40); immigration & customs; transfer to hotel; rest; neighbourhood stroll; parrilla dinner | Pre-book remise (~$25–35 USD); Palermo or Recoleta hotel |
+| 2 | Thu Dec 10 | Buenos Aires | | | Plaza de Mayo → Casa Rosada → San Telmo → La Boca/Caminito → Recoleta Cemetery; optional tango show | Early night — flight tomorrow at 06:30 |
+| 3 | Fri Dec 11 | Puerto Iguazú | 2 | | Fly EZE → IGR (06:30–08:19); Argentine side of the falls: Upper & Lower Circuits, Garganta del Diablo | Rain poncho essential — you will get soaked |
+| 4 | Sat Dec 12 | Puerto Iguazú | | | Brazilian side: panoramic view of the horseshoe; optional Macuco Boat Safari | Bring passport for border crossing |
+| 5 | Sun Dec 13 | Ushuaia | 4 | | Travel day: fly IGR → AEP → USH (14:00–21:40); late dinner near hotel | No direct flight — connects via Buenos Aires AEP |
+| 6 | Mon Dec 14 | Ushuaia | | 🚗 Pick up | Martillo Island penguin land-walk excursion; Beagle Channel scenic drive; optional Presidio museum | Pick up only if Martillo tour allows; otherwise wait until Day 7 |
+| 7 | Tue Dec 15 | Ushuaia | | 🚗 Ushuaia | Cerro Martial hike OR kayaking in Beagle Channel OR Lago Escondido/Fagnano scenic drive; artisan market | Lago Fagnano drive is the easy, scenic option — save legs for El Chaltén |
+| 8 | Wed Dec 16 | Ushuaia | | 🚗 Return | Tierra del Fuego National Park: Senda Costera walk, Lapataia Bay (end of Ruta 3), End of the World Train; return rental car | Return car late afternoon before tomorrow's flight |
+| 9 | Thu Dec 17 | El Calafate | 3 | *(optional)* | Fly USH → FTE (15:20–16:40); Lago Argentino lakeside walk; dinner | **Withdraw generous cash now** — limited ATMs in El Chaltén |
+| 10 | Fri Dec 18 | El Calafate | | *(optional)* | Perito Moreno Glacier full day: pasarelas walkways, calving, guided ice trek (Mini-Trekking or Big Ice) | Self-drive with rental, or guided tour/remise — both work |
+| 11 | Sat Dec 19 | El Calafate | | *(optional)* | Lago Argentino boat excursion: Upsala + Spegazzini glaciers; rest; final cash withdrawal before El Chaltén | Book boat excursion 2–4 weeks ahead |
+| 12 | Sun Dec 20 | El Chaltén | 2 | *(optional)* | Bus or drive to El Chaltén (~3 hrs); Laguna de los Tres hike (Fitz Roy) — 20 km, 6–8 hrs; or Mirador Fitz Roy (2–3 hrs) | Car gives schedule freedom; bus is reliable and cheap (~$15–20 USD) |
+| 13 | Mon Dec 21 | El Chaltén | | *(optional)* | Laguna Torre hike: Cerro Torre views — 18 km, 5–6 hrs; or shorter Chorrillo del Salto waterfall walk | Local craft beer at the microbrewery in the evening |
+| 14 | Tue Dec 22 | El Calafate (return) | 1 | *(optional)* | Return to El Calafate (~3 hrs); rest; optional Glaciarium museum; shopping | Return rental car if held; flight to Bariloche tomorrow morning |
+| 15 | Wed Dec 23 | Bariloche | 9 | 🚗 Pick up | Fly FTE → BRC (09:25–11:10); pick up rental car; Civic Centre; chocolate shops; Nahuel Huapi Lake waterfront | **Pick up at BRC airport**; AWD/SUV recommended; book 3–4 months ahead |
+| 16 | Thu Dec 24 | Bariloche | | 🚗 Bariloche | Circuito Chico (~60 km loop): Cerro Campanario viewpoint (chairlift or 35-min hike), Llao Llao Hotel grounds, Puerto Pañuelo | Christmas Eve dinner — reserve a restaurant in advance |
+| 17 | Fri Dec 25 | Bariloche | | 🚗 Bariloche | Cerro Tronador + Ventisquero Negro — confirm Christmas Day access first; obey controlled entry/exit windows | AWD essential for the Tronador gravel road |
+| 18 | Sat Dec 26 | Bariloche | | 🚗 Bariloche | Circuito Grande (~250 km loop): Lago Nahuel Huapi north shore, Villa La Angostura, Bosque de Arrayanes, Paso Córdoba | Lunch stop in Villa La Angostura |
+| 19 | Sun Dec 27 | Bariloche | | 🚗 Bariloche | Cerro Catedral summer lifts + ridge views; optional kayaking on Nahuel Huapi or white-water rafting (Río Manso); optional Cerro Otto cable car | Lifts handle all elevation gain — hike along ridge as much or little as desired |
+| 20 | Mon Dec 28 | Bariloche | | 🚗 Bariloche | Free / relax day; optional Cerro Campanario sunrise; Museo de la Patagonia; fondue dinner | Buy chocolates for home: Abuela Goye, Mamuschka, Del Turista |
+| 21 | Tue Dec 29 | Bariloche | | 🚗 Bariloche | Seven Lakes Drive to San Martín de los Andes: lakes Correntoso, Espejo, Villarino, Falkner, Machónico, Lácar; lunch in San Martín | Full-day road trip — return via Villa La Angostura if desired |
+| 22 | Wed Dec 30 | Bariloche | | 🚗 Bariloche | Light pre-NYE day: Cerro Otto cable car + revolving café OR Isla Victoria + Arrayanes boat excursion; last chocolate shopping | Don't overdo it — big night tomorrow |
+| 23 | Thu Dec 31 | Bariloche | | 🚗 Bariloche | NYE: relaxed morning; lakefront Centro Cívico celebration at midnight; massive street party by Nahuel Huapi Lake until dawn | No official fireworks (city ordinance); book NYE dinner well in advance |
+| 24 | Fri Jan 1 | Mendoza | 2 | 🚗 Return | Fly BRC → AEP → MDZ (13:20–20:20); return rental car at BRC airport before flight; check in; first Mendoza Malbec | Return car at BRC airport; no car needed in Mendoza |
+| 25 | Sat Jan 2 | Mendoza | | | Full-day winery tour: Maipú bicycle route OR Luján de Cuyo bodegas (Catena Zapata, Achaval Ferrer) OR Valle de Uco; asado lunch | Bikes or tours for wineries — no rental car needed |
+| 26 | Sun Jan 3 | Buenos Aires (transit) | 1 | | Relaxed Mendoza morning; fly MDZ → EZE (19:00–20:40); dinner near airport | Stay near EZE — early international departure tomorrow |
+| 27 | Mon Jan 4 | — Departure — | | | Transfer to EZE (arrive 3 hrs early for international); fly home | Trip ends Jan 4, 2027 — ¡buen viaje! |
 
 ---
 
