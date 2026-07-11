@@ -17,16 +17,16 @@ Track all advance bookings here. Update the **Status** column as items are confi
 
 ## ✈️ Domestic Flights
 
-Book on [Aerolíneas Argentinas](https://www.aerolineas.com.ar), [Flybondi](https://www.flybondi.com), or [JetSMART](https://www.jetsmart.com). Compare on [Despegar](https://www.despegar.com).
+Book on [Aerolíneas Argentinas](https://www.aerolineas.com.ar), [Flybondi](https://www.flybondi.com), or [JetSMART](https://www.jetsmart.com). Compare on [Despegar](https://www.despegar.com). E-tickets and receipts for all legs below are in [docs/](docs/).
 
-| # | Route | Date | Airports | Preferred Option | Booking Ref | Status | Notes |
-|---|-------|------|----------|------------------|-------------|--------|-------|
-| 1 | Buenos Aires → Puerto Iguazú | Dec 11 | EZE → IGR | JetSMART · 06:30–08:19 · est. $72 | — | ⬜ | Early flight preserves Argentine-side falls day |
-| 2 | Puerto Iguazú → Ushuaia | Dec 13 | IGR → AEP → USH | Aerolíneas · 14:00–21:40 · est. $219 | — | ⬜ | Same-day connection; sightseeing moved to Dec 16 |
-| 3 | Ushuaia → El Calafate | Dec 17 | USH → FTE | Aerolíneas · 15:20–16:40 · est. $78 | — | ⬜ | Nonstop; late-afternoon arrival, no museum plan before flight |
-| 4 | El Calafate → Bariloche | Dec 23 | FTE → BRC | Aerolíneas · 09:25–11:10 · est. $298 | — | ⬜ | Nonstop preserves Bariloche arrival day |
-| 5 | Bariloche → Mendoza | Jan 1 | BRC → AEP → MDZ | Aerolíneas · 13:20–20:20 · est. $156 | — | ⬜ | Connection day after NYE |
-| 6 | Mendoza → Buenos Aires | Jan 3 | MDZ → EZE | Aerolíneas · 19:00–20:40 · est. $122 | — | ⬜ | Evening arrival; stay near EZE |
+| # | Route | Date | Airports | Booked | Booking Ref | Status | Notes |
+|---|-------|------|----------|--------|-------------|--------|-------|
+| 1 | Buenos Aires → Puerto Iguazú | Dec 11 | EZE → IGR | **Flybondi FO5102 · 18:05–19:55** | Order 1133-028-244 | ✅ | Evening flight, via **Ezeiza** not Aeroparque; falls sightseeing now Dec 12 only; baggage not included (Flybondi) |
+| 2a | Puerto Iguazú → Buenos Aires | Dec 13 | IGR → EZE | **Flybondi FO5101 · times TBC** | Order 1137-411-106 | ✅ | Receipt confirms operator/flight no. only — verify exact times on e-ticket/boarding pass |
+| 2b | Buenos Aires → Ushuaia | Dec 13 | EZE → USH | **Aerolíneas AR1880 · 16:25–20:05** | Booking 1378836986575890 | ✅ | Confirmed via e-ticket; connects through **Ezeiza**, not AEP |
+| 3 | Ushuaia → El Calafate | Dec 17 | USH → FTE | **Flybondi FO5540 · times TBC** | Order 1132-869-097 | ✅ | Receipt confirms operator/flight no. only — verify exact times; baggage purchased separately (20kg checked, ~$40/pax) |
+| 4 | El Calafate → Bariloche | Dec 23 | FTE → BRC | **Aerolíneas AR1695 · 09:25–11:10** | PNR CJYSVG / YI5FMFDH | ✅ | Confirmed via e-ticket for all 4 travellers |
+| 5 | Bariloche → Buenos Aires | Jan 2 | BRC → EZE | **Flybondi FO5245 · 21:50–23:55** | — | ✅ | ⚠️ Renumbered from **FO5249** (see Receipt_1134-074-608) after booking — confirm boarding pass shows FO5245; via **Ezeiza** not Aeroparque; late-night arrival, full Bariloche day Jan 2 |
 
 ---
 
@@ -40,9 +40,8 @@ Book on [Aerolíneas Argentinas](https://www.aerolineas.com.ar), [Flybondi](http
 | 4 | El Calafate | Dec 17–19 | — | — | ⬜ | — |
 | 5 | El Chaltén | Dec 20–21 | — | — | ⬜ | Hotel or cabin |
 | 6 | El Calafate | Dec 22 | — | — | ⬜ | Can reuse same hotel |
-| 7 | **Bariloche** | **Dec 23–31** | **—** | **—** | **⬜** | ⚠️ **BOOK IMMEDIATELY — NYE sells out 12 months ahead** |
-| 8 | Mendoza | Jan 1–2 | — | — | ⬜ | City centre, or Luján de Cuyo wine belt |
-| 9 | Buenos Aires | Jan 3 | — | — | ⬜ | Near EZE due evening arrival |
+| 7 | **Bariloche** | **Dec 23–Jan 1** | — | — | ✅ | Booked (10 nights, incl. NYE) |
+| 8 | Buenos Aires | Jan 2–3 | — | — | ⬜ | Palermo/Recoleta — arrive **EZE** 23:55 Jan 2 (~45–60 min transfer); 2 nights; pre-book late-night airport transfer |
 
 ---
 
@@ -54,7 +53,7 @@ Book at the airport pickup desks or via [Rentalcars.com](https://www.rentalcars.
 |---|----------|-------|------|---------|-------------|--------|-------|
 | 1 | Ushuaia | Dec 14 or 15–16 | 2–3 | Standard 4-door | — | ⬜ | Start Dec 14 only if booked Martillo tour provides transport or enables post-tour pickup; otherwise start Dec 15. Return late afternoon Dec 16 |
 | 2 | El Calafate *(optional)* | Dec 17–22 | 6 | Standard 4-door | — | ⬜ | Airport pickup after 16:40 arrival; alternative to buses for El Chaltén transfer |
-| 3 | Bariloche | Dec 23–Jan 1 | 10 | **AWD/SUV preferred** | — | ⬜ | Keep through Jan 1 BRC airport drop-off; for Dec 25 Tronador, confirm holiday access and comply with timed gravel-road entry/exit |
+| 3 | Bariloche | Dec 23 (~11:30) – Jan 2 (~20:00) | 11 | **AWD/SUV preferred** | — | ⬜ | Pickup ~11:30 after 11:10 BRC arrival; return by ~20:00 (allow ~1h45 before the 21:50 flight for inspection/refuelling); confirm rental desk's evening staffed hours; for Dec 25 Tronador, confirm holiday access and timed gravel-road entry/exit |
 
 ---
 
@@ -64,11 +63,10 @@ Book at the airport pickup desks or via [Rentalcars.com](https://www.rentalcars.
 |---|----------|----------|------|----------|-------------|--------|-------|
 | 1 | **Martillo Island penguin land-walk excursion** | Ushuaia | Dec 14 | — | — | ⬜ | ⚠️ Book well in advance; confirm land-walk and included transport before choosing Dec 14 vs Dec 15 rental pickup |
 | 2 | **Perito Moreno ice trek** (Mini-Trekking) | El Calafate | Dec 18 | [Hielo y Aventura](https://www.hieloyaventura.com) | — | ⬜ | ⚠️ **Book 2–3 months ahead** |
-| 3 | Iguazú boat safari (Macuco) | Puerto Iguazú / Brazil side | Dec 12 | — | — | ⬜ | Book in advance if keeping Brazil-side day |
+| 3 | Iguazú boat safari (Macuco) | Puerto Iguazú | Dec 12 | — | — | ⬜ | Optional add-on to the Argentine-side day (Brazil side squeezed out by evening Dec 11 flight) |
 | 4 | Lago Argentino boat cruise (Upsala/Spegazzini) | El Calafate | Dec 19 | — | — | ⬜ | Full-day; book in advance |
-| 5 | Winery tours | Mendoza | Jan 2 | — | — | ⬜ | Book 2–4 weeks ahead for January |
-| 6 | **Cerro Tronador access confirmation** | Bariloche / Nahuel Huapi NP | Dec 25 | [Parque Nacional Nahuel Huapi](https://www.argentina.gob.ar/parquesnacionales/regionpatagonia/parque-nacional-nahuel-huapi/horarios-como-llegar) | — | ⬜ | Confirm Christmas-Day operation shortly before travel; current road windows: enter 10:30–14:00, exit 16:00–18:00 |
-| 7 | Tango dinner show | Buenos Aires | Dec 10 | Café de los Angelitos / El Viejo Almacén | — | ⬜ | Optional; reserve 1–2 weeks ahead |
+| 5 | **Cerro Tronador access confirmation** | Bariloche / Nahuel Huapi NP | Dec 25 | [Parque Nacional Nahuel Huapi](https://www.argentina.gob.ar/parquesnacionales/regionpatagonia/parque-nacional-nahuel-huapi/horarios-como-llegar) | — | ⬜ | Confirm Christmas-Day operation shortly before travel; current road windows: enter 10:30–14:00, exit 16:00–18:00 |
+| 6 | Tango dinner show | Buenos Aires | Dec 10 | Café de los Angelitos / El Viejo Almacén | — | ⬜ | Optional; reserve 1–2 weeks ahead |
 
 ---
 
@@ -88,8 +86,7 @@ Book at the airport pickup desks or via [Rentalcars.com](https://www.rentalcars.
 | # | Restaurant | City | Date | Time | Status | Notes |
 |---|-----------|------|------|------|--------|-------|
 | 1 | NYE dinner (TBD) | Bariloche | Dec 31 | Evening | ⬜ | Book at same time as hotel — NYE menus sell out |
-| 2 | Bodega asado lunch | Mendoza | Jan 2 | Lunch | ⬜ | Reserve with winery tour |
-| 3 | Final dinner near EZE hotel | Buenos Aires / Ezeiza | Jan 3 | Late evening | ⬜ | Keep it near the airport after the 20:40 arrival before international departure day |
+| 2 | Final dinner in Buenos Aires | Buenos Aires (Palermo/Recoleta) | Jan 3 | Evening | ⬜ | Proper parrilla send-off on the last night (Jan 2 arrives near midnight — no dinner that night) |
 
 ---
 
@@ -98,10 +95,10 @@ Book at the airport pickup desks or via [Rentalcars.com](https://www.rentalcars.
 | Category | Total Items | Confirmed | Remaining |
 |----------|------------|-----------|-----------|
 | International flights | 2 | 0 | 2 |
-| Domestic flights | 6 | 0 | 6 |
-| Accommodation | 9 | 0 | 9 |
+| Domestic flights | 6 | 6 | 0 |
+| Accommodation | 8 | 1 | 7 |
 | Car rentals | 3 | 0 | 3 |
-| Tours & activities | 7 | 0 | 7 |
+| Tours & activities | 6 | 0 | 6 |
 | Buses | 2 | 0 | 2 |
-| Restaurants | 3 | 0 | 3 |
-| **Total** | **32** | **0** | **32** |
+| Restaurants | 2 | 0 | 2 |
+| **Total** | **29** | **7** | **22** |
