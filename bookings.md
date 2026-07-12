@@ -10,8 +10,8 @@ Track all advance bookings here. Update the **Status** column as items are confi
 
 | # | Route | Date | Airline / Platform | Status | Notes |
 |---|-------|------|--------------------|--------|-------|
-| 1 | Home → Buenos Aires (EZE) | By Dec 9 | — | ⬜ | Arrive by 05:40 Dec 9 |
-| 2 | Buenos Aires (EZE) → Home | Jan 4, 2027 | — | ⬜ | Depart morning/midday |
+| 1 | Home → Buenos Aires (EZE) | By Dec 9 | — | ✅ | Arrive by 05:40 Dec 9 |
+| 2 | Buenos Aires (EZE) → Home | Jan 4, 2027 | — | ✅ | Depart morning/midday |
 
 ---
 
@@ -53,7 +53,7 @@ Book at the airport pickup desks or via [Rentalcars.com](https://www.rentalcars.
 |---|----------|-------|------|---------|-------------|--------|-------|
 | 1 | Ushuaia | Dec 14 or 15–16 | 2–3 | Standard 4-door | — | ⬜ | Start Dec 14 only if booked Martillo tour provides transport or enables post-tour pickup; otherwise start Dec 15. Return late afternoon Dec 16 |
 | 2 | El Calafate *(optional)* | Dec 17–22 | 6 | Standard 4-door | — | ⬜ | Airport pickup after 16:40 arrival; alternative to buses for El Chaltén transfer |
-| 3 | Bariloche | Dec 23 (~11:30) – Jan 2 (~20:00) | 11 | **AWD/SUV preferred** | — | ⬜ | Pickup ~11:30 after 11:10 BRC arrival; return by ~20:00 (allow ~1h45 before the 21:50 flight for inspection/refuelling); confirm rental desk's evening staffed hours; for Dec 25 Tronador, confirm holiday access and timed gravel-road entry/exit |
+| 3 | Bariloche | Dec 23 (~11:30) – Jan 2 (~20:00) | 11 | **AWD/SUV preferred** | — | ✅ | Pickup ~11:30 after 11:10 BRC arrival; return by ~20:00 (allow ~1h45 before the 21:50 flight for inspection/refuelling); confirm rental desk's evening staffed hours; for Dec 25 Tronador, confirm holiday access and timed gravel-road entry/exit |
 
 ---
 
@@ -94,11 +94,11 @@ Book at the airport pickup desks or via [Rentalcars.com](https://www.rentalcars.
 
 | Category | Total Items | Confirmed | Remaining |
 |----------|------------|-----------|-----------|
-| International flights | 2 | 0 | 2 |
+| International flights | 2 | 2 | 0 |
 | Domestic flights | 6 | 6 | 0 |
 | Accommodation | 8 | 1 | 7 |
-| Car rentals | 3 | 0 | 3 |
+| Car rentals | 3 | 1 | 2 |
 | Tours & activities | 6 | 0 | 6 |
 | Buses | 2 | 0 | 2 |
 | Restaurants | 2 | 0 | 2 |
-| **Total** | **29** | **7** | **22** |
+| **Total** | **29** | **10** | **19** |
