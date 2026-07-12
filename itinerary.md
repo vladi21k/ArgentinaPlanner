@@ -2,7 +2,7 @@
 
 **4 friends · 26 nights · Dec 9, 2026 → Jan 4, 2027**
 
-> ✏️ *Itinerary updated: Mendoza removed. Now flying BRC → EZE direct on Jan 2. Extra night reinvested in Bariloche (now 10 nights) and Buenos Aires departure (now 2 nights).*
+> ✏️ *Itinerary updated: Mendoza removed. Domestic flights now booked (tickets in [docs/](docs/)) — note the **evening EZE → IGR flight on Dec 11** (Flybondi FO5102, arrive 19:55), the **IGR → USH connection now confirmed via EZE** (not AEP) with a 16:25–20:05 Aerolíneas AR1880 second leg, and the **late-night BRC → EZE flight on Jan 2** (Flybondi FO5245, arrive 23:55). Extra night reinvested in Bariloche (now 10 nights) and Buenos Aires departure (now 2 nights).*
 
 ---
 
@@ -48,14 +48,14 @@
 | Day | Date | Destination | Nights | Car Rental | What to Do | Notes |
 |-----|------|-------------|--------|:----------:|------------|-------|
 | 1 | Wed Dec 9 | Buenos Aires | 2 | | Arrival at EZE (05:40); immigration & customs; transfer to hotel; rest; neighbourhood stroll; parrilla dinner | Pre-book remise (~$25–35 USD); Palermo or Recoleta hotel |
-| 2 | Thu Dec 10 | Buenos Aires | | | Plaza de Mayo → Casa Rosada → San Telmo → La Boca/Caminito → Recoleta Cemetery; optional tango show | Early night — flight tomorrow at 06:30 |
-| 3 | Fri Dec 11 | Puerto Iguazú | 2 | | Fly EZE → IGR (06:30–08:19); Argentine side of the falls: Upper & Lower Circuits, Garganta del Diablo | Rain poncho essential — you will get soaked |
-| 4 | Sat Dec 12 | Puerto Iguazú | | | Brazilian side: panoramic view of the horseshoe; optional Macuco Boat Safari | Bring passport for border crossing |
-| 5 | Sun Dec 13 | Ushuaia | 4 | | Travel day: fly IGR → AEP → USH (14:00–21:40); late dinner near hotel | No direct flight — connects via Buenos Aires AEP |
+| 2 | Thu Dec 10 | Buenos Aires | | | Plaza de Mayo → Casa Rosada → San Telmo → La Boca/Caminito → Recoleta Cemetery; optional tango show | Flight to Iguazú tomorrow is evening (EZE 18:05) — enjoy a fuller day, but budget a longer EZE transfer |
+| 3 | Fri Dec 11 | Puerto Iguazú | 2 | | Bonus free time in Buenos Aires; evening flight EZE → IGR (18:05–19:55, Flybondi FO5102); late dinner in Puerto Iguazú | Falls sightseeing now starts Dec 12 — evening arrival tonight |
+| 4 | Sat Dec 12 | Puerto Iguazú | | | Full day at the falls — Argentine side (Upper & Lower Circuits, Garganta del Diablo); optional Macuco boat safari | Only one full falls day now; rain poncho essential; Brazilian side squeezed out (see note) |
+| 5 | Sun Dec 13 | Ushuaia | 4 | | Travel day: fly IGR → EZE (Flybondi FO5101) → USH (Aerolíneas AR1880, 16:25–20:05); dinner near hotel | Connects via **Ezeiza (EZE)**, not AEP; arrival now 20:05 — earlier than previously planned |
 | 6 | Mon Dec 14 | Ushuaia | | 🚗 Pick up | Martillo Island penguin land-walk excursion; Beagle Channel scenic drive; optional Presidio museum | Pick up only if Martillo tour allows; otherwise wait until Day 7 |
 | 7 | Tue Dec 15 | Ushuaia | | 🚗 Ushuaia | Cerro Martial hike OR kayaking in Beagle Channel OR Lago Escondido/Fagnano scenic drive; artisan market | Lago Fagnano drive is the easy, scenic option — save legs for El Chaltén |
 | 8 | Wed Dec 16 | Ushuaia | | 🚗 Return | Tierra del Fuego National Park: Senda Costera walk, Lapataia Bay (end of Ruta 3), End of the World Train; return rental car | Return car late afternoon before tomorrow's flight |
-| 9 | Thu Dec 17 | El Calafate | 3 | *(optional)* | Fly USH → FTE (15:20–16:40); Lago Argentino lakeside walk; dinner | **Withdraw generous cash now** — limited ATMs in El Chaltén |
+| 9 | Thu Dec 17 | El Calafate | 3 | *(optional)* | Fly USH → FTE (Flybondi FO5540; ~15:20–16:40, confirm exact times on ticket); Lago Argentino lakeside walk; dinner | **Withdraw generous cash now** — limited ATMs in El Chaltén |
 | 10 | Fri Dec 18 | El Calafate | | *(optional)* | Perito Moreno Glacier full day: pasarelas walkways, calving, guided ice trek (Mini-Trekking or Big Ice) | Self-drive with rental, or guided tour/remise — both work |
 | 11 | Sat Dec 19 | El Calafate | | *(optional)* | Lago Argentino boat excursion: Upsala + Spegazzini glaciers; rest; final cash withdrawal before El Chaltén | Book boat excursion 2–4 weeks ahead |
 | 12 | Sun Dec 20 | El Chaltén | 2 | *(optional)* | Bus or drive to El Chaltén (~3 hrs); Laguna de los Tres hike (Fitz Roy) — 20 km, 6–8 hrs; or Mirador Fitz Roy (2–3 hrs) | Car gives schedule freedom; bus is reliable and cheap (~$15–20 USD) |
@@ -70,8 +70,8 @@
 | 21 | Tue Dec 29 | Bariloche | | 🚗 Bariloche | Seven Lakes Drive to San Martín de los Andes: lakes Correntoso, Espejo, Villarino, Falkner, Machónico, Lácar; lunch in San Martín | Full-day road trip — return via Villa La Angostura if desired |
 | 22 | Wed Dec 30 | Bariloche | | 🚗 Bariloche | Light pre-NYE day: Cerro Otto cable car + revolving café OR Isla Victoria + Arrayanes boat excursion; last chocolate shopping | Don't overdo it — big night tomorrow |
 | 23 | Thu Dec 31 | Bariloche | | 🚗 Bariloche | NYE: relaxed morning; lakefront Centro Cívico celebration at midnight; massive street party by Nahuel Huapi Lake until dawn | No official fireworks (city ordinance); book NYE dinner well in advance |
-| 24 | Fri Jan 1 | Bariloche | | 🚗 Bariloche | New Year's Day: slow morning; recover from NYE; gentle lakeside walk, Museo de la Patagonia, or last chocolate shopping | Last full day in Bariloche; return rental car tonight or at BRC airport tomorrow |
-| 25 | Sat Jan 2 | Buenos Aires (transit) | 2 | 🚗 Return | Return rental car at BRC airport; fly BRC → EZE (~2 hrs nonstop); afternoon arrival; last dinner in Buenos Aires | Palermo or Recoleta hotel for the final night |
+| 24 | Fri Jan 1 | Bariloche | | 🚗 Bariloche | New Year's Day: slow morning; recover from NYE; gentle lakeside walk, Museo de la Patagonia, or last chocolate shopping | Keep the rental car — Jan 2 is now a full Bariloche day |
+| 25 | Sat Jan 2 | Bariloche → Buenos Aires | 2 | 🚗 Return | Full final day in Bariloche; return rental car at BRC in the evening; late flight BRC → EZE (21:50–23:55, Flybondi FO5245); near-midnight arrival | Pre-book EZE → hotel transfer (~45–60 min); Palermo/Recoleta hotel |
 | 26 | Sun Jan 3 | Buenos Aires | | | Final day: San Telmo Sunday market, strolling Palermo, last asado and alfajores | Early night — international departure tomorrow |
 | 27 | Mon Jan 4 | — Departure — | | | Transfer to EZE (arrive 3 hrs early for international); fly home | Trip ends Jan 4, 2027 — ¡buen viaje! |
 
@@ -81,17 +81,18 @@
 
 | # | Date | Route | Airports | Selected Practical Fare* | Search |
 |---|------|-------|----------|-------------------------------|--------|
-| 1 | Dec 11 | Buenos Aires → Puerto Iguazú | EZE → IGR | **$72** JetSMART · nonstop · 06:30–08:19 | [Flights ↗](https://www.google.com/travel/flights?q=Flights%20to%20IGR%20from%20EZE%20on%202026-12-11%20oneway&curr=USD&hl=en) |
-| 2 | Dec 13 | Puerto Iguazú → Ushuaia | IGR → USH | **$219** Aerolíneas · via AEP · 14:00–21:40 same day | [Flights ↗](https://www.google.com/travel/flights?q=Flights%20to%20USH%20from%20IGR%20on%202026-12-13%20oneway&curr=USD&hl=en) |
-| 3 | Dec 17 | Ushuaia → El Calafate | USH → FTE | **$78** Aerolíneas · nonstop · 15:20–16:40 | [Flights ↗](https://www.google.com/travel/flights?q=Flights%20to%20FTE%20from%20USH%20on%202026-12-17%20oneway&curr=USD&hl=en) |
-| 4 | Dec 23 | El Calafate → Bariloche | FTE → BRC | **$298** Aerolíneas · nonstop · 09:25–11:10 | [Flights ↗](https://www.google.com/travel/flights?q=Flights%20to%20BRC%20from%20FTE%20on%202026-12-23%20oneway&curr=USD&hl=en) |
-| 5 | Jan 2 | Bariloche → Buenos Aires | BRC → EZE | **~$120** Aerolíneas · nonstop · ~2 hrs | [Flights ↗](https://www.google.com/travel/flights?q=Flights%20to%20EZE%20from%20BRC%20on%202027-01-02%20oneway&curr=USD&hl=en) |
+| 1 | Dec 11 | Buenos Aires → Puerto Iguazú | EZE → IGR | ✅ **Booked** — Flybondi **FO5102** · nonstop · 18:05–19:55 | — |
+| 2a | Dec 13 | Puerto Iguazú → Buenos Aires | IGR → EZE | ✅ **Booked** — Flybondi **FO5101** · nonstop · times TBC (verify on ticket) | — |
+| 2b | Dec 13 | Buenos Aires → Ushuaia | EZE → USH | ✅ **Booked** — Aerolíneas **AR1880** · nonstop · 16:25–20:05 | — |
+| 3 | Dec 17 | Ushuaia → El Calafate | USH → FTE | ✅ **Booked** — Flybondi **FO5540** · nonstop · times TBC (verify on ticket) | — |
+| 4 | Dec 23 | El Calafate → Bariloche | FTE → BRC | ✅ **Booked** — Aerolíneas **AR1695** · nonstop · 09:25–11:10 | — |
+| 5 | Jan 2 | Bariloche → Buenos Aires | BRC → EZE | ✅ **Booked** — Flybondi **FO5245** · nonstop · 21:50–23:55 | — |
 
-> **Note on IGR → USH**: There is no direct scheduled flight between Puerto Iguazú and Ushuaia. You will connect through **Buenos Aires (AEP or EZE)** on the same day — typically a 2–3 hr layover. Book both legs together on Aerolíneas Argentinas for the smoothest connection. Same-day connection is achievable; allow 3+ hours between legs.
+> **Note on IGR → USH**: This is a same-airport connection through **Ezeiza (EZE)** — Flybondi FO5101 (IGR → EZE) followed by Aerolíneas AR1880 (EZE → USH, 16:25–20:05). All four travellers' e-tickets are in [docs/](docs/). Arrival in Ushuaia (20:05) is about 1h35 earlier than previously planned.
 
-> **Estimated flight budget**: **~$787 USD per person / ~$3,148 USD for 4 travelers** using flight times that preserve the planned sightseeing days. Cheaper fares were available for **EZE → IGR** and **FTE → BRC**, but their late arrivals would effectively consume the Iguazú or first Bariloche activity day.
+> **All 5 domestic flights are booked** — tickets and receipts are in [docs/](docs/). Flights 1 and 5 are on **Flybondi** and both route through **Ezeiza (EZE)**, not Aeroparque (AEP) as an earlier note assumed — this affects transfer times on Dec 11 and Jan 2 (see day notes below). ⚠️ The Jan 2 flight was **renumbered from FO5249 to FO5245** by the airline after booking — double-check your boarding pass shows FO5245. Flights 2a and 3 (FO5101, FO5540) have confirmed operators/flight numbers but no departure/arrival times on the receipt — verify against the e-ticket or airline app.
 
-> \* **Fare check**: Prices researched on **May 24, 2026** for one adult, one-way economy. Flight 5 (BRC → EZE) is an estimate — search and book early. Google Flights states fares include required taxes and fees; JetSMART base fares may exclude overhead-bin carry-on and checked baggage. Prices and availability can change before booking.
+> \* **Baggage note**: Flights 1, 2a, 3, and 5 are on **Flybondi**, a low-cost carrier — checked/carry-on baggage is **not included by default** (confirmed on the Dec 17 USH→FTE receipt: "No free baggage allowance," with a 20kg checked bag purchased separately per traveller for ~$40–50 each). Confirm baggage add-ons are in place for every traveller on every Flybondi leg.
 
 > **Airlines**: Aerolíneas Argentinas (most reliable), JetSMART, Flybondi (cheaper). Book all flights early — December/January is peak season.
 
@@ -103,7 +104,7 @@
 |-------------|-------|------|---------------|
 | Ushuaia | Dec 14 or 15–16 | 2–3 | Start Dec 14 only if the booked Martillo excursion provides transport or leaves time for post-tour pickup; otherwise pick up Dec 15. Return late afternoon Dec 16 after Tierra del Fuego NP |
 | El Calafate *(optional)* | Dec 17–22 | 6 | Self-drive to Perito Moreno; drive to/from El Chaltén on your own schedule |
-| Bariloche | Dec 23–Jan 2 | 11 | Circuito Chico, Seven Lakes / Circuito Grande, Cerro Tronador; return at BRC airport before the Buenos Aires flight |
+| Bariloche | Dec 23 (~11:30) – Jan 2 (~20:00) | 11 | Circuito Chico, Seven Lakes / Circuito Grande, Cerro Tronador; pick up after the 11:10 BRC arrival, return by ~20:00 before the 21:50 flight |
 
 > **Tip**: At Bariloche and El Calafate, book an AWD/SUV if possible — the Tronador road and some sections of RN40 toward El Chaltén are unpaved gravel. The El Calafate rental is optional: the bus is reliable and cheap, but a car gives you total freedom over timing and stops.
 
@@ -113,8 +114,8 @@
 
 Book these **before anything else**:
 
-1. 🏨 **Bariloche NYE hotel** — Book 6–12 months in advance. Dec 31 sells out a full year ahead.
-2. ✈️ **All 5 domestic flights** — Book ASAP. Prices rise sharply near travel dates.
+1. 🏨 **Bariloche NYE hotel** — ✅ Booked.
+2. ✈️ **All 5 domestic flights** — ✅ Booked (Flybondi + Aerolíneas). Confirm baggage add-ons and exact times on each ticket.
 3. 🚗 **Car rentals** (Ushuaia, El Calafate optional, Bariloche) — AWD/SUV vehicles run out fast in peak summer. Book 3–4 months ahead, especially the Bariloche rental covering NYE through the Jan 2 airport drop-off.
 4. 🧊 **Perito Moreno Ice Trek** (Mini-trekking or Big Ice) — Book 2–3 months ahead.
 5. 🐧 **Martillo Island penguin land-walk excursion** (Ushuaia) — Controlled, limited-capacity experience; expect Magellanic and Gentoo penguins, with king penguins only an occasional sighting. Book 1–2 months ahead.
@@ -170,12 +171,12 @@ Book these **before anything else**:
 - **Late afternoon**: **Recoleta Cemetery** — monumental mausoleums, final resting place of Eva Perón (Evita). Walk through the elegant Recoleta neighbourhood.
 - **Optional culture add-on**: If timing works, add a guided visit to **Teatro Colón** before dinner rather than trying to squeeze in another neighbourhood.
 - **Evening**: Optional **tango dinner show** (highly recommended — try Café de los Angelitos or El Viejo Almacén), or dinner in Palermo Hollywood.
-- **Early night**: You have an early flight tomorrow.
+- **No early rush tomorrow**: The flight to Iguazú is in the evening (Dec 11), so you have a bonus half-day in Buenos Aires.
 
 | | |
 |---|---|
 | **Stay** | Hotel in Palermo or Recoleta |
-| **Note** | Tomorrow's flight departs from **EZE** — budget ~1h 30min transfer to airport |
+| **Note** | The Dec 11 flight to Iguazú departs in the evening from **Ezeiza (EZE)** — you have a bonus free day tomorrow, but budget a longer transfer than a downtown airport would need |
 
 ---
 
@@ -199,35 +200,38 @@ Book these **before anything else**:
 
 ---
 
-#### Day 3 · Friday, Dec 11 — Travel + Argentine Side of the Falls
+#### Day 3 · Friday, Dec 11 — Bonus Buenos Aires Morning + Evening Flight to Iguazú
 
-- **Early morning**: Flight **EZE → IGR** (**06:30–08:19**). Leave luggage at your hotel in Puerto Iguazú town (~8 km from the park) and head to the park.
-- **Late morning / afternoon**: Visit **Parque Nacional Iguazú (Argentine side)**:
-  - **Upper Circuit** (Circuito Superior) — walkway above the falls
-  - **Lower Circuit** (Circuito Inferior) — get close to the base
-  - **Garganta del Diablo (Devil's Throat)** — the centrepiece: a 150m-wide horseshoe cataract. Stand at the railing as millions of litres pour past you. Unforgettable.
-  - Optional: ecological train through the jungle between circuits
-- **Evening**: Return to Puerto Iguazú. Dinner at a local restaurant — try *surubí* (river fish).
+> ⚠️ **Flight change**: The booked flight is **Flybondi FO5102, EZE → IGR, 18:05–19:55** (evening, from Ezeiza — confirmed on the e-ticket in [docs/](docs/), not the old early-morning flight). This frees up the whole day in Buenos Aires but means **falls sightseeing now begins Dec 12**.
+
+- **Morning / afternoon**: Bonus free time in Buenos Aires. Options: a guided **Teatro Colón** tour, revisit **San Telmo** or **Palermo**, a long café lunch, or simply rest. Check out and store bags at the hotel.
+- **Afternoon**: Head to **Ezeiza (EZE)** — allow ~45–60 min from Palermo/Recoleta plus check-in buffer, so leave by ~15:00–15:30.
+- **Evening**: Flight **EZE → IGR** (**18:05–19:55**). Transfer to your hotel in Puerto Iguazú town (~8 km from the park). Late dinner — try *surubí* (river fish).
 
 | | |
 |---|---|
 | **Stay** | Hotel in Puerto Iguazú town |
-| **Note** | Bring a change of clothes or rain poncho — the Devil's Throat will soak you |
+| **Note** | Ezeiza (EZE) is well outside the city — pre-book a remise or use Uber/Cabify and leave earlier than you would for Aeroparque |
 
 ---
 
-#### Day 4 · Saturday, Dec 12 — Brazilian Side
+#### Day 4 · Saturday, Dec 12 — Iguazú Falls (Now Your Only Full Falls Day)
 
-> **⚠️ Visa Check**: As of 2025, Israeli passport holders **do not need a Brazilian visa** for short tourist visits. Verify this before travel. If anything changes, use this day for a second full day on the Argentine side (it's huge — very worth it).
+> ⚠️ **Only one full falls day now**: Because the Dec 11 flight arrives in the evening, Dec 12 is your single full day at the falls (tomorrow's connecting flight into Ushuaia departs Ezeiza at 16:25, so the IGR → EZE leg leaves Puerto Iguazú in the early-to-mid afternoon). **Prioritise the Argentine side** — the main event.
 
-- **Morning**: Day trip to **Foz do Iguaçu, Brazil** (30-min drive; border crossing). The **Brazilian side** offers the legendary panoramic view of the entire horseshoe — the photo that's on every postcard.
-- **Afternoon**: Optional **Macuco Boat Safari** — a speedboat ride to the base of the falls. You WILL be completely drenched. Absolutely worth it.
+- **Full day**: **Parque Nacional Iguazú (Argentine side)**:
+  - **Upper Circuit** (Circuito Superior) — walkway above the falls
+  - **Lower Circuit** (Circuito Inferior) — get close to the base
+  - **Garganta del Diablo (Devil's Throat)** — the centrepiece: a 150m-wide horseshoe cataract. Stand at the railing as millions of litres pour past you. Unforgettable.
+  - Optional: ecological train through the jungle between circuits; **Macuco Boat Safari** — a speedboat ride to the base of the falls (you WILL be completely drenched).
 - **Evening**: Return to Puerto Iguazú. Dinner and relax.
+
+> **Brazilian side squeezed out**: The old plan used Dec 11 for the Argentine side and Dec 12 for the Brazilian side. The evening inbound flight removed that second day. To get the Brazilian panoramic view back you'd need an **earlier Dec 11 flight** or a **later Dec 13 departure** (the confirmed 16:25 Ezeiza connection leaves no room for a Brazil border crossing on Dec 13). Otherwise, accept the Argentine side as the highlight — it's the bigger, more immersive park.
 
 | | |
 |---|---|
 | **Stay** | Hotel in Puerto Iguazú |
-| **Note** | Bring your passport for the Brazil border crossing |
+| **Note** | Rain poncho / change of clothes essential — the Devil's Throat will soak you |
 
 ---
 
@@ -254,11 +258,12 @@ Book these **before anything else**:
 
 #### Day 5 · Sunday, Dec 13 — Travel to Ushuaia
 
-> ⚠️ **Flight note**: No direct IGR → USH service exists. The selected practical connection runs **14:00–21:40** via Buenos Aires (AEP). Treat this as a travel day, not a sightseeing day.
+> ⚠️ **Flight note (updated)**: No direct IGR → USH service exists. The confirmed connection runs through **Ezeiza (EZE)**, not AEP: **Flybondi FO5101 (IGR → EZE)**, then **Aerolíneas AR1880 (EZE → USH, 16:25–20:05)**. The IGR → EZE departure/arrival times aren't shown on the receipt — verify against the e-ticket, but it must land at EZE with enough buffer before 16:25. Treat this as a travel day, not a sightseeing day.
 
 - **Morning**: Slow final morning in Puerto Iguazú; check out and have lunch before heading to the airport.
-- **Afternoon / evening**: Fly **IGR → AEP → USH** (**14:00–21:40**). Transfer to the hotel after landing.
-- **Late dinner**: If energy allows, order **centolla (king crab)** close to the hotel; otherwise make it an early night.
+- **Afternoon**: Fly **IGR → EZE** (Flybondi FO5101, times TBC). Connect at Ezeiza.
+- **Evening**: Fly **EZE → USH** (Aerolíneas AR1880, **16:25–20:05**). Transfer to the hotel after landing — a normal dinner hour, not as late as previously planned.
+- **Dinner**: Order **centolla (king crab)** close to the hotel.
 
 | | |
 |---|---|
@@ -338,7 +343,7 @@ Book these **before anything else**:
 #### Day 9 · Thursday, Dec 17 — Travel to El Calafate
 
 - **Morning / early afternoon**: Have a relaxed final Ushuaia morning, check out, and head to the airport.
-- **Late afternoon**: Flight **USH → FTE** (**15:20–16:40**). Pick up the optional rental car at the airport or transfer to your hotel in El Calafate.
+- **Afternoon**: Flight **USH → FTE** (Flybondi FO5540; ~15:20–16:40, confirm exact times on the e-ticket — the receipt in [docs/](docs/) confirms the operator/flight number but not times). Pick up the optional rental car at the airport or transfer to your hotel in El Calafate.
 - **Evening**: If daylight and energy allow, take a short walk along **Lago Argentino**, then have dinner in El Calafate and try **Patagonian lamb**. Save the **Glaciarium** museum for the return afternoon on Dec 22 if desired.
 
 > **💵 CASH WARNING**: Withdraw a generous amount of **Argentine pesos** at an El Calafate ATM before heading to El Chaltén. El Chaltén has limited ATM service (Banco Santa Cruz / Red Link), but a single local ATM can run short of cash or be unavailable. Budget for 2 nights of meals, drinks, and incidentals.
@@ -487,7 +492,7 @@ Book these **before anything else**:
 
 #### Day 15 · Wednesday, Dec 23 — Flight to Bariloche + Arrival
 
-- **Morning**: Nonstop flight **FTE → BRC** (**09:25–11:10**). **Pick up rental car** at Bariloche airport.
+- **Morning**: Nonstop flight **FTE → BRC** (**09:25–11:10**). **Pick up rental car at BRC airport, ~11:30** after baggage claim.
 - **Afternoon**: Check in to hotel (booked months ago!). Drive to the iconic **Civic Centre** (tuff-stone alpine architecture declared a national monument). Walk the **Nahuel Huapi Lake** waterfront and browse the famous **chocolate shops** — Bariloche is Argentina's chocolate capital.
 - **Evening**: Dinner by the lake. Welcome to the Lakes District.
 
@@ -657,17 +662,18 @@ Book these **before anything else**:
 
 ---
 
-#### Day 25 · Saturday, Jan 2 — Flight to Buenos Aires
+#### Day 25 · Saturday, Jan 2 — Full Bariloche Day + Late Flight to Buenos Aires
 
-- **Morning**: Final Bariloche morning. Return the rental car at **BRC airport**.
-- **Midday**: Fly **BRC → EZE** (~2 hrs nonstop). Land in Buenos Aires early/mid-afternoon.
-- **Afternoon**: Transfer to hotel — Palermo or Recoleta for a lively last night, or near EZE for convenience.
-- **Evening**: Last dinner in Buenos Aires — a proper parrilla send-off.
+> ⚠️ **Flight change**: The booked flight is **Flybondi FO5245, BRC → EZE, 21:50–23:55** (late night, into Ezeiza — not the old midday flight). This gives you a **full final day in Bariloche** but a near-midnight arrival in Buenos Aires with a long transfer into the city. Note: this flight was **renumbered from FO5249 to FO5245** by the airline after booking — double-check your boarding pass.
+
+- **Day**: One more full day in Bariloche — a favourite viewpoint, a lakeside walk, last chocolate shopping, or a relaxed lunch. Keep the rental car.
+- **Evening**: **Return the rental car at BRC airport by ~20:00** — allow ~1h45 before the 21:50 departure to cover return inspection, refuelling, and check-in (which typically closes ~40 min before departure). Fly **BRC → EZE** (**21:50–23:55**).
+- **Near midnight**: Land at **Ezeiza (EZE)** — well outside the city, ~45–60 min to Palermo/Recoleta. Pre-book a remise or use Uber/Cabify to the hotel; this is a longer, pricier transfer than a downtown airport would give. No dinner plan tonight; grab a late bite if hungry.
 
 | | |
 |---|---|
-| **Stay** | Hotel in Palermo or Recoleta (or near EZE) |
-| **Note** | Return rental car at BRC airport before check-in |
+| **Stay** | Hotel in Palermo or Recoleta |
+| **Note** | Return rental car at BRC by ~20:00; confirm the rental desk's evening staffed hours and refuel before returning; pre-arrange the late-night EZE → hotel transfer (~45–60 min, budget accordingly) |
 
 ---
 
@@ -680,8 +686,8 @@ Book these **before anything else**:
 
 | | |
 |---|---|
-| **Stay** | Hotel in Palermo or near EZE |
-| **Note** | International departure tomorrow — arrive at EZE 3 hours early |
+| **Stay** | Hotel in Palermo or Recoleta |
+| **Note** | International departure tomorrow from **EZE** — arrive 3 hours early (budget ~1h 30min transfer across the city) |
 
 ---
 
